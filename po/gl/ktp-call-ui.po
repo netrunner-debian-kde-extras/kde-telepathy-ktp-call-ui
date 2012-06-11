@@ -1,0 +1,506 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Xosé <xosecalvo@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-27 04:45+0200\n"
+"PO-Revision-Date: 2009-11-23 23:15+0100\n"
+"Last-Translator: Xosé <xosecalvo@gmail.com>\n"
+"Language-Team: Galego <proxecto@trasno.net>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: src/approver.cpp:38
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Video call"
+msgid "Incoming video call"
+msgstr "Chamada de vídeo"
+
+#: src/approver.cpp:39
+#, kde-format
+msgid "<p>%1 is asking you for a video call</p>"
+msgstr ""
+
+#: src/approver.cpp:41
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Voice call"
+msgid "Incoming call"
+msgstr "Chamada de voz"
+
+#: src/approver.cpp:42
+#, kde-format
+msgid "<p>%1 is calling you</p>"
+msgstr ""
+
+#: src/approver.cpp:58 src/approver.cpp:80
+msgctxt "action, answers the incoming call"
+msgid "Answer"
+msgstr ""
+
+#: src/approver.cpp:59 src/approver.cpp:82
+msgctxt "action, rejects the incoming call"
+msgid "Reject"
+msgstr ""
+
+#: src/call-window.cpp:95
+#, kde-format
+msgid "Call with %1"
+msgstr ""
+
+#: src/call-window.cpp:109
+msgctxt "@info:status"
+msgid "Connecting..."
+msgstr "A conectar..."
+
+#: src/call-window.cpp:113
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Connecting..."
+msgctxt "@info:status the remote user's phone is ringing"
+msgid "Ringing..."
+msgstr "A conectar..."
+
+#: src/call-window.cpp:117
+msgctxt "@info:status"
+msgid "Remote user accepted the call, waiting for connection..."
+msgstr ""
+
+#: src/call-window.cpp:120
+msgctxt "@info:status"
+msgid "Talking..."
+msgstr "A falar..."
+
+#: src/call-window.cpp:136
+msgctxt "@info:status"
+msgid "Remote contact ended the call."
+msgstr ""
+
+#: src/call-window.cpp:143
+msgctxt "@info:status"
+msgid "Remote contact rejected the call."
+msgstr ""
+
+#: src/call-window.cpp:148
+msgctxt "@info:status"
+msgid "Remote contact didn't answer."
+msgstr ""
+
+#: src/call-window.cpp:152
+msgctxt "@info:status"
+msgid "Invalid number or contact."
+msgstr ""
+
+#: src/call-window.cpp:156
+msgctxt "@info:status"
+msgid "You don't have enough balance to make this call."
+msgstr ""
+
+#: src/call-window.cpp:158
+msgctxt "@info:status"
+msgid "You don't have permission to make this call."
+msgstr ""
+
+#: src/call-window.cpp:163
+msgctxt "@info:status"
+msgid "Remote contact is currently busy."
+msgstr ""
+
+#: src/call-window.cpp:167
+msgctxt "@info:status"
+msgid "Internal component error."
+msgstr ""
+
+#: src/call-window.cpp:170
+msgctxt "@info:status"
+msgid "Remote service error."
+msgstr ""
+
+#: src/call-window.cpp:173
+msgctxt "@info:status"
+msgid "Network error."
+msgstr ""
+
+#: src/call-window.cpp:177
+msgctxt "@info:status"
+msgid "Failed to negotiate codecs."
+msgstr ""
+
+#: src/call-window.cpp:179
+msgctxt "@info:status"
+msgid "Unsupported media type."
+msgstr ""
+
+#: src/call-window.cpp:183
+msgctxt "@info:status"
+msgid "Connectivity error."
+msgstr ""
+
+#: src/call-window.cpp:187
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr ""
+
+#: src/call-window.cpp:192
+msgctxt "@info:status"
+msgid "Disconnected."
+msgstr "Desconectado."
+
+#: src/call-window.cpp:196
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Disconnected"
+msgctxt "@info:status the call was disconnected because..."
+msgid "Disconnected: %1"
+msgstr "Desconectado"
+
+#: src/call-window.cpp:339
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Send video"
+msgctxt "@action"
+msgid "Show my video"
+msgstr "Enviar vídeo"
+
+#: src/call-window.cpp:344
+#, fuzzy
+#| msgid "Dialpad"
+msgctxt "@action"
+msgid "Show dialpad"
+msgstr "Teclado para marcar"
+
+#: src/call-window.cpp:351
+msgctxt "@action"
+msgid "Send video"
+msgstr "Enviar vídeo"
+
+#: src/call-window.cpp:356 src/call-window.cpp:357
+msgctxt "@action"
+msgid "Mute"
+msgstr ""
+
+#: src/call-window.cpp:363
+msgctxt "@action"
+msgid "Hold"
+msgstr ""
+
+#: src/call-window.cpp:368
+msgctxt "@action"
+msgid "Hangup"
+msgstr "Colgar"
+
+#: src/main.cpp:36
+msgid "KDE Telepathy Call Ui"
+msgstr ""
+
+#: src/main.cpp:37
+msgid "VoIP client for KDE"
+msgstr "Cliente de VoIP para o KDE"
+
+#: src/main.cpp:38
+msgid "(C) 2009, George Kiagiadakis"
+msgstr "(C) 2009, George Kiagiadakis"
+
+#: src/main.cpp:40
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Xosé Calvo"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xosecalvo@gmail.com"
+
+#. i18n: file: src/callwindowui.rc:11
+#. i18n: ectx: Menu (call)
+#: rc.cpp:5
+msgid "Call"
+msgstr "Chamada"
+
+#. i18n: file: src/callwindowui.rc:20
+#. i18n: ectx: Menu (media)
+#: rc.cpp:8
+msgid "Media"
+msgstr ""
+
+#. i18n: file: src/callwindowui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:11
+msgid "Main Toolbar"
+msgstr "Barra de ferramentas principal"
+
+#. i18n: file: src/dtmf-widget.ui:17
+#. i18n: ectx: property (text), widget (QPushButton, button1)
+#: rc.cpp:14
+msgid "1"
+msgstr "1"
+
+#. i18n: file: src/dtmf-widget.ui:24
+#. i18n: ectx: property (text), widget (QPushButton, button2)
+#: rc.cpp:17
+msgid "2"
+msgstr "2"
+
+#. i18n: file: src/dtmf-widget.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, button3)
+#: rc.cpp:20
+msgid "3"
+msgstr "3"
+
+#. i18n: file: src/dtmf-widget.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, button4)
+#: rc.cpp:23
+msgid "4"
+msgstr "4"
+
+#. i18n: file: src/dtmf-widget.ui:45
+#. i18n: ectx: property (text), widget (QPushButton, button5)
+#: rc.cpp:26
+msgid "5"
+msgstr "5"
+
+#. i18n: file: src/dtmf-widget.ui:52
+#. i18n: ectx: property (text), widget (QPushButton, button6)
+#: rc.cpp:29
+msgid "6"
+msgstr " "
+
+#. i18n: file: src/dtmf-widget.ui:59
+#. i18n: ectx: property (text), widget (QPushButton, button7)
+#: rc.cpp:32
+msgid "7"
+msgstr "7"
+
+#. i18n: file: src/dtmf-widget.ui:66
+#. i18n: ectx: property (text), widget (QPushButton, button8)
+#: rc.cpp:35
+msgid "8"
+msgstr " "
+
+#. i18n: file: src/dtmf-widget.ui:73
+#. i18n: ectx: property (text), widget (QPushButton, button9)
+#: rc.cpp:38
+msgid "9"
+msgstr "9"
+
+#. i18n: file: src/dtmf-widget.ui:80
+#. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
+#: rc.cpp:41
+msgid "*"
+msgstr "*"
+
+#. i18n: file: src/dtmf-widget.ui:87
+#. i18n: ectx: property (text), widget (QPushButton, button0)
+#: rc.cpp:44
+msgid "0"
+msgstr "0"
+
+#. i18n: file: src/dtmf-widget.ui:94
+#. i18n: ectx: property (text), widget (QPushButton, buttonHash)
+#: rc.cpp:47
+msgid "#"
+msgstr "#"
+
+#~ msgid "Warning: %1"
+#~ msgstr "Aviso: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Erro: %1"
+
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgid "Brightness"
+#~ msgstr "Brillo"
+
+#~ msgid "Contrast"
+#~ msgstr "Contraste"
+
+#~ msgid "Hue"
+#~ msgstr "Matiz"
+
+#~ msgid "Saturation"
+#~ msgstr "Saturación"
+
+#~ msgid "Dialpad"
+#~ msgstr "Teclado para marcar"
+
+#~ msgid ""
+#~ "Defines whether the window should close automatically after a timeout "
+#~ "when the call is over."
+#~ msgstr ""
+#~ "Define se a xanela se fecha automaticamente logo dun tempo de espera ao "
+#~ "rematar a chamada."
+
+#~ msgid ""
+#~ "Defines how many seconds the call window should remain visible after the "
+#~ "call is over. This option depends on \"CloseOnDisconnect\"."
+#~ msgstr ""
+#~ "Define o número de segundos que fica visíbel a xanela de chamada unha vez "
+#~ "rematada a chamada. Esta opción depende de \"CloseOnDisconnect\"."
+
+#~ msgid "The audio input device could not be initialized"
+#~ msgstr "Non foi posíbel inicializar o dispositivo de entrada de son"
+
+#, fuzzy
+#~| msgid "The video input device could not be initialized."
+#~ msgid "The video input device could not be initialized"
+#~ msgstr "Non foi posíbel inicializar o dispositivo de entrada de vídeo."
+
+#, fuzzy
+#~| msgid ""
+#~| "Some gstreamer elements could not be created. Please check your "
+#~| "gstreamer installation."
+#~ msgid ""
+#~ "Could not create some of the required elements. Please check your "
+#~ "GStreamer installation."
+#~ msgstr ""
+#~ "Non foi posíbel crear algúns elementos de gstreamer. Verifique a "
+#~ "instalación do gstreamer."
+
+#~ msgid "The audio output device could not be initialized"
+#~ msgstr "Non foi posíbel inicializar o dispositivo de saída de son"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show participants"
+#~ msgstr "Mostrar os participantes"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show log"
+#~ msgstr "Mostrar o rexistro"
+
+#~ msgctxt "@action"
+#~ msgid "Stop sending video"
+#~ msgstr "Parar de enviar vídeo"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Status"
+#~ msgstr "Estado"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Available"
+#~ msgstr "Dispoñíbel"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Away"
+#~ msgstr "Fóra"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Be right back"
+#~ msgstr "Volvo axiña"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Busy"
+#~ msgstr "Ocupada/o"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Do not disturb"
+#~ msgstr "Non amolar"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Extended Away"
+#~ msgstr "Fóra moito tempo"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Invisible"
+#~ msgstr "Invisíbel"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Offline"
+#~ msgstr "Desconectada/o"
+
+#~ msgctxt "@info:status"
+#~ msgid "Waiting for account information..."
+#~ msgstr "A agardar pola información da conta..."
+
+#~ msgctxt "protocol - display name (Connecting)"
+#~ msgid "%1 - %2 (Connecting)"
+#~ msgstr "%1 - %2 (A conectar)"
+
+#~ msgctxt "protocol - display name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgctxt "@info:status"
+#~ msgid "Connected"
+#~ msgstr "Conectado"
+
+#~ msgctxt "@action"
+#~ msgid "Disconnect"
+#~ msgstr "Desconectar"
+
+#~ msgctxt "@action"
+#~ msgid "Cancel connection attempt"
+#~ msgstr "Cancelar a tentativa de conexión"
+
+#~ msgctxt "@action"
+#~ msgid "Connect"
+#~ msgstr "Conectar"
+
+#~ msgid ""
+#~ "You have requested to close KCall. Note that KCall will not actually "
+#~ "quit, but it will stay active in the system tray waiting for incoming "
+#~ "calls."
+#~ msgstr ""
+#~ "Solicitou fechar o KCall. Lembre que o KCall non sae de todo, senón que "
+#~ "fica activo na bandexa do sistema a agardar por chamadas entrantes."
+
+#~ msgid "Volume"
+#~ msgstr "Volume"
+
+#~ msgid "Speakers"
+#~ msgstr "Altofalantes"
+
+#~ msgid "Microphone"
+#~ msgstr "Micrófono"
+
+#~ msgid "Video controls"
+#~ msgstr "Controles de vídeo"
+
+#~ msgid "Video input"
+#~ msgstr "Entrada de vídeo"
+
+#~ msgid "Call log"
+#~ msgstr "Rexistro de chamadas"
+
+#~ msgid "Participants"
+#~ msgstr "Participantes"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Contact list"
+#~ msgstr "Lista de &contactos"
+
+#~ msgid "Dial directly"
+#~ msgstr "Marcar directamente"
+
+#~ msgid "Account"
+#~ msgstr "Conta"
+
+#~ msgid "Contact handle"
+#~ msgstr "Manipulador do contacto"
+
+#~ msgid "Dial (Audio only)"
+#~ msgstr "Marcar (só voz)"
+
+#~ msgid "Dial (Audio/Video)"
+#~ msgstr "Marcar (voz/vídeo)"

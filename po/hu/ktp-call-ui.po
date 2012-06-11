@@ -1,0 +1,481 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-27 04:45+0200\n"
+"PO-Revision-Date: 2012-06-05 23:09+0200\n"
+"Last-Translator: Kristóf Kiszel <ulysses@kubuntu.org>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/approver.cpp:38
+msgid "Incoming video call"
+msgstr "Bejövő videohívás"
+
+#: src/approver.cpp:39
+#, kde-format
+msgid "<p>%1 is asking you for a video call</p>"
+msgstr "<p>%1 videohívást kezdeményez Önnel</p>"
+
+#: src/approver.cpp:41
+msgid "Incoming call"
+msgstr "Bejövő hívás"
+
+#: src/approver.cpp:42
+#, kde-format
+msgid "<p>%1 is calling you</p>"
+msgstr "<p>%1 hívja Önt</p>"
+
+#: src/approver.cpp:58 src/approver.cpp:80
+msgctxt "action, answers the incoming call"
+msgid "Answer"
+msgstr "Válasz"
+
+#: src/approver.cpp:59 src/approver.cpp:82
+msgctxt "action, rejects the incoming call"
+msgid "Reject"
+msgstr "Elutasítás"
+
+#: src/call-window.cpp:95
+#, kde-format
+msgid "Call with %1"
+msgstr "Felhívás ezzel: %1"
+
+#: src/call-window.cpp:109
+msgctxt "@info:status"
+msgid "Connecting..."
+msgstr "Kapcsolódás…"
+
+#: src/call-window.cpp:113
+msgctxt "@info:status the remote user's phone is ringing"
+msgid "Ringing..."
+msgstr "Kicsöng…"
+
+#: src/call-window.cpp:117
+msgctxt "@info:status"
+msgid "Remote user accepted the call, waiting for connection..."
+msgstr "A távoli felhasználó fogadta a hívást, várakozás kapcsolódásra…"
+
+#: src/call-window.cpp:120
+msgctxt "@info:status"
+msgid "Talking..."
+msgstr "Beszélgetés…"
+
+#: src/call-window.cpp:136
+msgctxt "@info:status"
+msgid "Remote contact ended the call."
+msgstr "A távoli partner befejezte a hívást."
+
+#: src/call-window.cpp:143
+msgctxt "@info:status"
+msgid "Remote contact rejected the call."
+msgstr "A távoli partner elutasította a hívást."
+
+#: src/call-window.cpp:148
+msgctxt "@info:status"
+msgid "Remote contact didn't answer."
+msgstr "A távoli partner nem válaszol."
+
+#: src/call-window.cpp:152
+msgctxt "@info:status"
+msgid "Invalid number or contact."
+msgstr "Érvénytelen szám vagy névjegy."
+
+#: src/call-window.cpp:156
+msgctxt "@info:status"
+msgid "You don't have enough balance to make this call."
+msgstr "Nincs elég pénz az egyenlegén a hívás kezdeményezéséhez."
+
+#: src/call-window.cpp:158
+msgctxt "@info:status"
+msgid "You don't have permission to make this call."
+msgstr "Nincs jogosultsága a hívás kezdeményezéséhez."
+
+#: src/call-window.cpp:163
+msgctxt "@info:status"
+msgid "Remote contact is currently busy."
+msgstr "A távoli partner jelenleg elfoglalt."
+
+#: src/call-window.cpp:167
+msgctxt "@info:status"
+msgid "Internal component error."
+msgstr "Belső komponenshiba."
+
+#: src/call-window.cpp:170
+msgctxt "@info:status"
+msgid "Remote service error."
+msgstr "Távoli szolgáltatáshiba."
+
+#: src/call-window.cpp:173
+msgctxt "@info:status"
+msgid "Network error."
+msgstr "Hálózati hiba."
+
+#: src/call-window.cpp:177
+msgctxt "@info:status"
+msgid "Failed to negotiate codecs."
+msgstr "Nem sikerült egyeztetni a kodekeket."
+
+#: src/call-window.cpp:179
+msgctxt "@info:status"
+msgid "Unsupported media type."
+msgstr "Nem támogatott médiatípus."
+
+#: src/call-window.cpp:183
+msgctxt "@info:status"
+msgid "Connectivity error."
+msgstr "Kapcsolódási hiba."
+
+#: src/call-window.cpp:187
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "Ismeretlen hiba."
+
+#: src/call-window.cpp:192
+msgctxt "@info:status"
+msgid "Disconnected."
+msgstr "Szétkapcsolva."
+
+#: src/call-window.cpp:196
+#, kde-format
+msgctxt "@info:status the call was disconnected because..."
+msgid "Disconnected: %1"
+msgstr "Szétkapcsolva: %1"
+
+#: src/call-window.cpp:339
+msgctxt "@action"
+msgid "Show my video"
+msgstr "Saját videó megjelenítése"
+
+#: src/call-window.cpp:344
+msgctxt "@action"
+msgid "Show dialpad"
+msgstr "Tárcsázó megjelenítése"
+
+#: src/call-window.cpp:351
+msgctxt "@action"
+msgid "Send video"
+msgstr "Videó küldése"
+
+#: src/call-window.cpp:356 src/call-window.cpp:357
+msgctxt "@action"
+msgid "Mute"
+msgstr "Némítás"
+
+#: src/call-window.cpp:363
+msgctxt "@action"
+msgid "Hold"
+msgstr "Tartás"
+
+#: src/call-window.cpp:368
+msgctxt "@action"
+msgid "Hangup"
+msgstr "Bontás"
+
+#: src/main.cpp:36
+msgid "KDE Telepathy Call Ui"
+msgstr "KDE Telepathy hívófelület"
+
+#: src/main.cpp:37
+msgid "VoIP client for KDE"
+msgstr "VoIP-kliens a KDE-hez"
+
+#: src/main.cpp:38
+msgid "(C) 2009, George Kiagiadakis"
+msgstr "© George Kiagiadakis, 2009."
+
+#: src/main.cpp:40
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kiszel Kristóf"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ulysses@kubuntu.org"
+
+#. i18n: file: src/callwindowui.rc:11
+#. i18n: ectx: Menu (call)
+#: rc.cpp:5
+msgid "Call"
+msgstr "Hívás"
+
+#. i18n: file: src/callwindowui.rc:20
+#. i18n: ectx: Menu (media)
+#: rc.cpp:8
+msgid "Media"
+msgstr "Média"
+
+#. i18n: file: src/callwindowui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:11
+msgid "Main Toolbar"
+msgstr "Alap eszköztár"
+
+#. i18n: file: src/dtmf-widget.ui:17
+#. i18n: ectx: property (text), widget (QPushButton, button1)
+#: rc.cpp:14
+msgid "1"
+msgstr "1"
+
+#. i18n: file: src/dtmf-widget.ui:24
+#. i18n: ectx: property (text), widget (QPushButton, button2)
+#: rc.cpp:17
+msgid "2"
+msgstr "2"
+
+#. i18n: file: src/dtmf-widget.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, button3)
+#: rc.cpp:20
+msgid "3"
+msgstr "3"
+
+#. i18n: file: src/dtmf-widget.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, button4)
+#: rc.cpp:23
+msgid "4"
+msgstr "4"
+
+#. i18n: file: src/dtmf-widget.ui:45
+#. i18n: ectx: property (text), widget (QPushButton, button5)
+#: rc.cpp:26
+msgid "5"
+msgstr "5"
+
+#. i18n: file: src/dtmf-widget.ui:52
+#. i18n: ectx: property (text), widget (QPushButton, button6)
+#: rc.cpp:29
+msgid "6"
+msgstr "6"
+
+#. i18n: file: src/dtmf-widget.ui:59
+#. i18n: ectx: property (text), widget (QPushButton, button7)
+#: rc.cpp:32
+msgid "7"
+msgstr "7"
+
+#. i18n: file: src/dtmf-widget.ui:66
+#. i18n: ectx: property (text), widget (QPushButton, button8)
+#: rc.cpp:35
+msgid "8"
+msgstr "8"
+
+#. i18n: file: src/dtmf-widget.ui:73
+#. i18n: ectx: property (text), widget (QPushButton, button9)
+#: rc.cpp:38
+msgid "9"
+msgstr "9"
+
+#. i18n: file: src/dtmf-widget.ui:80
+#. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
+#: rc.cpp:41
+msgid "*"
+msgstr "*"
+
+#. i18n: file: src/dtmf-widget.ui:87
+#. i18n: ectx: property (text), widget (QPushButton, button0)
+#: rc.cpp:44
+msgid "0"
+msgstr "0"
+
+#. i18n: file: src/dtmf-widget.ui:94
+#. i18n: ectx: property (text), widget (QPushButton, buttonHash)
+#: rc.cpp:47
+msgid "#"
+msgstr "#"
+
+#~ msgid "Warning: %1"
+#~ msgstr "Figyelmeztetés: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Hiba: %1"
+
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgid "Brightness"
+#~ msgstr "Fényesség"
+
+#~ msgid "Contrast"
+#~ msgstr "Kontraszt"
+
+#~ msgid "Hue"
+#~ msgstr "Árnyalat"
+
+#~ msgid "Saturation"
+#~ msgstr "Telítettség"
+
+#~ msgid "Dialpad"
+#~ msgstr "Tárcsázókészülék"
+
+#~ msgid ""
+#~ "Defines whether the window should close automatically after a timeout "
+#~ "when the call is over."
+#~ msgstr ""
+#~ "Megadja, hogy az ablak bezáródjon-e egy bizonyos idő leteltével a hívás "
+#~ "vége után."
+
+#~ msgid ""
+#~ "Defines how many seconds the call window should remain visible after the "
+#~ "call is over. This option depends on \"CloseOnDisconnect\"."
+#~ msgstr ""
+#~ "Megadja, hogy hány másodpercig maradjon még látható a hívóablak a hívás "
+#~ "befejezése után. Ez a beállítás a „CloseOnDisconnect”-től függ."
+
+#~ msgid "The audio input device could not be initialized"
+#~ msgstr "Nem sikerült inicializálni a hangbeviteli eszközt"
+
+#~ msgid "The video input device could not be initialized"
+#~ msgstr "Nem sikerült inicializálni a videobeviteli eszközt"
+
+#~ msgid ""
+#~ "Could not create some of the required elements. Please check your "
+#~ "GStreamer installation."
+#~ msgstr ""
+#~ "Nem sikerült létrehozni néhány elemet, ellenőrizze a GStreamer "
+#~ "telepítését."
+
+#~ msgid "The audio output device could not be initialized"
+#~ msgstr "Nem sikerült inicializálni a hangkimeneti eszközt"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show participants"
+#~ msgstr "Résztvevők megjelenítése"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show log"
+#~ msgstr "Napló megjelenítése"
+
+#~ msgctxt "@action"
+#~ msgid "Stop sending video"
+#~ msgstr "Videoküldés megállítása"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Status"
+#~ msgstr "Állapot"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Available"
+#~ msgstr "Elérhető"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Away"
+#~ msgstr "Távollét"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Be right back"
+#~ msgstr "Rögtön jövök"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Busy"
+#~ msgstr "Elfoglalt"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Do not disturb"
+#~ msgstr "Ne zavarjanak"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Extended Away"
+#~ msgstr "Hosszabb távollét"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Invisible"
+#~ msgstr "Láthatatlan"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Offline"
+#~ msgstr "Offline"
+
+#~ msgctxt "@info:status"
+#~ msgid "Waiting for account information..."
+#~ msgstr "Várakozás az azonosítóinformációkra…"
+
+#~ msgctxt "protocol - display name (Connecting)"
+#~ msgid "%1 - %2 (Connecting)"
+#~ msgstr "%2 - %1 (kapcsolódás)"
+
+#~ msgctxt "protocol - display name"
+#~ msgid "%1 - %2"
+#~ msgstr "%2 - %1"
+
+#~ msgctxt "@title:window"
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgctxt "@info:status"
+#~ msgid "Connected"
+#~ msgstr "Kapcsolódva"
+
+#~ msgctxt "@action"
+#~ msgid "Disconnect"
+#~ msgstr "Kapcsolat bontása"
+
+#~ msgctxt "@action"
+#~ msgid "Cancel connection attempt"
+#~ msgstr "Kapcsolódási kísérlet megszakítása"
+
+#~ msgctxt "@action"
+#~ msgid "Connect"
+#~ msgstr "Kapcsolódás"
+
+#~ msgid ""
+#~ "You have requested to close KCall. Note that KCall will not actually "
+#~ "quit, but it will stay active in the system tray waiting for incoming "
+#~ "calls."
+#~ msgstr ""
+#~ "A KCall bezárását kérte, az viszont nem fog ténylegesen kilépni, hanem a "
+#~ "paneltálcán fog várakozni bejövő hívásokra."
+
+#~ msgid "Volume"
+#~ msgstr "Hangerő"
+
+#~ msgid "Speakers"
+#~ msgstr "Hangszórók"
+
+#~ msgid "Microphone"
+#~ msgstr "Mikrofon"
+
+#~ msgid "Video controls"
+#~ msgstr "Videovezérlők"
+
+#~ msgid "Video input"
+#~ msgstr "Videobemenet"
+
+#~ msgid "Call log"
+#~ msgstr "Híváslista"
+
+#~ msgid "Participants"
+#~ msgstr "Résztvevők"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Contact list"
+#~ msgstr "&Partnerlista"
+
+#~ msgid "Dial directly"
+#~ msgstr "Közvetlen tárcsázás"
+
+#~ msgid "Account"
+#~ msgstr "Azonosító"
+
+#~ msgid "Contact handle"
+#~ msgstr "Partnerkezelés"
+
+#~ msgid "Dial (Audio only)"
+#~ msgstr "Tárcsázás (csak hang)"
+
+#~ msgid "Dial (Audio/Video)"
+#~ msgstr "Tárcsázás (hang/videó)"

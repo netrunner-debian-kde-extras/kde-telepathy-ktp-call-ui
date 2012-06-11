@@ -1,0 +1,301 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-27 04:45+0200\n"
+"PO-Revision-Date: 2012-05-02 00:40+0200\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/approver.cpp:38
+msgid "Incoming video call"
+msgstr "Inkomende video-oproep"
+
+#: src/approver.cpp:39
+#, kde-format
+msgid "<p>%1 is asking you for a video call</p>"
+msgstr "<p>%1 vraagt u om een video-oproep</p>"
+
+#: src/approver.cpp:41
+msgid "Incoming call"
+msgstr "Inkomend gesprek"
+
+#: src/approver.cpp:42
+#, kde-format
+msgid "<p>%1 is calling you</p>"
+msgstr "<p>%1 roept u op</p>"
+
+#: src/approver.cpp:58 src/approver.cpp:80
+msgctxt "action, answers the incoming call"
+msgid "Answer"
+msgstr "Antwoord"
+
+#: src/approver.cpp:59 src/approver.cpp:82
+msgctxt "action, rejects the incoming call"
+msgid "Reject"
+msgstr "Verwerpen"
+
+#: src/call-window.cpp:95
+#, kde-format
+msgid "Call with %1"
+msgstr "Oproepen met %1"
+
+#: src/call-window.cpp:109
+msgctxt "@info:status"
+msgid "Connecting..."
+msgstr "Verbinden..."
+
+#: src/call-window.cpp:113
+msgctxt "@info:status the remote user's phone is ringing"
+msgid "Ringing..."
+msgstr "Bel gaat over..."
+
+#: src/call-window.cpp:117
+msgctxt "@info:status"
+msgid "Remote user accepted the call, waiting for connection..."
+msgstr ""
+"De gebruiker op afstand heeft de aanroep geaccepteerd, wacht op de "
+"verbinding..."
+
+#: src/call-window.cpp:120
+msgctxt "@info:status"
+msgid "Talking..."
+msgstr "Praten..."
+
+#: src/call-window.cpp:136
+msgctxt "@info:status"
+msgid "Remote contact ended the call."
+msgstr "Het contact op afstand heeft de aanroep beëindigd."
+
+#: src/call-window.cpp:143
+msgctxt "@info:status"
+msgid "Remote contact rejected the call."
+msgstr "Het contact op afstand heeft de aanroep geweigerd."
+
+#: src/call-window.cpp:148
+msgctxt "@info:status"
+msgid "Remote contact didn't answer."
+msgstr "Geen antwoord van het contact op afstand."
+
+#: src/call-window.cpp:152
+msgctxt "@info:status"
+msgid "Invalid number or contact."
+msgstr "Ongeldig nummer of contact."
+
+#: src/call-window.cpp:156
+msgctxt "@info:status"
+msgid "You don't have enough balance to make this call."
+msgstr "U hebt niet voldoende saldo om deze aanroep te doen."
+
+#: src/call-window.cpp:158
+msgctxt "@info:status"
+msgid "You don't have permission to make this call."
+msgstr "U bezit niet de nodige permissies om deze aanroep te doen."
+
+#: src/call-window.cpp:163
+msgctxt "@info:status"
+msgid "Remote contact is currently busy."
+msgstr "Het contact op afstand is bezet."
+
+#: src/call-window.cpp:167
+msgctxt "@info:status"
+msgid "Internal component error."
+msgstr "Interne fout in component."
+
+#: src/call-window.cpp:170
+msgctxt "@info:status"
+msgid "Remote service error."
+msgstr "Fout in de service op afstand."
+
+#: src/call-window.cpp:173
+msgctxt "@info:status"
+msgid "Network error."
+msgstr "Netwerkfout."
+
+#: src/call-window.cpp:177
+msgctxt "@info:status"
+msgid "Failed to negotiate codecs."
+msgstr "Onderhandelen over codecs is mislukt."
+
+#: src/call-window.cpp:179
+msgctxt "@info:status"
+msgid "Unsupported media type."
+msgstr "Niet-ondersteund schijftype."
+
+#: src/call-window.cpp:183
+msgctxt "@info:status"
+msgid "Connectivity error."
+msgstr "Fout met verbinding."
+
+#: src/call-window.cpp:187
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "Onbekende fout."
+
+#: src/call-window.cpp:192
+msgctxt "@info:status"
+msgid "Disconnected."
+msgstr "Verbinding verbroken."
+
+#: src/call-window.cpp:196
+#, kde-format
+msgctxt "@info:status the call was disconnected because..."
+msgid "Disconnected: %1"
+msgstr "Verbinding verbroken: %1"
+
+#: src/call-window.cpp:339
+msgctxt "@action"
+msgid "Show my video"
+msgstr "Mijn video weergeven"
+
+#: src/call-window.cpp:344
+msgctxt "@action"
+msgid "Show dialpad"
+msgstr "Kiestoetsen tonen"
+
+#: src/call-window.cpp:351
+msgctxt "@action"
+msgid "Send video"
+msgstr "Video verzenden"
+
+#: src/call-window.cpp:356 src/call-window.cpp:357
+msgctxt "@action"
+msgid "Mute"
+msgstr "Dempen"
+
+#: src/call-window.cpp:363
+msgctxt "@action"
+msgid "Hold"
+msgstr "In wacht"
+
+#: src/call-window.cpp:368
+msgctxt "@action"
+msgid "Hangup"
+msgstr "Ophangen"
+
+#: src/main.cpp:36
+msgid "KDE Telepathy Call Ui"
+msgstr "UI voor opbellen met KDE Telepathy"
+
+#: src/main.cpp:37
+msgid "VoIP client for KDE"
+msgstr "VoIP-client voor KDE"
+
+#: src/main.cpp:38
+msgid "(C) 2009, George Kiagiadakis"
+msgstr "(C) 2009, George Kiagiadakis"
+
+#: src/main.cpp:40
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Freek de Kruijf"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "freekdekruijf@kde.nl"
+
+#. i18n: file: src/callwindowui.rc:11
+#. i18n: ectx: Menu (call)
+#: rc.cpp:5
+msgid "Call"
+msgstr "Aanroep"
+
+#. i18n: file: src/callwindowui.rc:20
+#. i18n: ectx: Menu (media)
+#: rc.cpp:8
+msgid "Media"
+msgstr "Media"
+
+#. i18n: file: src/callwindowui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:11
+msgid "Main Toolbar"
+msgstr "Hoofdwerkbalk"
+
+#. i18n: file: src/dtmf-widget.ui:17
+#. i18n: ectx: property (text), widget (QPushButton, button1)
+#: rc.cpp:14
+msgid "1"
+msgstr "1"
+
+#. i18n: file: src/dtmf-widget.ui:24
+#. i18n: ectx: property (text), widget (QPushButton, button2)
+#: rc.cpp:17
+msgid "2"
+msgstr "2"
+
+#. i18n: file: src/dtmf-widget.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, button3)
+#: rc.cpp:20
+msgid "3"
+msgstr "3"
+
+#. i18n: file: src/dtmf-widget.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, button4)
+#: rc.cpp:23
+msgid "4"
+msgstr "4"
+
+#. i18n: file: src/dtmf-widget.ui:45
+#. i18n: ectx: property (text), widget (QPushButton, button5)
+#: rc.cpp:26
+msgid "5"
+msgstr "5"
+
+#. i18n: file: src/dtmf-widget.ui:52
+#. i18n: ectx: property (text), widget (QPushButton, button6)
+#: rc.cpp:29
+msgid "6"
+msgstr "6"
+
+#. i18n: file: src/dtmf-widget.ui:59
+#. i18n: ectx: property (text), widget (QPushButton, button7)
+#: rc.cpp:32
+msgid "7"
+msgstr "7"
+
+#. i18n: file: src/dtmf-widget.ui:66
+#. i18n: ectx: property (text), widget (QPushButton, button8)
+#: rc.cpp:35
+msgid "8"
+msgstr "8"
+
+#. i18n: file: src/dtmf-widget.ui:73
+#. i18n: ectx: property (text), widget (QPushButton, button9)
+#: rc.cpp:38
+msgid "9"
+msgstr "9"
+
+#. i18n: file: src/dtmf-widget.ui:80
+#. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
+#: rc.cpp:41
+msgid "*"
+msgstr "*"
+
+#. i18n: file: src/dtmf-widget.ui:87
+#. i18n: ectx: property (text), widget (QPushButton, button0)
+#: rc.cpp:44
+msgid "0"
+msgstr "0"
+
+#. i18n: file: src/dtmf-widget.ui:94
+#. i18n: ectx: property (text), widget (QPushButton, buttonHash)
+#: rc.cpp:47
+msgid "#"
+msgstr "#"

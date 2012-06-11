@@ -1,0 +1,524 @@
+# translation of kcall.po to Bulgarian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yasen Pramatarov <yasen@lindeas.com>, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcall\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-27 04:45+0200\n"
+"PO-Revision-Date: 2011-07-22 13:40+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/approver.cpp:38
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Video call"
+msgid "Incoming video call"
+msgstr "Видео разговор"
+
+#: src/approver.cpp:39
+#, kde-format
+msgid "<p>%1 is asking you for a video call</p>"
+msgstr ""
+
+#: src/approver.cpp:41
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Voice call"
+msgid "Incoming call"
+msgstr "Гласов разговор"
+
+#: src/approver.cpp:42
+#, fuzzy, kde-format
+#| msgid "%1 is calling you"
+msgid "<p>%1 is calling you</p>"
+msgstr "%1 ви търси"
+
+#: src/approver.cpp:58 src/approver.cpp:80
+#, fuzzy
+#| msgid "Answer"
+msgctxt "action, answers the incoming call"
+msgid "Answer"
+msgstr "Отговаряне"
+
+#: src/approver.cpp:59 src/approver.cpp:82
+msgctxt "action, rejects the incoming call"
+msgid "Reject"
+msgstr ""
+
+#: src/call-window.cpp:95
+#, kde-format
+msgid "Call with %1"
+msgstr ""
+
+#: src/call-window.cpp:109
+msgctxt "@info:status"
+msgid "Connecting..."
+msgstr "Свързване…"
+
+#: src/call-window.cpp:113
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Ringing..."
+msgctxt "@info:status the remote user's phone is ringing"
+msgid "Ringing..."
+msgstr "Звънене..."
+
+#: src/call-window.cpp:117
+msgctxt "@info:status"
+msgid "Remote user accepted the call, waiting for connection..."
+msgstr ""
+
+#: src/call-window.cpp:120
+msgctxt "@info:status"
+msgid "Talking..."
+msgstr "Разговор..."
+
+#: src/call-window.cpp:136
+msgctxt "@info:status"
+msgid "Remote contact ended the call."
+msgstr ""
+
+#: src/call-window.cpp:143
+msgctxt "@info:status"
+msgid "Remote contact rejected the call."
+msgstr ""
+
+#: src/call-window.cpp:148
+msgctxt "@info:status"
+msgid "Remote contact didn't answer."
+msgstr ""
+
+#: src/call-window.cpp:152
+msgctxt "@info:status"
+msgid "Invalid number or contact."
+msgstr ""
+
+#: src/call-window.cpp:156
+msgctxt "@info:status"
+msgid "You don't have enough balance to make this call."
+msgstr ""
+
+#: src/call-window.cpp:158
+msgctxt "@info:status"
+msgid "You don't have permission to make this call."
+msgstr ""
+
+#: src/call-window.cpp:163
+msgctxt "@info:status"
+msgid "Remote contact is currently busy."
+msgstr ""
+
+#: src/call-window.cpp:167
+msgctxt "@info:status"
+msgid "Internal component error."
+msgstr ""
+
+#: src/call-window.cpp:170
+msgctxt "@info:status"
+msgid "Remote service error."
+msgstr ""
+
+#: src/call-window.cpp:173
+msgctxt "@info:status"
+msgid "Network error."
+msgstr ""
+
+#: src/call-window.cpp:177
+msgctxt "@info:status"
+msgid "Failed to negotiate codecs."
+msgstr ""
+
+#: src/call-window.cpp:179
+msgctxt "@info:status"
+msgid "Unsupported media type."
+msgstr ""
+
+#: src/call-window.cpp:183
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Disconnected with error."
+msgctxt "@info:status"
+msgid "Connectivity error."
+msgstr "Прекъснато с грешка."
+
+#: src/call-window.cpp:187
+#, fuzzy
+#| msgctxt "Unknown audio or video system"
+#| msgid "Unknown"
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "Неизвестно"
+
+#: src/call-window.cpp:192
+msgctxt "@info:status"
+msgid "Disconnected."
+msgstr "Връзката е прекъсната"
+
+#: src/call-window.cpp:196
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Disconnected"
+msgctxt "@info:status the call was disconnected because..."
+msgid "Disconnected: %1"
+msgstr "Изключено"
+
+#: src/call-window.cpp:339
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Send video"
+msgctxt "@action"
+msgid "Show my video"
+msgstr "Изпращане на видео"
+
+#: src/call-window.cpp:344
+#, fuzzy
+#| msgid "Show details"
+msgctxt "@action"
+msgid "Show dialpad"
+msgstr "Допълнителни данни"
+
+#: src/call-window.cpp:351
+msgctxt "@action"
+msgid "Send video"
+msgstr "Изпращане на видео"
+
+#: src/call-window.cpp:356 src/call-window.cpp:357
+msgctxt "@action"
+msgid "Mute"
+msgstr ""
+
+#: src/call-window.cpp:363
+msgctxt "@action"
+msgid "Hold"
+msgstr ""
+
+#: src/call-window.cpp:368
+msgctxt "@action"
+msgid "Hangup"
+msgstr "Разкачване"
+
+#: src/main.cpp:36
+msgid "KDE Telepathy Call Ui"
+msgstr ""
+
+#: src/main.cpp:37
+msgid "VoIP client for KDE"
+msgstr ""
+
+#: src/main.cpp:38
+msgid "(C) 2009, George Kiagiadakis"
+msgstr "(C) 2009, George Kiagiadakis"
+
+#: src/main.cpp:40
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ясен Праматаров"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yasen@lindeas.com"
+
+#. i18n: file: src/callwindowui.rc:11
+#. i18n: ectx: Menu (call)
+#: rc.cpp:5
+msgid "Call"
+msgstr "Обаждане"
+
+#. i18n: file: src/callwindowui.rc:20
+#. i18n: ectx: Menu (media)
+#: rc.cpp:8
+msgid "Media"
+msgstr ""
+
+#. i18n: file: src/callwindowui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:11
+msgid "Main Toolbar"
+msgstr "Главна лента с инструменти"
+
+#. i18n: file: src/dtmf-widget.ui:17
+#. i18n: ectx: property (text), widget (QPushButton, button1)
+#: rc.cpp:14
+msgid "1"
+msgstr "1"
+
+#. i18n: file: src/dtmf-widget.ui:24
+#. i18n: ectx: property (text), widget (QPushButton, button2)
+#: rc.cpp:17
+msgid "2"
+msgstr "2"
+
+#. i18n: file: src/dtmf-widget.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, button3)
+#: rc.cpp:20
+msgid "3"
+msgstr "3"
+
+#. i18n: file: src/dtmf-widget.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, button4)
+#: rc.cpp:23
+msgid "4"
+msgstr "4"
+
+#. i18n: file: src/dtmf-widget.ui:45
+#. i18n: ectx: property (text), widget (QPushButton, button5)
+#: rc.cpp:26
+msgid "5"
+msgstr "5"
+
+#. i18n: file: src/dtmf-widget.ui:52
+#. i18n: ectx: property (text), widget (QPushButton, button6)
+#: rc.cpp:29
+msgid "6"
+msgstr "6"
+
+#. i18n: file: src/dtmf-widget.ui:59
+#. i18n: ectx: property (text), widget (QPushButton, button7)
+#: rc.cpp:32
+msgid "7"
+msgstr "7"
+
+#. i18n: file: src/dtmf-widget.ui:66
+#. i18n: ectx: property (text), widget (QPushButton, button8)
+#: rc.cpp:35
+msgid "8"
+msgstr "8"
+
+#. i18n: file: src/dtmf-widget.ui:73
+#. i18n: ectx: property (text), widget (QPushButton, button9)
+#: rc.cpp:38
+msgid "9"
+msgstr "9"
+
+#. i18n: file: src/dtmf-widget.ui:80
+#. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
+#: rc.cpp:41
+msgid "*"
+msgstr "*"
+
+#. i18n: file: src/dtmf-widget.ui:87
+#. i18n: ectx: property (text), widget (QPushButton, button0)
+#: rc.cpp:44
+msgid "0"
+msgstr "0"
+
+#. i18n: file: src/dtmf-widget.ui:94
+#. i18n: ectx: property (text), widget (QPushButton, buttonHash)
+#: rc.cpp:47
+msgid "#"
+msgstr "#"
+
+#~ msgid "Warning: %1"
+#~ msgstr "Предупреждение: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Грешка: %1"
+
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgid "Brightness"
+#~ msgstr "Яркост"
+
+#~ msgid "Contrast"
+#~ msgstr "Контраст"
+
+#~ msgid "Hue"
+#~ msgstr "Нюанс"
+
+#~ msgid "Saturation"
+#~ msgstr "Насищане"
+
+#~ msgid "Dialpad"
+#~ msgstr "Циферблат"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show participants"
+#~ msgstr "Показване на участниците"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show log"
+#~ msgstr "Показване на дневника"
+
+#~ msgctxt "@action"
+#~ msgid "Stop sending video"
+#~ msgstr "Спиране на видеото"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Status"
+#~ msgstr "Състояние"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Available"
+#~ msgstr "На линия"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Away"
+#~ msgstr "Отсъстващ"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Be right back"
+#~ msgstr "Връщам се веднага"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Busy"
+#~ msgstr "Зает"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Do not disturb"
+#~ msgstr "Не ме безпокойте!"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Extended Away"
+#~ msgstr "Отсъствам от доста време"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Invisible"
+#~ msgstr "Невидим"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Offline"
+#~ msgstr "Изключен"
+
+#~ msgctxt "@info:status"
+#~ msgid "Waiting for account information..."
+#~ msgstr "Изчакване на данните на сметката..."
+
+#~ msgctxt "protocol - display name (Connecting)"
+#~ msgid "%1 - %2 (Connecting)"
+#~ msgstr "%1 - %2 (Свързване)"
+
+#~ msgctxt "protocol - display name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgctxt "@info:status"
+#~ msgid "Connected"
+#~ msgstr "Свързано"
+
+#~ msgctxt "@action"
+#~ msgid "Disconnect"
+#~ msgstr "Изключване"
+
+#~ msgctxt "@action"
+#~ msgid "Cancel connection attempt"
+#~ msgstr "Отказване на свързването"
+
+#~ msgctxt "@action"
+#~ msgid "Connect"
+#~ msgstr "Свързване"
+
+#~ msgid "Volume"
+#~ msgstr "Сила на звука"
+
+#~ msgid "Speakers"
+#~ msgstr "Говорители"
+
+#~ msgid "Microphone"
+#~ msgstr "Микрофон"
+
+#~ msgid "Video input"
+#~ msgstr "Видео вход"
+
+#~ msgid "Call log"
+#~ msgstr "Дневник на обажданията"
+
+#~ msgid "Participants"
+#~ msgstr "Участници"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Contact list"
+#~ msgstr "&Списък с контакти"
+
+#~ msgid "Dial directly"
+#~ msgstr "Директно набиране"
+
+#~ msgid "Account"
+#~ msgstr "Сметка"
+
+#~ msgctxt "@info:status"
+#~ msgid "Hanging up..."
+#~ msgstr "Разкачване..."
+
+#~ msgid "Audio input device"
+#~ msgstr "Входно звуково устройство"
+
+#~ msgid "Audio output device"
+#~ msgstr "Изходно звуково устройство"
+
+#~ msgid "Video input device"
+#~ msgstr "Входно видео устройство"
+
+#~ msgid "Video output driver"
+#~ msgstr "Изходно видео устройство"
+
+#~ msgid "Autodetect"
+#~ msgstr "Автоматично откриване"
+
+#~ msgid "Test input device"
+#~ msgstr "Проба на входното устройство"
+
+#~ msgctxt "autodetected audio or video system"
+#~ msgid "Autodetected"
+#~ msgstr "Автоматично открито"
+
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#~ msgid "OSS"
+#~ msgstr "OSS"
+
+#~ msgid "JACK"
+#~ msgstr "JACK"
+
+#~ msgid "PULSE"
+#~ msgstr "PULSE"
+
+#~ msgid "Video4Linux"
+#~ msgstr "Video4Linux"
+
+#~ msgid "Device name"
+#~ msgstr "Име на устройство"
+
+#~ msgid "Sound system"
+#~ msgstr "Звукова система"
+
+#~ msgid "Video system"
+#~ msgstr "Видео система"
+
+#~ msgctxt "test the device"
+#~ msgid "Test"
+#~ msgstr "Проба"
+
+#~ msgctxt "stop audio/video test"
+#~ msgid "Stop test"
+#~ msgstr "Прекъсване на пробата"
+
+#~ msgid "Hide details"
+#~ msgstr "Скриване на подробностите"
+
+#~ msgid "Timeout in seconds:"
+#~ msgstr "Изчакване в секунди:"
+
+#~ msgid "Ignore"
+#~ msgstr "Пренебрегване"

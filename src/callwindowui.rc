@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gui name="callwindow"
+     version="1"
+     xmlns="http://www.kde.org/standards/kxmlgui/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.kde.org/standards/kxmlgui/1.0
+                         http://www.kde.org/standards/kxmlgui/1.0/kxmlgui.xsd" >
+
+  <MenuBar>
+    <Menu name="call" >
+      <text>Call</text>
+      <Action name="hangup" />
+      <Action name="hold" />
+    </Menu>
+    <Menu name="view">
+      <Action name="showMyVideo" />
+      <Action name="showDtmf" />
+    </Menu>
+    <Menu name="media" >
+      <text>Media</text>
+      <Action name="sendVideo" />
+      <Action name="mute" />
+    </Menu>
+  </MenuBar>
+
+  <ToolBar name="mainToolBar" position="bottom" >
+    <text>Main Toolbar</text>
+    <Action name="hangup" />
+    <Action name="hold" />
+    <Separator />
+    <Action name="showDtmf" />
+    <Action name="showMyVideo" />
+    <Separator />
+    <Action name="mute" />
+    <Action name="sendVideo" />
+  </ToolBar>
+
+</gui>
