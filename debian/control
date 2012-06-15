@@ -19,6 +19,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepath
 Package: kde-telepathy-call-ui
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
+ kde-telepathy-data (>= 0.4.0),
  gstreamer0.10-plugins-base,
  gstreamer0.10-plugins-good,
  gstreamer0.10-x,
