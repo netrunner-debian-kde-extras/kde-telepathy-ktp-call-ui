@@ -1,0 +1,42 @@
+Source: ktp-call-ui
+Section: kde
+Priority: optional
+Maintainer: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: debhelper (>= 9),
+ cmake,
+ kdelibs5-dev,
+ libtelepathy-qt4-dev (>= 0.9.1),
+ libqtgstreamer-dev (>= 0.10.2),
+ pkg-config,
+ libktpcommoninternalsprivate-dev (>= 0.4.0),
+ libtelepathy-farstream-dev (>= 0.4.0),
+ libfarstream-0.1-dev (>= 0.1.1)
+Standards-Version: 3.9.3
+Homepage: https://projects.kde.org/projects/extragear/network/telepathy/ktp-call-ui
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-call-ui.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/ktp-call-ui.git
+
+Package: kde-telepathy-call-ui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ gstreamer0.10-plugins-base,
+ gstreamer0.10-plugins-good,
+ gstreamer0.10-x,
+ gstreamer0.10-pulseaudio [linux-any] | gstreamer0.10-alsa [linux-any],
+ pulseaudio [linux-any] | gstreamer0.10-alsa [linux-any]
+Recommends: gstreamer0.10-plugins-ugly,
+ gstreamer0.10-ffmpeg
+Description: KDE Telepathy UI for audio/video calls
+ This package provides the KDE Telepathy component that enables doing
+ audio/video calls on XMPP/Jingle and SIP.
+ .
+ This package is not meant to be used standalone. It is recommended
+ to install the kde-telepathy metapackage instead.
+
+Package: kde-telepathy-call-ui-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: kde-telepathy-call-ui (= ${binary:Version}), ${misc:Depends}
+Description: KDE Telepathy UI for audio/video calls - debug symbols
+ This package provides the debug symbols for the KDE Telepathy Call UI module.

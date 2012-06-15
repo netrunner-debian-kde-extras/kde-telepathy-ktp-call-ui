@@ -1,0 +1,4 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --parallel --with kde --dbg-package=kde-telepathy-call-ui-dbg --list-missing
