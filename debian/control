@@ -25,7 +25,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
  gstreamer0.10-x,
  gstreamer0.10-pulseaudio [linux-any] | gstreamer0.10-alsa [linux-any],
  pulseaudio [linux-any] | gstreamer0.10-alsa [linux-any]
-Recommends: gstreamer0.10-plugins-ugly,
+Recommends: kde-telepathy,
+ gstreamer0.10-plugins-ugly,
  gstreamer0.10-ffmpeg
 Description: KDE Telepathy UI for audio/video calls
  This package provides the KDE Telepathy component that enables doing
