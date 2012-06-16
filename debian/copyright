@@ -1,5 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ktp-call-ui
+Upstream-Contact: KDE Telepathy Project <kde-telepathy@kde.org>
 Source: ftp://ftp.kde.org/pub/kde/unstable/kde-telepathy/
 License: GPL-2+
 
@@ -18,6 +19,38 @@ Copyright: 2009-2012 George Kiagiadakis <kiagiadakis.george@gmail.com>
            2010-2011 Collabora Ltd.
            2006-2008 Matthias Kretz <kretz@kde.org>
 License: LGPL-2.1+
+
+Files: po/*
+Copyright: 2009-2012 Stefan Asserhäll <stefan.asserhall@comhem.se>
+           2009-2011 Joëlle Cornavin <jcornavin@laposte.net> <jcorn@free.fr>
+           2011 Sahran <sahran.ug@gmail.com>
+           2009 Andrew Coles <andrew_coles@yahoo.co.uk>
+           2012 Luiz Fernando Ranghetti <elchevive@opensuse.org>
+           2012 Roman Paholik <wizzardsk@gmail.com>
+           2009 Kevin Scannell <kscanne@gmail.com>
+           2010 Phuwanat Sakornsakolpat <narachai@gmail.com>
+           2011-2012 Kristóf Kiszel <ulysses@kubuntu.org>
+           2011-2012 Pino Toscano <toscano.pino@tiscali.it>
+           2012 Yuri Chornoivan <yurchor@ukr.net>
+           2010 Rajesh Ranjan <rajesh672@gmail.com>
+           2010-2012 Frederik Schwarzer <schwarzer@kde.org>
+           2009-2011 Manfred Wiese <m.j.wiese@web.de>
+           2012 Franklin Weng <franklin@goodhorse.idv.tw>
+           2011 Panagiotis Papadopoulos <pano_90@gmx.net>
+           2009-2011 Yasen Pramatarov <yasen@lindeas.com>
+           2009 Axel Rousseau <axel@esperanto-jeunes.org>
+           2012 Freek de Kruijf <freekdekruijf@kde.nl>
+           2009, 2011-2012 Marek Laane <bald@smail.ee>
+           2011-2012 Vít Pelčák <vit@pelcak.org>
+           2011 Khoem Sokhem <khoemsokhem@khmeros.info>
+           2009, 2011-2012 Eloy Cuadra <ecuadra@eloihr.net>
+           2009 Serdar Soytetir <tulliana@gmail.com>
+           2012 Donatas G. <dgvirtual@akl.lt>
+           2011-2012 Burkhard Lück <lueck@hube-lueck.de>
+           2011-2012 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+           2009-2012 Martin Schlander <mschlander@opensuse.org>
+           2009 Xosé <xosecalvo@gmail.com>
+License: GPL-2+
 
 Files: cmake/*
 Copyright: 2011 Dario Freddi <drf@kde.org>
