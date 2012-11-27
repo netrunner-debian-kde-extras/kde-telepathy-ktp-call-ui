@@ -19,17 +19,21 @@
 #include <QGst/ElementFactory>
 #include <QGst/GhostPad>
 
+namespace KTpCallPrivate {
+
 VideoSinkBin::VideoSinkBin(const QGst::ElementPtr & videoSink)
 {
     m_bin = QGst::Bin::create();
 
     QGst::ElementPtr queue = QGst::ElementFactory::make("queue");
     QGst::ElementPtr colorspace = QGst::ElementFactory::make("ffmpegcolorspace");
+    QGst::ElementPtr videoscale = QGst::ElementFactory::make("videoscale");
 
-    m_bin->add(queue, colorspace, videoSink);
+    m_bin->add(queue, colorspace, videoscale, videoSink);
 
     queue->link(colorspace);
-    colorspace->link(videoSink);
+    colorspace->link(videoscale);
+    videoscale->link(videoSink);
 
     QGst::PadPtr sinkPad = queue->getStaticPad("sink");
     QGst::PadPtr sinkGhostPad = QGst::GhostPad::create(sinkPad, "sink");
@@ -40,3 +44,4 @@ VideoSinkBin::~VideoSinkBin()
 {
 }
 
+} // KTpCallPrivate

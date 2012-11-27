@@ -31,6 +31,8 @@
 
 Q_DECLARE_METATYPE(QList<int>)
 
+namespace KTpCallPrivate {
+
 struct PhononIntegrationPrivate
 {
     PhononIntegrationPrivate()
@@ -76,17 +78,30 @@ K_GLOBAL_STATIC(PhononIntegrationPrivate, s_priv);
 QList<Phonon::DeviceAccessList> PhononIntegration::readDevices(Phonon::ObjectDescriptionType type,
                                                                Phonon::Category category)
 {
+    QDBusInterface kded (QLatin1String("org.kde.kded"),
+                                     QLatin1String("/kded"),
+                                     QLatin1String("org.kde.kded"));
+
+    QDBusReply<bool> phononLoaded = kded.call(QLatin1String("loadModule"), QLatin1String("phononserver"));
+
+    if(!phononLoaded) {
+        kDebug() << "Could not load phononserver!!";
+        return QList<Phonon::DeviceAccessList>();
+    }
+
     switch (type) {
     case Phonon::AudioOutputDeviceType:
     case Phonon::AudioCaptureDeviceType:
         return readAudioDevices(type, category);
         break;
     case Phonon::VideoCaptureDeviceType:
-        return readVideoDevices(category);
+        return readVideoDevices(type, category);
         break;
     default:
-        return QList<Phonon::DeviceAccessList>();
+        break;
     }
+
+    return QList<Phonon::DeviceAccessList>();
 }
 
 template <typename R>
@@ -140,10 +155,40 @@ QList<Phonon::DeviceAccessList> PhononIntegration::readAudioDevices(Phonon::Obje
     return list;
 }
 
-QList<Phonon::DeviceAccessList> PhononIntegration::readVideoDevices(Phonon::Category category)
+QList<Phonon::DeviceAccessList> PhononIntegration::readVideoDevices(Phonon::ObjectDescriptionType type,
+                                                                    Phonon::Category category)
 {
-    Q_UNUSED (category);
-    return QList<Phonon::DeviceAccessList>(); //TODO implement me
+    QList<Phonon::DeviceAccessList> list;
+
+    QList<int> indices = dbusCall< QList<int> >(s_priv->phononServer,
+                                                QLatin1String("videoDevicesIndexes"), type);
+    kDebug() << "got video device indices" << indices << "for type" << type;
+
+    indices = sortDevicesByCategoryPriority(type, category, indices);
+    kDebug() << "sorted video devices indices" << indices << "for category" << category;
+
+    for (int i=0; i < indices.size(); ++i) {
+        QHash<QByteArray, QVariant> properties =
+            dbusCall< QHash<QByteArray, QVariant> >(s_priv->phononServer,
+                                                    QLatin1String("videoDevicesProperties"),
+                                                    indices.at(i));
+
+        if (hideAdvancedDevices()) {
+            const QVariant var = properties.value("isAdvanced");
+            if (var.isValid() && var.toBool()) {
+                kDebug() << "hiding device" << indices.at(i)
+                         << "because it is advanced and HideAdvancedDevices is specified";
+                continue;
+            }
+        }
+
+        QVariant accessList = properties.value("deviceAccessList");
+        if (accessList.isValid()) {
+            kDebug() << "appending device access list for device" << indices.at(i);
+            list.append(accessList.value<Phonon::DeviceAccessList>());
+        }
+    }
+    return list;
 }
 
 bool PhononIntegration::hideAdvancedDevices()
@@ -212,3 +257,5 @@ QList<int> PhononIntegration::sortDevicesByCategoryPriority(Phonon::ObjectDescri
     s_priv->phononSettings.endGroup();
     return deviceList;
 }
+
+} // KTpCallPrivate

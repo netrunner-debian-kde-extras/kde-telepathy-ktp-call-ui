@@ -34,6 +34,7 @@
 #include <KToggleAction>
 #include <KActionCollection>
 #include <KToolBar>
+#include <KMessageWidget>
 
 #include <QGst/ElementFactory>
 
@@ -55,7 +56,7 @@ struct CallWindow::Private
     KToggleAction *showDtmfAction;
     KToggleAction *sendVideoAction;
     KToggleAction *muteAction;
-    KToggleAction *holdAction;
+    KAction *holdAction;
     KAction *hangupAction;
 
     VideoDisplayFlags currentVideoDisplayState;
@@ -74,6 +75,8 @@ CallWindow::CallWindow(const Tp::CallChannelPtr & callChannel)
     //create ui
     d->ui.setupUi(this);
     d->statusArea = new StatusArea(statusBar());
+    d->ui.errorWidget->hide();
+    d->ui.errorWidget->setMessageType(KMessageWidget::Error);
     setupActions();
     setupGUI(QSize(428, 395), ToolBar | Keys | StatusBar | Create, QLatin1String("callwindowui.rc"));
     setAutoSaveSettings(QLatin1String("CallWindow"), false);
@@ -119,6 +122,11 @@ void CallWindow::setStatus(Status status, const Tp::CallStateReason & reason)
     case StatusActive:
         d->statusArea->setMessage(StatusArea::Status, i18nc("@info:status", "Talking..."));
         d->statusArea->startDurationTimer();
+        if (d->callChannel.data()->hasInterface(TP_QT_IFACE_CHANNEL_INTERFACE_HOLD)) {
+            d->holdAction->setEnabled(true);
+            connect(d->callChannel.data(), SIGNAL(localHoldStateChanged(Tp::LocalHoldState,Tp::LocalHoldStateReason)),
+                    SLOT(onHoldStatusChanged(Tp::LocalHoldState,Tp::LocalHoldStateReason)));
+        }
         break;
     case StatusDisconnected:
       {
@@ -201,6 +209,7 @@ void CallWindow::setStatus(Status status, const Tp::CallStateReason & reason)
         d->callEnded = true;
         break;
       }
+      d->holdAction->setEnabled(false);
     default:
         Q_ASSERT(false);
     }
@@ -216,7 +225,7 @@ void CallWindow::onContentAdded(CallContentHandler *contentHandler)
 
         checkEnableDtmf();
 
-        VolumeController *vol = audioContentHandler->sourceVolumeControl();
+        VolumeController *vol = audioContentHandler->inputVolumeControl();
         d->muteAction->setEnabled(vol->volumeControlSupported());
         connect(vol, SIGNAL(volumeControlSupportedChanged(bool)),
                 d->muteAction, SLOT(setEnabled(bool)));
@@ -251,7 +260,7 @@ void CallWindow::onContentRemoved(CallContentHandler *contentHandler)
         AudioContentHandler *audioContentHandler = qobject_cast<AudioContentHandler*>(contentHandler);
         Q_ASSERT(audioContentHandler);
 
-        VolumeController *vol = audioContentHandler->sourceVolumeControl();
+        VolumeController *vol = audioContentHandler->inputVolumeControl();
         disconnect(vol, NULL, d->muteAction, NULL);
         d->muteAction->setEnabled(false);
         d->muteAction->setProperty("volumeController", QVariant());
@@ -299,35 +308,72 @@ void CallWindow::onRemoteVideoSendingStateChanged(const Tp::ContactPtr & contact
     }
 }
 
+QGst::ElementPtr CallWindow::tryVideoSink(const char *videoSink)
+{
+    QGst::ElementPtr sink = QGst::ElementFactory::make(videoSink);
+    if (!sink) {
+        kDebug() << "Could not make video sink" << videoSink;
+        return sink;
+     }
+
+    if (!sink->setState(QGst::StateReady)) {
+        kDebug() << "Video sink" << videoSink << "does not want to become ready";
+        return QGst::ElementPtr();
+    }
+
+    kDebug() << "Using video sink" << videoSink;
+    sink->setState(QGst::StateNull);
+    return sink;
+}
+
+QGst::ElementPtr CallWindow::constructVideoSink()
+{
+    QGst::ElementPtr sink = tryVideoSink("xvimagesink");
+    if (!sink) {
+        sink = tryVideoSink("ximagesink");
+    }
+
+    sink->setProperty("force-aspect-ratio", true);
+
+    return sink;
+
+}
 void CallWindow::changeVideoDisplayState(VideoDisplayFlags newState)
 {
-    static const char * const preferredSinkFactory = "xvimagesink";
     VideoDisplayFlags oldState = d->currentVideoDisplayState;
 
     if (oldState.testFlag(LocalVideoPreview) && !newState.testFlag(LocalVideoPreview)) {
         d->videoContentHandler->unlinkVideoPreviewSink();
         d->ui.videoPreviewWidget->setVideoSink(QGst::ElementPtr());
-        d->ui.videoPreviewWidget->hide();
     } else if (!oldState.testFlag(LocalVideoPreview) && newState.testFlag(LocalVideoPreview)) {
-        QGst::ElementPtr sink = QGst::ElementFactory::make(preferredSinkFactory);
-        d->ui.videoPreviewWidget->show();
-        d->ui.videoPreviewWidget->setVideoSink(sink);
-        d->videoContentHandler->linkVideoPreviewSink(sink);
+        QGst::ElementPtr localVideoSink = constructVideoSink();
+	if (localVideoSink) {
+            d->ui.videoPreviewWidget->setVideoSink(localVideoSink);
+            d->videoContentHandler->linkVideoPreviewSink(localVideoSink);
+	}
     }
 
     if (oldState.testFlag(RemoteVideo) && !newState.testFlag(RemoteVideo)) {
         d->videoContentHandler->unlinkRemoteMemberVideoSink(d->remoteVideoContact);
         d->ui.videoWidget->setVideoSink(QGst::ElementPtr());
     } else if (!oldState.testFlag(RemoteVideo) && newState.testFlag(RemoteVideo)) {
-        QGst::ElementPtr sink = QGst::ElementFactory::make(preferredSinkFactory);
-        d->ui.videoWidget->setVideoSink(sink);
-        d->videoContentHandler->linkRemoteMemberVideoSink(d->remoteVideoContact, sink);
+        QGst::ElementPtr remoteVideoSink = constructVideoSink();
+        if (remoteVideoSink) {
+            d->ui.videoWidget->setVideoSink(remoteVideoSink);
+            d->videoContentHandler->linkRemoteMemberVideoSink(d->remoteVideoContact, remoteVideoSink);
+	}
     }
 
     if (newState == NoVideo) {
         d->ui.callStackedWidget->setCurrentIndex(0);
     } else {
         d->ui.callStackedWidget->setCurrentIndex(1);
+
+        if (newState.testFlag(LocalVideoPreview)) {
+            d->ui.videoPreviewWidget->show();
+        } else {
+            d->ui.videoPreviewWidget->hide();
+        }
     }
 
     d->currentVideoDisplayState = newState;
@@ -359,10 +405,10 @@ void CallWindow::setupActions()
     connect(d->muteAction, SIGNAL(toggled(bool)), SLOT(toggleMute(bool)));
     actionCollection()->addAction("mute", d->muteAction);
 
-    //TODO implement this feature
-    d->holdAction = new KToggleAction(i18nc("@action", "Hold"), this);
+    d->holdAction = new KAction(i18nc("@action", "Hold"), this);
     d->holdAction->setIcon(KIcon("media-playback-pause"));
-    d->holdAction->setEnabled(false);
+    d->holdAction->setEnabled(false); //will be enabled later
+    connect(d->holdAction, SIGNAL(triggered()), SLOT(hold()));
     actionCollection()->addAction("hold", d->holdAction);
 
     d->hangupAction = new KAction(KIcon("call-stop"), i18nc("@action", "Hangup"), this);
@@ -419,5 +465,75 @@ void CallWindow::closeEvent(QCloseEvent *event)
         event->ignore();
     } else {
         KXmlGuiWindow::closeEvent(event);
+    }
+}
+
+void CallWindow::hold()
+{
+    Tp::PendingOperation *holdRequest;
+    if (d->callChannel.data()->localHoldState() == Tp::LocalHoldStateHeld) {
+        holdRequest = d->callChannel->requestHold(false);
+    } else if (d->callChannel.data()->localHoldState() == Tp::LocalHoldStateUnheld) {
+        holdRequest = d->callChannel->requestHold(true);
+    } else {
+        kDebug() << "Call is currently being held, please wait before trying again!";
+        return;
+    }
+
+    connect(holdRequest, SIGNAL(finished(Tp::PendingOperation*)),
+            SLOT(holdOperationFinished(Tp::PendingOperation*)));
+}
+
+void CallWindow::holdOperationFinished(Tp::PendingOperation* operation)
+{
+    if (operation->isError()) {
+        d->ui.errorWidget->setText(i18nc("@info:error", "There was an error while pausing the call"));
+        d->ui.errorWidget->animatedShow();
+        return;
+    }
+}
+
+void CallWindow::onHoldStatusChanged(Tp::LocalHoldState state, Tp::LocalHoldStateReason reason)
+{
+    kDebug() << "Hold status changed" << state << " " << reason;
+
+    switch (state) {
+    case Tp::LocalHoldStateHeld:
+        if (reason == Tp::LocalHoldStateReasonRequested) {
+            d->statusArea->setMessage(StatusArea::Status, i18nc("@info:status", "Call held"));
+        } else if (reason == Tp::LocalHoldStateReasonResourceNotAvailable) {
+            d->statusArea->setMessage(StatusArea::Error, i18nc("@info:error", "Failed to put the call off hold: Some devices are not available"));
+        } else if (reason == Tp::LocalHoldStateReasonNone) {
+            d->statusArea->setMessage(StatusArea::Error, i18nc("@info:error", "Unknown error"));
+        }
+        d->holdAction->setEnabled(true);
+        d->holdAction->setIcon(KIcon("media-playback-start"));
+        d->statusArea->stopDurationTimer();
+        break;
+
+    case Tp::LocalHoldStateUnheld:
+        if (reason == Tp::LocalHoldStateReasonRequested) {
+            d->statusArea->setMessage(StatusArea::Status, i18nc("@info:status", "Talking..."));
+        } else if (reason == Tp::LocalHoldStateReasonNone ||
+		   reason == Tp::LocalHoldStateReasonResourceNotAvailable) {
+            d->statusArea->setMessage(StatusArea::Error, i18nc("@info:error", "Unknown error"));
+        }
+        d->holdAction->setEnabled(true);
+        d->holdAction->setIcon(KIcon("media-playback-pause"));
+        d->statusArea->startDurationTimer();
+        break;
+
+    case Tp::LocalHoldStatePendingHold:
+        d->statusArea->setMessage(StatusArea::Status, i18nc("@info:status", "Putting the call on hold..."));
+        d->holdAction->setEnabled(false);
+        break;
+
+    case Tp::LocalHoldStatePendingUnhold:
+        d->statusArea->setMessage(StatusArea::Status, i18nc("@info:status", "Resuming the call..."));
+        d->holdAction->setEnabled(false);
+        break;
+
+    default:
+        d->statusArea->setMessage(StatusArea::Error, i18nc("@info:error", "Internal Error"));
     }
 }

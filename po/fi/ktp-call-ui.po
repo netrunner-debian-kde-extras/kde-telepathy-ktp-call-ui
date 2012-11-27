@@ -1,0 +1,369 @@
+# Translation of KDE - kdereview-ktp-call-ui to Finnish (Suomi)
+# Exported from Kotoistus
+#
+# Author: Artnay
+# KDE 4.9 Finnish translation sprint 2012-06/07
+# Author: Artnay
+# Lasse Liehu <lasse.liehu@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktp-call-ui\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"PO-Revision-Date: 2012-08-13 23:48+0300\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
+"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POT-Import-Date: 2012-07-19 16:25:13+0000\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jiri Grönroos"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jiri.gronroos+kde@iki.fi"
+
+#: src/approver.cpp:38
+msgid "Incoming video call"
+msgstr "Saapuva videopuhelu"
+
+#: src/approver.cpp:39
+#, kde-format
+msgid "<p>%1 is asking you for a video call</p>"
+msgstr ""
+
+#: src/approver.cpp:41
+msgid "Incoming call"
+msgstr "Saapuva puhelu"
+
+#: src/approver.cpp:42
+#, kde-format
+msgid "<p>%1 is calling you</p>"
+msgstr "<p>%1 soittaa sinulle</p>"
+
+#: src/approver.cpp:58 src/approver.cpp:80
+msgctxt "action, answers the incoming call"
+msgid "Answer"
+msgstr "Vastaa"
+
+#: src/approver.cpp:59 src/approver.cpp:82
+msgctxt "action, rejects the incoming call"
+msgid "Reject"
+msgstr "Hylkää"
+
+#: src/call-window.cpp:98
+#, kde-format
+msgid "Call with %1"
+msgstr ""
+
+#: src/call-window.cpp:112
+msgctxt "@info:status"
+msgid "Connecting..."
+msgstr "Yhdistetään..."
+
+#: src/call-window.cpp:116
+msgctxt "@info:status the remote user's phone is ringing"
+msgid "Ringing..."
+msgstr ""
+
+#: src/call-window.cpp:120
+msgctxt "@info:status"
+msgid "Remote user accepted the call, waiting for connection..."
+msgstr "Vastapuoli hyväksyi puhelun, odotetaan yhteyttä..."
+
+#: src/call-window.cpp:123 src/call-window.cpp:516
+msgctxt "@info:status"
+msgid "Talking..."
+msgstr ""
+
+#: src/call-window.cpp:144
+msgctxt "@info:status"
+msgid "Remote contact ended the call."
+msgstr "Vastapuoli lopetti puhelun."
+
+#: src/call-window.cpp:151
+msgctxt "@info:status"
+msgid "Remote contact rejected the call."
+msgstr "Vastapuoli hylkäsi puhelun."
+
+#: src/call-window.cpp:156
+msgctxt "@info:status"
+msgid "Remote contact didn't answer."
+msgstr "Vastapuoli ei vastannut."
+
+#: src/call-window.cpp:160
+msgctxt "@info:status"
+msgid "Invalid number or contact."
+msgstr "Virheellinen numero tai yhteystieto."
+
+#: src/call-window.cpp:164
+msgctxt "@info:status"
+msgid "You don't have enough balance to make this call."
+msgstr ""
+
+#: src/call-window.cpp:166
+msgctxt "@info:status"
+msgid "You don't have permission to make this call."
+msgstr ""
+
+#: src/call-window.cpp:171
+msgctxt "@info:status"
+msgid "Remote contact is currently busy."
+msgstr "Vastapuoli on varattu."
+
+#: src/call-window.cpp:175
+msgctxt "@info:status"
+msgid "Internal component error."
+msgstr ""
+
+#: src/call-window.cpp:178
+msgctxt "@info:status"
+msgid "Remote service error."
+msgstr ""
+
+#: src/call-window.cpp:181
+msgctxt "@info:status"
+msgid "Network error."
+msgstr "Verkkovirhe."
+
+#: src/call-window.cpp:185
+msgctxt "@info:status"
+msgid "Failed to negotiate codecs."
+msgstr ""
+
+#: src/call-window.cpp:187
+msgctxt "@info:status"
+msgid "Unsupported media type."
+msgstr ""
+
+#: src/call-window.cpp:191
+msgctxt "@info:status"
+msgid "Connectivity error."
+msgstr "Yhdistämisvirhe."
+
+#: src/call-window.cpp:195
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "Tuntematon virhe."
+
+#: src/call-window.cpp:200
+msgctxt "@info:status"
+msgid "Disconnected."
+msgstr "Yhteys katkaistiin."
+
+#: src/call-window.cpp:204
+#, kde-format
+msgctxt "@info:status the call was disconnected because..."
+msgid "Disconnected: %1"
+msgstr "Yhteys katkaistiin: %1"
+
+#: src/call-window.cpp:385
+msgctxt "@action"
+msgid "Show my video"
+msgstr ""
+
+#: src/call-window.cpp:390
+msgctxt "@action"
+msgid "Show dialpad"
+msgstr "Näytä numeronäppäimistö"
+
+#: src/call-window.cpp:397
+msgctxt "@action"
+msgid "Send video"
+msgstr ""
+
+#: src/call-window.cpp:402 src/call-window.cpp:403
+msgctxt "@action"
+msgid "Mute"
+msgstr "Vaimenna"
+
+#: src/call-window.cpp:408
+msgctxt "@action"
+msgid "Hold"
+msgstr "Aseta pitoon"
+
+#: src/call-window.cpp:414
+msgctxt "@action"
+msgid "Hangup"
+msgstr "Katkaise"
+
+#: src/call-window.cpp:490
+msgctxt "@info:error"
+msgid "There was an error while pausing the call"
+msgstr ""
+
+#: src/call-window.cpp:503
+#, fuzzy
+#| msgid "Call"
+msgctxt "@info:status"
+msgid "Call held"
+msgstr "Soita"
+
+#: src/call-window.cpp:505
+msgctxt "@info:error"
+msgid "Failed to put the call off hold: Some devices are not available"
+msgstr ""
+
+#: src/call-window.cpp:507 src/call-window.cpp:519
+msgctxt "@info:error"
+msgid "Unknown error"
+msgstr "Tuntematon virhe"
+
+#: src/call-window.cpp:527
+msgctxt "@info:status"
+msgid "Putting the call on hold..."
+msgstr ""
+
+#: src/call-window.cpp:532
+msgctxt "@info:status"
+msgid "Resuming the call..."
+msgstr ""
+
+#: src/call-window.cpp:537
+msgctxt "@info:error"
+msgid "Internal Error"
+msgstr "Sisäinen virhe"
+
+#. i18n: ectx: Menu (call)
+#: src/callwindowui.rc:11
+msgid "Call"
+msgstr "Soita"
+
+#. i18n: ectx: Menu (media)
+#: src/callwindowui.rc:20
+msgid "Media"
+msgstr "Media"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/callwindowui.rc:27
+msgid "Main Toolbar"
+msgstr "Päätyökalurivi"
+
+#: src/dialout/dialout-widget.cpp:159
+msgid "Loading accounts..."
+msgstr "Ladataan tilejä..."
+
+#: src/dialout/dialout-widget.cpp:177
+msgid "Error: Failed to load accounts"
+msgstr "Virhe: tilien lataus epäonnistui"
+
+#: src/dialout/dialout-widget.cpp:182
+msgid ""
+"No capable accounts found. Please make sure that you are online and that the "
+"accounts that you have configured support audio and/or video calls"
+msgstr ""
+
+#: src/dialout/dialout-widget.cpp:292
+msgid "Failed to start call."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: src/dialout/dialout-widget.ui:35
+msgid "Account:"
+msgstr "Tili:"
+
+#. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
+#: src/dialout/dialout-widget.ui:52
+msgid "Number / Contact URI:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
+#: src/dialout/dialout-widget.ui:84
+msgid "Audio Call"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
+#: src/dialout/dialout-widget.ui:94
+msgid "Video Call"
+msgstr ""
+
+#: src/dialout/main-window.cpp:28
+msgid "Make a call"
+msgstr ""
+
+#: src/dialout/main.cpp:28 src/main.cpp:36
+msgid "KDE Telepathy Call Ui"
+msgstr ""
+
+#: src/dialout/main.cpp:29 src/main.cpp:37
+msgid "VoIP client for KDE"
+msgstr "KDE:n VoIP-asiakasohjelmisto"
+
+#: src/dialout/main.cpp:30 src/main.cpp:38
+msgid ""
+"(C) 2009-2012, George Kiagiadakis\n"
+"(C) 2010-2011, Collabora Ltd."
+msgstr ""
+"© 2009–2012 George Kiagiadakis\n"
+"© 2010–2011 Collabora Ltd."
+
+#: src/dialout/main.cpp:33 src/main.cpp:41
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#. i18n: ectx: property (text), widget (QPushButton, button1)
+#: src/dtmf-widget.ui:17
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QPushButton, button2)
+#: src/dtmf-widget.ui:24
+msgid "2"
+msgstr "2"
+
+#. i18n: ectx: property (text), widget (QPushButton, button3)
+#: src/dtmf-widget.ui:31
+msgid "3"
+msgstr "3"
+
+#. i18n: ectx: property (text), widget (QPushButton, button4)
+#: src/dtmf-widget.ui:38
+msgid "4"
+msgstr "4"
+
+#. i18n: ectx: property (text), widget (QPushButton, button5)
+#: src/dtmf-widget.ui:45
+msgid "5"
+msgstr "5"
+
+#. i18n: ectx: property (text), widget (QPushButton, button6)
+#: src/dtmf-widget.ui:52
+msgid "6"
+msgstr "6"
+
+#. i18n: ectx: property (text), widget (QPushButton, button7)
+#: src/dtmf-widget.ui:59
+msgid "7"
+msgstr "7"
+
+#. i18n: ectx: property (text), widget (QPushButton, button8)
+#: src/dtmf-widget.ui:66
+msgid "8"
+msgstr "8"
+
+#. i18n: ectx: property (text), widget (QPushButton, button9)
+#: src/dtmf-widget.ui:73
+msgid "9"
+msgstr "9"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
+#: src/dtmf-widget.ui:80
+msgid "*"
+msgstr "*"
+
+#. i18n: ectx: property (text), widget (QPushButton, button0)
+#: src/dtmf-widget.ui:87
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonHash)
+#: src/dtmf-widget.ui:94
+msgid "#"
+msgstr "#"
