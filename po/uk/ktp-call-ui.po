@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2012 KDE e.V.
+# This file is distributed under the same license as the KTelepathy package.
 #
 # Yuri Chornoivan <yurchor@ukr.net>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-27 04:45+0200\n"
-"PO-Revision-Date: 2012-05-01 10:35+0300\n"
+"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"PO-Revision-Date: 2012-08-26 08:56+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
 
 #: src/approver.cpp:38
 msgid "Incoming video call"
@@ -46,257 +54,319 @@ msgctxt "action, rejects the incoming call"
 msgid "Reject"
 msgstr "Відмовити"
 
-#: src/call-window.cpp:95
+#: src/call-window.cpp:98
 #, kde-format
 msgid "Call with %1"
 msgstr "Спілкування з %1"
 
-#: src/call-window.cpp:109
+#: src/call-window.cpp:112
 msgctxt "@info:status"
 msgid "Connecting..."
 msgstr "З'єднання..."
 
-#: src/call-window.cpp:113
+#: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
 msgstr "Дзвінок…"
 
-#: src/call-window.cpp:117
+#: src/call-window.cpp:120
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
 msgstr ""
 "Вхідний дзвінок підтверджено віддаленим користувачем, очікування на "
 "з’єднання…"
 
-#: src/call-window.cpp:120
+#: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
 msgstr "Розмова..."
 
-#: src/call-window.cpp:136
+#: src/call-window.cpp:144
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
 msgstr "Дзвінок завершено віддаленим контактом."
 
-#: src/call-window.cpp:143
+#: src/call-window.cpp:151
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
 msgstr "Віддаленим контактом відмовлено у вхідному дзвінку."
 
-#: src/call-window.cpp:148
+#: src/call-window.cpp:156
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
 msgstr "Не отримано відповіді від віддаленого контакту."
 
-#: src/call-window.cpp:152
+#: src/call-window.cpp:160
 msgctxt "@info:status"
 msgid "Invalid number or contact."
 msgstr "Некоректний номер або контакт."
 
-#: src/call-window.cpp:156
+#: src/call-window.cpp:164
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
 msgstr "На вашому балансі недостатньо коштів для здійснення цього дзвінка."
 
-#: src/call-window.cpp:158
+#: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
 msgstr "У вас немає прав на здійснення цього дзвінка."
 
-#: src/call-window.cpp:163
+#: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
 msgstr "Віддалений контакт зараз не може відповісти."
 
-#: src/call-window.cpp:167
+#: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "Internal component error."
 msgstr "Помилка внутрішнього компонента."
 
-#: src/call-window.cpp:170
+#: src/call-window.cpp:178
 msgctxt "@info:status"
 msgid "Remote service error."
 msgstr "Помилка віддаленої служби."
 
-#: src/call-window.cpp:173
+#: src/call-window.cpp:181
 msgctxt "@info:status"
 msgid "Network error."
 msgstr "Помилка мережі."
 
-#: src/call-window.cpp:177
+#: src/call-window.cpp:185
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
 msgstr "Не вдалося узгодити кодеки."
 
-#: src/call-window.cpp:179
+#: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
 msgstr "Непідтримуваний тип носія даних."
 
-#: src/call-window.cpp:183
+#: src/call-window.cpp:191
 msgctxt "@info:status"
 msgid "Connectivity error."
 msgstr "Помилка під час спроби з’єднання."
 
-#: src/call-window.cpp:187
+#: src/call-window.cpp:195
 msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "Невідома помилка."
 
-#: src/call-window.cpp:192
+#: src/call-window.cpp:200
 msgctxt "@info:status"
 msgid "Disconnected."
 msgstr "Роз'єднано."
 
-#: src/call-window.cpp:196
+#: src/call-window.cpp:204
 #, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
 msgstr "Від’єднано: %1"
 
-#: src/call-window.cpp:339
+#: src/call-window.cpp:385
 msgctxt "@action"
 msgid "Show my video"
 msgstr "Показати моє відео"
 
-#: src/call-window.cpp:344
+#: src/call-window.cpp:390
 msgctxt "@action"
 msgid "Show dialpad"
 msgstr "Показати панель набору номера"
 
-#: src/call-window.cpp:351
+#: src/call-window.cpp:397
 msgctxt "@action"
 msgid "Send video"
 msgstr "Надіслати відео"
 
-#: src/call-window.cpp:356 src/call-window.cpp:357
+#: src/call-window.cpp:402 src/call-window.cpp:403
 msgctxt "@action"
 msgid "Mute"
 msgstr "Вимкнути звук"
 
-#: src/call-window.cpp:363
+#: src/call-window.cpp:408
 msgctxt "@action"
 msgid "Hold"
 msgstr "Утримувати зв’язок"
 
-#: src/call-window.cpp:368
+#: src/call-window.cpp:414
 msgctxt "@action"
 msgid "Hangup"
 msgstr "Повісити слухавку"
 
-#: src/main.cpp:36
+#: src/call-window.cpp:490
+msgctxt "@info:error"
+msgid "There was an error while pausing the call"
+msgstr "Під час спроби призупинити виклик сталася помилка"
+
+#: src/call-window.cpp:503
+msgctxt "@info:status"
+msgid "Call held"
+msgstr "Виклик призупинено"
+
+#: src/call-window.cpp:505
+msgctxt "@info:error"
+msgid "Failed to put the call off hold: Some devices are not available"
+msgstr "Не вдалося поновити виклик: деякі з пристроїв недоступні"
+
+#: src/call-window.cpp:507 src/call-window.cpp:519
+msgctxt "@info:error"
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+#: src/call-window.cpp:527
+msgctxt "@info:status"
+msgid "Putting the call on hold..."
+msgstr "Призупиняємо виклик…"
+
+#: src/call-window.cpp:532
+msgctxt "@info:status"
+msgid "Resuming the call..."
+msgstr "Поновлюємо виклик…"
+
+#: src/call-window.cpp:537
+msgctxt "@info:error"
+msgid "Internal Error"
+msgstr "Внутрішня помилка"
+
+#. i18n: ectx: Menu (call)
+#: src/callwindowui.rc:11
+msgid "Call"
+msgstr "Дзвінок"
+
+#. i18n: ectx: Menu (media)
+#: src/callwindowui.rc:20
+msgid "Media"
+msgstr "Мультимедіа"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/callwindowui.rc:27
+msgid "Main Toolbar"
+msgstr "Головна панель"
+
+#: src/dialout/dialout-widget.cpp:159
+msgid "Loading accounts..."
+msgstr "Завантаження облікових записів…"
+
+#: src/dialout/dialout-widget.cpp:177
+msgid "Error: Failed to load accounts"
+msgstr "Помилка: не вдалося завантажити облікові записи"
+
+#: src/dialout/dialout-widget.cpp:182
+msgid ""
+"No capable accounts found. Please make sure that you are online and that the "
+"accounts that you have configured support audio and/or video calls"
+msgstr ""
+"Не знайдено відповідних облікових записів. Будь ласка, переконайтеся, що ви "
+"увійшли до мережі і що у вказаних вами облікових записах передбачено "
+"підтримку голосових і/або відеодзвінків."
+
+#: src/dialout/dialout-widget.cpp:292
+msgid "Failed to start call."
+msgstr "Не вдалося розпочати виклик."
+
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: src/dialout/dialout-widget.ui:35
+msgid "Account:"
+msgstr "Обліковий запис:"
+
+#. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
+#: src/dialout/dialout-widget.ui:52
+msgid "Number / Contact URI:"
+msgstr "Номер/Адреса контакту:"
+
+#. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
+#: src/dialout/dialout-widget.ui:84
+msgid "Audio Call"
+msgstr "Голосовий виклик"
+
+#. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
+#: src/dialout/dialout-widget.ui:94
+msgid "Video Call"
+msgstr "Відеовиклик"
+
+#: src/dialout/main-window.cpp:28
+msgid "Make a call"
+msgstr "Подзвонити"
+
+#: src/dialout/main.cpp:28 src/main.cpp:36
 msgid "KDE Telepathy Call Ui"
 msgstr "Інтерфейс здійснення дзвінків KDE Telepathy"
 
-#: src/main.cpp:37
+#: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "VoIP client for KDE"
 msgstr "Клієнт VoIP для KDE"
 
-#: src/main.cpp:38
-msgid "(C) 2009, George Kiagiadakis"
-msgstr "© George Kiagiadakis, 2009"
+#: src/dialout/main.cpp:30 src/main.cpp:38
+msgid ""
+"(C) 2009-2012, George Kiagiadakis\n"
+"(C) 2010-2011, Collabora Ltd."
+msgstr ""
+"© George Kiagiadakis, 2009–2012\n"
+"© Collabora Ltd., 2010–2011"
 
-#: src/main.cpp:40
+#: src/dialout/main.cpp:33 src/main.cpp:41
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Юрій Чорноіван"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "yurchor@ukr.net"
-
-#. i18n: file: src/callwindowui.rc:11
-#. i18n: ectx: Menu (call)
-#: rc.cpp:5
-msgid "Call"
-msgstr "Дзвінок"
-
-#. i18n: file: src/callwindowui.rc:20
-#. i18n: ectx: Menu (media)
-#: rc.cpp:8
-msgid "Media"
-msgstr "Мультимедіа"
-
-#. i18n: file: src/callwindowui.rc:27
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:11
-msgid "Main Toolbar"
-msgstr "Головна панель"
-
-#. i18n: file: src/dtmf-widget.ui:17
 #. i18n: ectx: property (text), widget (QPushButton, button1)
-#: rc.cpp:14
+#: src/dtmf-widget.ui:17
 msgid "1"
 msgstr "1"
 
-#. i18n: file: src/dtmf-widget.ui:24
 #. i18n: ectx: property (text), widget (QPushButton, button2)
-#: rc.cpp:17
+#: src/dtmf-widget.ui:24
 msgid "2"
 msgstr "2"
 
-#. i18n: file: src/dtmf-widget.ui:31
 #. i18n: ectx: property (text), widget (QPushButton, button3)
-#: rc.cpp:20
+#: src/dtmf-widget.ui:31
 msgid "3"
 msgstr "3"
 
-#. i18n: file: src/dtmf-widget.ui:38
 #. i18n: ectx: property (text), widget (QPushButton, button4)
-#: rc.cpp:23
+#: src/dtmf-widget.ui:38
 msgid "4"
 msgstr "4"
 
-#. i18n: file: src/dtmf-widget.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, button5)
-#: rc.cpp:26
+#: src/dtmf-widget.ui:45
 msgid "5"
 msgstr "5"
 
-#. i18n: file: src/dtmf-widget.ui:52
 #. i18n: ectx: property (text), widget (QPushButton, button6)
-#: rc.cpp:29
+#: src/dtmf-widget.ui:52
 msgid "6"
 msgstr "6"
 
-#. i18n: file: src/dtmf-widget.ui:59
 #. i18n: ectx: property (text), widget (QPushButton, button7)
-#: rc.cpp:32
+#: src/dtmf-widget.ui:59
 msgid "7"
 msgstr "7"
 
-#. i18n: file: src/dtmf-widget.ui:66
 #. i18n: ectx: property (text), widget (QPushButton, button8)
-#: rc.cpp:35
+#: src/dtmf-widget.ui:66
 msgid "8"
 msgstr "8"
 
-#. i18n: file: src/dtmf-widget.ui:73
 #. i18n: ectx: property (text), widget (QPushButton, button9)
-#: rc.cpp:38
+#: src/dtmf-widget.ui:73
 msgid "9"
 msgstr "9"
 
-#. i18n: file: src/dtmf-widget.ui:80
 #. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
-#: rc.cpp:41
+#: src/dtmf-widget.ui:80
 msgid "*"
 msgstr "*"
 
-#. i18n: file: src/dtmf-widget.ui:87
 #. i18n: ectx: property (text), widget (QPushButton, button0)
-#: rc.cpp:44
+#: src/dtmf-widget.ui:87
 msgid "0"
 msgstr "0"
 
-#. i18n: file: src/dtmf-widget.ui:94
 #. i18n: ectx: property (text), widget (QPushButton, buttonHash)
-#: rc.cpp:47
+#: src/dtmf-widget.ui:94
 msgid "#"
 msgstr "#"
+
+#~ msgid "The number to call"
+#~ msgstr "Номер, який слід викликати"

@@ -21,6 +21,8 @@
 
 #include <TelepathyQt/CallChannel>
 #include <KXmlGuiWindow>
+#include <QGst/Global>
+
 class CallContentHandler;
 
 class CallWindow : public KXmlGuiWindow
@@ -57,11 +59,16 @@ private:
 
     void setupActions();
     void checkEnableDtmf();
+    QGst::ElementPtr tryVideoSink(const char *sink);
+    QGst::ElementPtr constructVideoSink();
 
 private Q_SLOTS:
     void toggleDtmf(bool checked);
     void toggleMute(bool checked);
     void hangup();
+    void hold();
+    void holdOperationFinished(Tp::PendingOperation *operation);
+    void onHoldStatusChanged(Tp::LocalHoldState state, Tp::LocalHoldStateReason reason);
 
 protected:
     virtual void closeEvent(QCloseEvent *event);

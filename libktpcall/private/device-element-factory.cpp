@@ -19,10 +19,13 @@
 #include "phonon-integration.h"
 #include <QGst/Bin>
 #include <QGst/ElementFactory>
+#include <QGst/Structure>
 #include <KDebug>
 #include <KConfig>
 #include <KConfigGroup>
 #include <KGlobal>
+
+namespace KTpCallPrivate {
 
 QGst::ElementPtr DeviceElementFactory::makeAudioCaptureElement()
 {
@@ -44,6 +47,7 @@ QGst::ElementPtr DeviceElementFactory::makeAudioCaptureElement()
     //first try pulseaudio,
     element = tryElement("pulsesrc");
     if (element) {
+        addStreamProperties(element);
         return element;
     }
 
@@ -97,7 +101,7 @@ QGst::ElementPtr DeviceElementFactory::makeAudioOutputElement()
     //first try pulseaudio,
     element = tryElement("pulsesink");
     if (element) {
-        //TODO set category somehow...
+        addStreamProperties(element);
         return element;
     }
 
@@ -144,7 +148,24 @@ QGst::ElementPtr DeviceElementFactory::makeVideoCaptureElement()
         return element;
     }
 
-    //TODO implement phonon settings
+
+    //Phonon integration
+    QList<Phonon::DeviceAccessList> phononDeviceLists
+        = PhononIntegration::readDevices(Phonon::VideoCaptureDeviceType, Phonon::CommunicationCategory);
+
+    Q_FOREACH (const Phonon::DeviceAccessList & deviceList, phononDeviceLists) {
+        Q_FOREACH (const Phonon::DeviceAccess & device, deviceList) {
+            if(device.first == "v4l2") {
+                element = tryElement("v4l2src", device.second);
+            } else if (device.first == "v4l1") {
+                element = tryElement("v4lsrc", device.second);
+            }
+        }
+
+        if (element) {
+            return element;
+        }
+    }
 
     //as a last resort, try gstreamer's autodetection
     element = tryElement("autovideosrc");
@@ -200,3 +221,14 @@ QGst::ElementPtr DeviceElementFactory::tryOverrideForKey(const char *keyName)
 
     return element;
 }
+
+void DeviceElementFactory::addStreamProperties (QGst::ElementPtr element)
+{
+    // Echo cancellation magic
+    QGst::Structure streamProperties("stream-properties");
+    streamProperties.setValue("media.role", "phone");
+    streamProperties.setValue("filter.want", "echo-cancel");
+    element->setProperty("stream-properties", streamProperties);
+}
+
+} // KTpCallPrivate
