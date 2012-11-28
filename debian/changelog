@@ -1,3 +1,9 @@
+ktp-call-ui (0.5.1-1) UNRELEASED; urgency=low
+
+  * [23fc699] Imported Upstream version 0.5.1
+
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Wed, 28 Nov 2012 22:59:27 +0530
+
 ktp-call-ui (0.4.0-1) unstable; urgency=low
 
   * Initial release.
