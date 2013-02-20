@@ -1,14 +1,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Vít Pelčák <vit@pelcak.org>, 2011, 2012.
-# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-08-10 11:24+0200\n"
+"PO-Revision-Date: 2013-02-06 11:12+0100\n"
 "Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -33,7 +33,7 @@ msgstr "Příchozí video hovor"
 #: src/approver.cpp:39
 #, kde-format
 msgid "<p>%1 is asking you for a video call</p>"
-msgstr "<p>%1 Vás žádá o video hovor</p>"
+msgstr "<p>%1 vás žádá o video hovor</p>"
 
 #: src/approver.cpp:41
 msgid "Incoming call"
@@ -42,7 +42,7 @@ msgstr "Příchozí hovor"
 #: src/approver.cpp:42
 #, kde-format
 msgid "<p>%1 is calling you</p>"
-msgstr "<p>%1 Vám volá</p>"
+msgstr "<p>%1 vám volá</p>"
 
 #: src/approver.cpp:58 src/approver.cpp:80
 msgctxt "action, answers the incoming call"
@@ -254,7 +254,7 @@ msgid ""
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
 "Nenalezeny žádné schopné účty. Ujistěte se, prosím, že jste online, a že "
-"Vámi nastavené účty podporují hlasové a/nebo video hovory."
+"vámi nastavené účty podporují hlasové a/nebo video hovory."
 
 #: src/dialout/dialout-widget.cpp:292
 msgid "Failed to start call."

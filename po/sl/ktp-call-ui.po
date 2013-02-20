@@ -1,301 +1,296 @@
-# Lithuanian translations for kcall package.
-# Copyright (C) 2009 This_file_is_part_of_KDE
-# This file is distributed under the same license as the kcall package.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
 #
-# Donatas G. <dgvirtual@akl.lt>, 2012.
-# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012.
+# Andrej Mernik <andrejm@ubuntu.si>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: telepathy-kde-call-ui\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-08-05 19:08+0300\n"
-"Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
-"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
-"Language: lt\n"
+"PO-Revision-Date: 2013-02-14 20:30+0100\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
-"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
 "X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Andrius Štikonas"
+msgstr "Andrej Vernekar,Andrej Mernik"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stikonas@gmail.com"
+msgstr "andrej.vernekar@gmail.com,andrejm@ubuntu.si"
 
 #: src/approver.cpp:38
 msgid "Incoming video call"
-msgstr "Įeinantis video skambutis"
+msgstr "Dohodni video klic"
 
 #: src/approver.cpp:39
 #, kde-format
 msgid "<p>%1 is asking you for a video call</p>"
-msgstr "<p>%1 prašo video pokalbio</p>"
+msgstr "<p>%1 vas sprašuje za video klic</p>"
 
 #: src/approver.cpp:41
 msgid "Incoming call"
-msgstr "Įeinantis skambutis"
+msgstr "Dohodni klic"
 
 #: src/approver.cpp:42
 #, kde-format
 msgid "<p>%1 is calling you</p>"
-msgstr "<p>Jums skambina %1</p>"
+msgstr "<p>%1 vas kliče</p>"
 
 #: src/approver.cpp:58 src/approver.cpp:80
 msgctxt "action, answers the incoming call"
 msgid "Answer"
-msgstr "Atsiliepti"
+msgstr "Odgovori"
 
 #: src/approver.cpp:59 src/approver.cpp:82
 msgctxt "action, rejects the incoming call"
 msgid "Reject"
-msgstr "Atmesti"
+msgstr "Zavrni"
 
 #: src/call-window.cpp:98
 #, kde-format
 msgid "Call with %1"
-msgstr "Skambinti naudojant %1"
+msgstr "Pokliči z %1"
 
 #: src/call-window.cpp:112
 msgctxt "@info:status"
 msgid "Connecting..."
-msgstr "Jungiamasi..."
+msgstr "Povezovanje ..."
 
 #: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr "Skambinama..."
+msgstr "Zvonjenje ..."
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
-msgstr "Nutolęs vartotojas priėmė skambutį, laukiama ryšio..."
+msgstr "Oddaljen uporabnik je sprejel klic, čakanje na povezavo ..."
 
 #: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
-msgstr "Kalbama..."
+msgstr "Govorjenje ..."
 
 #: src/call-window.cpp:144
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
-msgstr "Nutolęs kontaktas užbaigė skambutį."
+msgstr "Oddaljen stik je končal klic."
 
 #: src/call-window.cpp:151
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
-msgstr "Nutolęs kontaktas atmetė skambutį."
+msgstr "Oddaljen stik je zavrnil klic."
 
 #: src/call-window.cpp:156
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
-msgstr "Nutolęs kontaktas neatsakė."
+msgstr "Oddaljen stik se ni oglasil."
 
 #: src/call-window.cpp:160
 msgctxt "@info:status"
 msgid "Invalid number or contact."
-msgstr "Neteisingas kontaktas ar numeris."
+msgstr "Neveljavna številka ali stik."
 
 #: src/call-window.cpp:164
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
-msgstr "Jūsų balanse trūksta lėšų šiam skambučiui."
+msgstr "Nimate dovolj denarja, da bi lahko izvedli ta klic."
 
 #: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
-msgstr "Jūs neturite leidimo atlikti šį skambutį."
+msgstr "Nimate dovoljenja, da bi lahko izvedli ta klic."
 
 #: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
-msgstr "Nutolęs kontaktas šiuo metu užsiėmęs."
+msgstr "Oddaljen stik je trenutno zaposlen."
 
 #: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "Internal component error."
-msgstr "Vidinė komponento klaida."
+msgstr "Napaka notranje enote."
 
 #: src/call-window.cpp:178
 msgctxt "@info:status"
 msgid "Remote service error."
-msgstr "Nutolusios tarnybos klaida."
+msgstr "Napaka oddaljene storitve."
 
 #: src/call-window.cpp:181
 msgctxt "@info:status"
 msgid "Network error."
-msgstr "Tinklo klaida."
+msgstr "Napaka omrežja."
 
 #: src/call-window.cpp:185
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
-msgstr "Nepavyko susitarti dėl kodekų."
+msgstr "Ni se bilo mogoče pogoditi o kodekih."
 
 #: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
-msgstr "Nepalaikomas media tipas."
+msgstr "Nepodprta vrsta večpredstavnosti."
 
 #: src/call-window.cpp:191
 msgctxt "@info:status"
 msgid "Connectivity error."
-msgstr "Jungimosi klaida."
+msgstr "Napaka povezave."
 
 #: src/call-window.cpp:195
 msgctxt "@info:status"
 msgid "Unknown error."
-msgstr "Nežinoma klaida."
+msgstr "Neznana napaka."
 
 #: src/call-window.cpp:200
 msgctxt "@info:status"
 msgid "Disconnected."
-msgstr "Atsijungta."
+msgstr "Prekinjeno."
 
 #: src/call-window.cpp:204
 #, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
-msgstr "Atsijungta: %1"
+msgstr "Prekinjeno: %1"
 
 #: src/call-window.cpp:385
 msgctxt "@action"
 msgid "Show my video"
-msgstr "Rodyti mano video"
+msgstr "Prikaži moj video"
 
 #: src/call-window.cpp:390
 msgctxt "@action"
 msgid "Show dialpad"
-msgstr "Rodyti rinkimo pultelį"
+msgstr "Prikaži številčnico"
 
 #: src/call-window.cpp:397
 msgctxt "@action"
 msgid "Send video"
-msgstr "Siųsti video"
+msgstr "Pošlji video"
 
 #: src/call-window.cpp:402 src/call-window.cpp:403
 msgctxt "@action"
 msgid "Mute"
-msgstr "Užtildyti"
+msgstr "Utišaj"
 
 #: src/call-window.cpp:408
 msgctxt "@action"
 msgid "Hold"
-msgstr "Pristabdyti"
+msgstr "Zadrži"
 
 #: src/call-window.cpp:414
 msgctxt "@action"
 msgid "Hangup"
-msgstr "Padėti ragelį"
+msgstr "Odloži"
 
 #: src/call-window.cpp:490
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
-msgstr ""
+msgstr "Med začasnim zaustavljanjem klica je prišlo do napake"
 
 #: src/call-window.cpp:503
-#, fuzzy
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "Skambinti"
+msgstr "Klic je zadržan"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
-msgstr ""
+msgstr "Klica ni bilo mogoče nadaljevati: nekatere naprave niso razpoložljive"
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
-#, fuzzy
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr "Nežinoma klaida."
+msgstr "Neznana napaka"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr ""
+msgstr "Prestavljanje klica v stanje zadržanja ..."
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr ""
+msgstr "Nadaljevanje klica ..."
 
 #: src/call-window.cpp:537
-#, fuzzy
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr "Vidinė komponento klaida."
+msgstr "Notranja napaka"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
 msgid "Call"
-msgstr "Skambinti"
+msgstr "Kliči"
 
 #. i18n: ectx: Menu (media)
 #: src/callwindowui.rc:20
 msgid "Media"
-msgstr "Media"
+msgstr "Večpredstavnost"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/callwindowui.rc:27
 msgid "Main Toolbar"
-msgstr "Pagrindinė įrankinė"
+msgstr "Glavna orodna vrstica"
 
 #: src/dialout/dialout-widget.cpp:159
 msgid "Loading accounts..."
-msgstr "Įkeliamos paskyros..."
+msgstr "Nalaganje računov ..."
 
 #: src/dialout/dialout-widget.cpp:177
 msgid "Error: Failed to load accounts"
-msgstr "Klaida: Nepavyko įkelti paskyrų "
+msgstr "Napaka: ni bilo mogoče naložiti računov"
 
 #: src/dialout/dialout-widget.cpp:182
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
-"Nerasta tinkamų paskyrų. Prašome įsitikinti, kad esate prisijungę ir Jūsų "
-"turimos paskyros yra nustatytos palaikyti balso ir/arba vaizdo skambučius"
+"Ni bilo najdenih zmogljivih računov. Preverite, če ste povezani in če "
+"računi, ki ste jih določili, podpirajo glasovne in/ali video klice"
 
 #: src/dialout/dialout-widget.cpp:292
 msgid "Failed to start call."
-msgstr "Nepavyko pradėti skambučio."
+msgstr "Ni bilo mogoče začeti klica."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
 msgid "Account:"
-msgstr "Paskyra:"
+msgstr "Račun:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
 #: src/dialout/dialout-widget.ui:52
 msgid "Number / Contact URI:"
-msgstr "Numeris / Kontakto URI"
+msgstr "Številka / URI stika:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
 #: src/dialout/dialout-widget.ui:84
 msgid "Audio Call"
-msgstr "Balso skambutis"
+msgstr "Glasovni klic"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
 #: src/dialout/dialout-widget.ui:94
 msgid "Video Call"
-msgstr "Vaizdo skambutis"
+msgstr "Video klic"
 
 #: src/dialout/main-window.cpp:28
 msgid "Make a call"
-msgstr "Skambinti"
+msgstr "Pokličite"
 
 #: src/dialout/main.cpp:28 src/main.cpp:36
 msgid "KDE Telepathy Call Ui"
-msgstr "KDE Telepathy skambučių vartotojo sąsaja"
+msgstr "Grafični vmesnik za klic za KDE Telepathy"
 
 #: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "VoIP client for KDE"
-msgstr "KDE VoIP programa"
+msgstr "Odjemalec VoIP za KDE"
 
 #: src/dialout/main.cpp:30 src/main.cpp:38
 msgid ""
