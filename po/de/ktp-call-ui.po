@@ -1,20 +1,20 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Burkhard Lück <lueck@hube-lueck.de>, 2012.
+# Burkhard Lück <lueck@hube-lueck.de>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-07-21 20:39+0200\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"PO-Revision-Date: 2013-01-28 20:44+0100\n"
+"Last-Translator: \n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
-"Language: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "NAME OF TRANSLATORS"
@@ -32,7 +32,7 @@ msgstr "Eingehender Video-Anruf"
 #: src/approver.cpp:39
 #, kde-format
 msgid "<p>%1 is asking you for a video call</p>"
-msgstr ""
+msgstr "<p>%1 fragt Sie nach einem Videoanruf</p>"
 
 #: src/approver.cpp:41
 msgid "Incoming call"
@@ -61,7 +61,7 @@ msgstr "Mit %1 anrufen"
 #: src/call-window.cpp:112
 msgctxt "@info:status"
 msgid "Connecting..."
-msgstr "Verbindungsaufbau ..."
+msgstr "Verbindung wird aufgebaut ..."
 
 #: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
@@ -107,7 +107,7 @@ msgstr ""
 #: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
-msgstr ""
+msgstr "Ihnen fehlen die Rechte für diesen Anruf."
 
 #: src/call-window.cpp:171
 msgctxt "@info:status"
@@ -193,14 +193,12 @@ msgstr "Auflegen"
 #: src/call-window.cpp:490
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
-msgstr ""
+msgstr "Es gab einen Fehler beim Halten des Anrufs"
 
 #: src/call-window.cpp:503
-#, fuzzy
-#| msgid "Call"
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "Anruf"
+msgstr "Anruf gehalten"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
@@ -208,30 +206,24 @@ msgid "Failed to put the call off hold: Some devices are not available"
 msgstr ""
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown error."
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr "Unbekannter Fehler."
+msgstr "Unbekannter Fehler"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr ""
+msgstr "Der Anruf wird auf Halten gesetzt ..."
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr ""
+msgstr "Der Anruf wird wieder aufgenommen ..."
 
 #: src/call-window.cpp:537
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Internal component error."
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr "Fehler in interner Komponente."
+msgstr "Interner Fehler"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
@@ -250,11 +242,11 @@ msgstr "Haupt-Werkzeugleiste"
 
 #: src/dialout/dialout-widget.cpp:159
 msgid "Loading accounts..."
-msgstr ""
+msgstr "Konten werden geladen ..."
 
 #: src/dialout/dialout-widget.cpp:177
 msgid "Error: Failed to load accounts"
-msgstr ""
+msgstr "Fehler: Zugänge konnten nicht geladen werden"
 
 #: src/dialout/dialout-widget.cpp:182
 msgid ""
@@ -263,35 +255,32 @@ msgid ""
 msgstr ""
 
 #: src/dialout/dialout-widget.cpp:292
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Failed to negotiate codecs."
 msgid "Failed to start call."
-msgstr "Das Aushandeln eines Codecs ist fehlgeschlagen."
+msgstr "Das Starten des Anrufs ist fehlgeschlagen."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
 msgid "Account:"
-msgstr ""
+msgstr "Zugang:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
 #: src/dialout/dialout-widget.ui:52
 msgid "Number / Contact URI:"
-msgstr ""
+msgstr "Nummer / Kontakt-URI:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
 #: src/dialout/dialout-widget.ui:84
 msgid "Audio Call"
-msgstr ""
+msgstr "Sprachanruf"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
 #: src/dialout/dialout-widget.ui:94
 msgid "Video Call"
-msgstr ""
+msgstr "Videoanruf"
 
 #: src/dialout/main-window.cpp:28
 msgid "Make a call"
-msgstr ""
+msgstr "Anrufen"
 
 #: src/dialout/main.cpp:28 src/main.cpp:36
 msgid "KDE Telepathy Call Ui"
@@ -302,12 +291,12 @@ msgid "VoIP client for KDE"
 msgstr "VoIP-Programm für KDE"
 
 #: src/dialout/main.cpp:30 src/main.cpp:38
-#, fuzzy
-#| msgid "(C) 2009, George Kiagiadakis"
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
-msgstr "(C) 2009, George Kiagiadakis"
+msgstr ""
+"(C) 2009-2012, George Kiagiadakis\n"
+"(C) 2010-2011, Collabora Ltd."
 
 #: src/dialout/main.cpp:33 src/main.cpp:41
 msgctxt "@info:credit"
