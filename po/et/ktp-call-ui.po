@@ -1,21 +1,22 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
+# translation of kcall.po to Estonian
+# Copyright (C) 2009 This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Marek Laane <bald@smail.ee>, 2012.
+# Marek Laane <bald@smail.ee>, 2009, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: kcall\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-10-08 20:35+0300\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2012-10-09 21:13+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -239,15 +240,15 @@ msgstr "Meedia"
 msgid "Main Toolbar"
 msgstr "Peamine tööriistariba"
 
-#: src/dialout/dialout-widget.cpp:159
+#: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
 msgstr "Kontode laadimine..."
 
-#: src/dialout/dialout-widget.cpp:177
+#: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
 msgstr "Tõrge: kontode laadimine nurjus"
 
-#: src/dialout/dialout-widget.cpp:182
+#: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
@@ -255,7 +256,7 @@ msgstr ""
 "Toimivaid kontosid ei leitud. Palun kontrolli, kas oled ikka võrgus ja kas "
 "seadistatud kontod toetavad hääl- ja/või videokõnesid."
 
-#: src/dialout/dialout-widget.cpp:292
+#: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
 msgstr "Kõne alustamine nurjus."
 
@@ -265,17 +266,17 @@ msgid "Account:"
 msgstr "Konto:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
-#: src/dialout/dialout-widget.ui:52
+#: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
 msgstr "Number / kontakti URI:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
-#: src/dialout/dialout-widget.ui:84
+#: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
 msgstr "Häälkõne"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
-#: src/dialout/dialout-widget.ui:94
+#: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
 msgstr "Videokõne"
 
@@ -283,15 +284,15 @@ msgstr "Videokõne"
 msgid "Make a call"
 msgstr "Helistamine"
 
-#: src/dialout/main.cpp:28 src/main.cpp:36
+#: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
 msgstr "KDE Telepathy kõne kasutajaliides"
 
-#: src/dialout/main.cpp:29 src/main.cpp:37
+#: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
 msgstr "KDE VoIP klient"
 
-#: src/dialout/main.cpp:30 src/main.cpp:38
+#: src/dialout/main.cpp:32 src/main.cpp:40
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
@@ -299,10 +300,14 @@ msgstr ""
 "(C) 2009-2012: George Kiagiadakis\n"
 "(C) 2010-2011: Collabora Ltd."
 
-#: src/dialout/main.cpp:33 src/main.cpp:41
+#: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
+
+#: src/dialout/main.cpp:43
+msgid "The number to call"
+msgstr "Helistatav number"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
@@ -363,3 +368,374 @@ msgstr "0"
 #: src/dtmf-widget.ui:94
 msgid "#"
 msgstr "#"
+
+#~ msgid "Warning: %1"
+#~ msgstr "Hoiatus: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Tõrge: %1"
+
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgid "Brightness"
+#~ msgstr "Heledus"
+
+#~ msgid "Contrast"
+#~ msgstr "Kontrast"
+
+#~ msgid "Hue"
+#~ msgstr "Toon"
+
+#~ msgid "Saturation"
+#~ msgstr "Küllastus"
+
+#~ msgid "Dialpad"
+#~ msgstr "Klahvistik"
+
+#~ msgid ""
+#~ "Defines whether the window should close automatically after a timeout "
+#~ "when the call is over."
+#~ msgstr ""
+#~ "Määramine, kas pärast kõne lõppemist sulgeda aken automaatselt teatava "
+#~ "aja järel."
+
+#~ msgid ""
+#~ "Defines how many seconds the call window should remain visible after the "
+#~ "call is over. This option depends on \"CloseOnDisconnect\"."
+#~ msgstr ""
+#~ "Määramine, mitmeks sekundiks jääb aken pärast kõne lõppemist nähtavale. "
+#~ "See sõltub valikust \"sulgemine lõpetamisel\"."
+
+#~ msgid "The audio input device could not be initialized"
+#~ msgstr "Helisisendi seadme initsialiseerimine nurjus"
+
+#~ msgid "The video input device could not be initialized"
+#~ msgstr "Videosisendi seadme initsialiseerimine nurjus"
+
+#~ msgid ""
+#~ "Could not create some of the required elements. Please check your "
+#~ "GStreamer installation."
+#~ msgstr ""
+#~ "Mõningate vajalike elementide loomine nurjus. Palun kontrolli oma "
+#~ "GStreameri paigadust."
+
+#~ msgid "The audio output device could not be initialized"
+#~ msgstr "Heliväljundi seadme initsialiseerimine nurjus"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show participants"
+#~ msgstr "Näita osalejaid"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show log"
+#~ msgstr "Näita logi"
+
+#~ msgctxt "@action"
+#~ msgid "Stop sending video"
+#~ msgstr "Peata video saatmine"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Status"
+#~ msgstr "Olek"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Available"
+#~ msgstr "Saadaolev"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Away"
+#~ msgstr "Eemal"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Be right back"
+#~ msgstr "Tulen kohe tagasi"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Busy"
+#~ msgstr "Hõivatud"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Do not disturb"
+#~ msgstr "Mitte segada"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Extended Away"
+#~ msgstr "Pikaajaline eemalolek"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Invisible"
+#~ msgstr "Nähtamatu"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Offline"
+#~ msgstr "Pole võrgus"
+
+#~ msgctxt "@info:status"
+#~ msgid "Waiting for account information..."
+#~ msgstr "Konto teabe ootamine..."
+
+#~ msgctxt "protocol - display name (Connecting)"
+#~ msgid "%1 - %2 (Connecting)"
+#~ msgstr "%1 - %2 (ühendumine)"
+
+#~ msgctxt "protocol - display name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgctxt "@info:status"
+#~ msgid "Connected"
+#~ msgstr "Ühendatud"
+
+#~ msgctxt "@action"
+#~ msgid "Disconnect"
+#~ msgstr "Katkesta ühendus"
+
+#~ msgctxt "@action"
+#~ msgid "Cancel connection attempt"
+#~ msgstr "Loobu ühenduse proovimisest"
+
+#~ msgctxt "@action"
+#~ msgid "Connect"
+#~ msgstr "Ühenda"
+
+#~ msgid ""
+#~ "You have requested to close KCall. Note that KCall will not actually "
+#~ "quit, but it will stay active in the system tray waiting for incoming "
+#~ "calls."
+#~ msgstr ""
+#~ "Soovisid KCalli sulgeda. Pane tähele, et KCall ei lõpeta tegelikult tööd, "
+#~ "vaid jääb aktiivseks süsteemisalves, oodates sisenevaid kõnesid."
+
+#~ msgid "Volume"
+#~ msgstr "Helitugevus"
+
+#~ msgid "Speakers"
+#~ msgstr "Kõlarid"
+
+#~ msgid "Microphone"
+#~ msgstr "Mikrofon"
+
+#~ msgid "Video controls"
+#~ msgstr "Video juhtimine"
+
+#~ msgid "Video input"
+#~ msgstr "Videosisend"
+
+#~ msgid "Participants"
+#~ msgstr "Osalejad"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Contact list"
+#~ msgstr "Kontaktide nimekiri"
+
+#~ msgid "Dial directly"
+#~ msgstr "Otsevalimine"
+
+#~ msgid "Contact handle"
+#~ msgstr "Kontaktiga suhtlemine"
+
+#~ msgid "Dial (Audio only)"
+#~ msgstr "Helista (ainult hääl)"
+
+#~ msgid "Dial (Audio/Video)"
+#~ msgstr "Helista (heli ja video)"
+
+#~ msgctxt "@info:status"
+#~ msgid "Hanging up..."
+#~ msgstr "Lõpetamine..."
+
+#, fuzzy
+#~ msgid "Channel closed"
+#~ msgstr "Kanal"
+
+#, fuzzy
+#~| msgctxt "@info:status"
+#~| msgid "Disconnected with error."
+#~ msgid "Channel closed with error: %1"
+#~ msgstr "Ühendus lõpetatatud vea tõttu."
+
+#, fuzzy
+#~ msgid "Audio stream created. Stream id: %1."
+#~ msgstr "Audio Voog."
+
+#, fuzzy
+#~ msgid "Video stream created. Stream id: %1."
+#~ msgstr "Video Voog."
+
+#, fuzzy
+#~ msgctxt "1 is the stream's id"
+#~ msgid "Stream %1 direction is: %2."
+#~ msgstr "Voog suund on."
+
+#, fuzzy
+#~ msgctxt "1 is the stream's id"
+#~ msgid "Stream %1 removed."
+#~ msgstr "Voog."
+
+#, fuzzy
+#~ msgctxt "1 is the stream's id"
+#~ msgid "Stream %1 direction changed to: %2."
+#~ msgstr "Voog suund muudetud kuni."
+
+#, fuzzy
+#~ msgctxt "1 is the stream's id"
+#~ msgid "Stream %1 state changed to: %2."
+#~ msgstr "Voog muudetud kuni."
+
+#, fuzzy
+#~ msgid "User %1 joined the conference."
+#~ msgstr "Kasutaja."
+
+#, fuzzy
+#~ msgid "Awaiting answer from user %1."
+#~ msgstr "vastus   kasutaja."
+
+#, fuzzy
+#~ msgid "User %1 left the conference."
+#~ msgstr "Kasutaja vasakult."
+
+#, fuzzy
+#~ msgid "Audio input device"
+#~ msgstr "Audio input seade"
+
+#, fuzzy
+#~ msgid "Audio output device"
+#~ msgstr "Audio väljund seade"
+
+#, fuzzy
+#~ msgid "Video input device"
+#~ msgstr "Video input seade"
+
+#, fuzzy
+#~ msgid "Video output driver"
+#~ msgstr "Video väljund"
+
+#, fuzzy
+#~ msgid "Xv video renderer"
+#~ msgstr "video"
+
+#, fuzzy
+#~ msgid "X11 video renderer"
+#~ msgstr "video"
+
+#, fuzzy
+#~ msgid "Autodetect"
+#~ msgstr "Automaatne tuvastamine"
+
+#, fuzzy
+#~ msgid "Test input device"
+#~ msgstr "Test input seade"
+
+#, fuzzy
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#, fuzzy
+#~ msgid "OSS"
+#~ msgstr "OSS"
+
+#, fuzzy
+#~ msgid "Video4Linux"
+#~ msgstr "Video4Linux"
+
+#, fuzzy
+#~ msgid "Device name"
+#~ msgstr "Seadme nimi"
+
+#, fuzzy
+#~ msgid "Sound system"
+#~ msgstr "Heli süsteem"
+
+#, fuzzy
+#~ msgid "Video system"
+#~ msgstr "Video süsteem"
+
+#, fuzzy
+#~ msgid "Gstreamer element"
+#~ msgstr "element"
+
+#, fuzzy
+#~ msgid "Driver-specific handle"
+#~ msgstr "Draiver"
+
+#, fuzzy
+#~ msgctxt "test the device"
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#, fuzzy
+#~ msgid "Add custom device..."
+#~ msgstr "Lisa kohandatud seade."
+
+#, fuzzy
+#~ msgid ""
+#~ "The gstreamer element for the selected device could not be created. "
+#~ "Please check your gstreamer installation."
+#~ msgstr "element tingimusel seade mitte kontroll paigaldamine."
+
+#, fuzzy
+#~ msgid ""
+#~ "The selected device could not be initialized. Please select another "
+#~ "device."
+#~ msgstr "seade mitte seade."
+
+#, fuzzy
+#~ msgid ""
+#~ "The gstreamer element for the audio output device could not be created. "
+#~ "Please check your gstreamer installation"
+#~ msgstr "element tingimusel audio väljund seade mitte kontroll paigaldamine"
+
+#, fuzzy
+#~ msgid "The audio output device could not be initialized."
+#~ msgstr "audio väljund seade mitte."
+
+#, fuzzy
+#~ msgid "The video output driver could not be initialized."
+#~ msgstr "video väljund mitte."
+
+#, fuzzy
+#~ msgid ""
+#~ "The selected video output driver could not be initialized. Please select "
+#~ "another driver."
+#~ msgstr "video väljund mitte."
+
+#, fuzzy
+#~ msgctxt "stop audio/video test"
+#~ msgid "Stop test"
+#~ msgstr "Peata"
+
+#, fuzzy
+#~ msgid "Hide details"
+#~ msgstr "Peida"
+
+#, fuzzy
+#~ msgid "Automatically close the call window after a timeout"
+#~ msgstr "call aken a ajaületus"
+
+#, fuzzy
+#~ msgid "Timeout in seconds:"
+#~ msgstr "Aegumine sekundites:"
+
+#, fuzzy
+#~ msgid ""
+#~ "The gstreamer element for the audio input device could not be created. "
+#~ "Please check your gstreamer installation"
+#~ msgstr "element tingimusel audio input seade mitte kontroll paigaldamine"
+
+#, fuzzy
+#~ msgid ""
+#~ "The gstreamer element for the video input device could not be created. "
+#~ "Please check your gstreamer installation."
+#~ msgstr "element tingimusel video input seade mitte kontroll paigaldamine."
+
+#, fuzzy
+#~ msgid "Could not initialize the channel"
+#~ msgstr "mitte kanal"
+
+#~ msgid "Ignore"
+#~ msgstr "Eira"

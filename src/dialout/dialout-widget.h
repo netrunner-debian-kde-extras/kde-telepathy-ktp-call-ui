@@ -26,12 +26,11 @@ class DialoutWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit DialoutWidget(QWidget *parent = 0);
+    explicit DialoutWidget(const QString &number = QString(), QWidget *parent = 0);
     virtual ~DialoutWidget();
 
 private Q_SLOTS:
     void onAccountManagerReady(Tp::PendingOperation *op);
-    void onRowsChanged();
 
     void on_accountComboBox_currentIndexChanged(int currentIndex);
     void on_uriLineEdit_textChanged(const QString &text);

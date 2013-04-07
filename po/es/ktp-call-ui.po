@@ -1,22 +1,24 @@
+# translation of kcall.po to Spanish
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Eloy Cuadra <ecuadra@eloihr.net>, 2012.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2009, 2011, 2012.
 # Raul Gonzalez <raulgf83@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: kcall\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-08-30 17:09+0200\n"
-"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2012-08-27 20:59+0200\n"
+"Last-Translator: Raul Gonzalez <raulgf83@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"com>\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 1.4\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -242,15 +244,15 @@ msgstr "Multimedia"
 msgid "Main Toolbar"
 msgstr "Barra de herramientas principal"
 
-#: src/dialout/dialout-widget.cpp:159
+#: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
 msgstr "Cargando cuentas..."
 
-#: src/dialout/dialout-widget.cpp:177
+#: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
 msgstr "Error: ha fallado la carga de las cuentas"
 
-#: src/dialout/dialout-widget.cpp:182
+#: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
@@ -258,7 +260,7 @@ msgstr ""
 "No se ha encontrado ninguna cuenta hábil. Asegúrese de que está conectado y "
 "de que las cuentas que ha configurado permiten llamadas de audio o de vídeo."
 
-#: src/dialout/dialout-widget.cpp:292
+#: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
 msgstr "El inicio de la llamada ha fallado."
 
@@ -268,17 +270,17 @@ msgid "Account:"
 msgstr "Cuenta:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
-#: src/dialout/dialout-widget.ui:52
+#: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
 msgstr "Número / URI del contacto:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
-#: src/dialout/dialout-widget.ui:84
+#: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
 msgstr "Llamada de audio"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
-#: src/dialout/dialout-widget.ui:94
+#: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
 msgstr "Llamada de vídeo"
 
@@ -286,15 +288,15 @@ msgstr "Llamada de vídeo"
 msgid "Make a call"
 msgstr "Hacer una llamada"
 
-#: src/dialout/main.cpp:28 src/main.cpp:36
+#: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
 msgstr "Interfaz de llamadas de Telepathy para KDE"
 
-#: src/dialout/main.cpp:29 src/main.cpp:37
+#: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
 msgstr "Cliente VoIP para KDE"
 
-#: src/dialout/main.cpp:30 src/main.cpp:38
+#: src/dialout/main.cpp:32 src/main.cpp:40
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
@@ -302,10 +304,14 @@ msgstr ""
 "© 2009-2012, George Kiagiadakis\n"
 "© 2010-2011, Collabora Ltd."
 
-#: src/dialout/main.cpp:33 src/main.cpp:41
+#: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
+
+#: src/dialout/main.cpp:43
+msgid "The number to call"
+msgstr "El número al que llamar"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
@@ -366,3 +372,246 @@ msgstr "0"
 #: src/dtmf-widget.ui:94
 msgid "#"
 msgstr "#"
+
+#~ msgid "Warning: %1"
+#~ msgstr "Advertencia: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Error: %1"
+
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgid "Brightness"
+#~ msgstr "Brillo"
+
+#~ msgid "Contrast"
+#~ msgstr "Contraste"
+
+#~ msgid "Hue"
+#~ msgstr "Tinte"
+
+#~ msgid "Saturation"
+#~ msgstr "Saturación"
+
+#~ msgid "Dialpad"
+#~ msgstr "Panel de marcación"
+
+#~ msgid ""
+#~ "Defines whether the window should close automatically after a timeout "
+#~ "when the call is over."
+#~ msgstr ""
+#~ "Define si la ventana se debe cerrar automáticamente cierto tiempo después "
+#~ "de finalizar la llamada."
+
+#~ msgid ""
+#~ "Defines how many seconds the call window should remain visible after the "
+#~ "call is over. This option depends on \"CloseOnDisconnect\"."
+#~ msgstr ""
+#~ "Define cuántos segundos debe permanecer visible la ventana de llamada "
+#~ "tras finalizar la llamada. Esta opción depende de «CerrarAlDesconectar»."
+
+#, fuzzy
+#~| msgid "The audio output device could not be initialized."
+#~ msgid "The video input device could not be initialized"
+#~ msgstr "No se pudo inicializar el dispositivo de salida de audio."
+
+#, fuzzy
+#~| msgid ""
+#~| "Some gstreamer elements could not be created. Please check your "
+#~| "gstreamer installation."
+#~ msgid ""
+#~ "Could not create some of the required elements. Please check your "
+#~ "GStreamer installation."
+#~ msgstr ""
+#~ "No se pudieron crear algunos elementos gstreamer. Por favor, compruebe su "
+#~ "instalación de gstreeamer."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show participants"
+#~ msgstr "Mostrar participantes"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show log"
+#~ msgstr "Mostrar registro"
+
+#~ msgctxt "@action"
+#~ msgid "Stop sending video"
+#~ msgstr "Dejar de enviar vídeo"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Status"
+#~ msgstr "Estado"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Available"
+#~ msgstr "Disponible"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Away"
+#~ msgstr "Ausente"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Be right back"
+#~ msgstr "Vuelvo ahora mismo"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Busy"
+#~ msgstr "Ocupado"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Do not disturb"
+#~ msgstr "No molestar"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Extended Away"
+#~ msgstr "Ausente extendido"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Invisible"
+#~ msgstr "Invisible"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Offline"
+#~ msgstr "Desconectado"
+
+#~ msgctxt "protocol - display name (Connecting)"
+#~ msgid "%1 - %2 (Connecting)"
+#~ msgstr "%1 - %2 (Conectando)"
+
+#~ msgctxt "protocol - display name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 - %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgctxt "@info:status"
+#~ msgid "Connected"
+#~ msgstr "Conectado"
+
+#~ msgctxt "@action"
+#~ msgid "Disconnect"
+#~ msgstr "Desconectar"
+
+#~ msgctxt "@action"
+#~ msgid "Cancel connection attempt"
+#~ msgstr "Cancelar intento de conexión"
+
+#~ msgctxt "@action"
+#~ msgid "Connect"
+#~ msgstr "Conectar"
+
+#~ msgid "Volume"
+#~ msgstr "Volumen"
+
+#~ msgid "Speakers"
+#~ msgstr "Altavoces"
+
+#~ msgid "Microphone"
+#~ msgstr "Micrófono"
+
+#~ msgid "Video controls"
+#~ msgstr "Controles de vídeo"
+
+#~ msgid "Video input"
+#~ msgstr "Entrada de vídeo"
+
+#~ msgid "Participants"
+#~ msgstr "Participantes"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Contact list"
+#~ msgstr "Lista de &contactos"
+
+#~ msgctxt "@info:status"
+#~ msgid "Hanging up..."
+#~ msgstr "Colgando..."
+
+#~ msgid "Channel closed"
+#~ msgstr "Canal cerrado"
+
+#~ msgid "Channel closed with error: %1"
+#~ msgstr "Canal cerrado con errores: %1"
+
+#~ msgid "User %1 joined the conference."
+#~ msgstr "El usuario %1 se ha unido a la conversación."
+
+#~ msgid "Awaiting answer from user %1."
+#~ msgstr "Esperando respuesta del usuario %1."
+
+#~ msgid "User %1 left the conference."
+#~ msgstr "El usuario %1 ha abandonado la conversación."
+
+#~ msgid "Audio input device"
+#~ msgstr "Dispositivo de entrada de audio"
+
+#~ msgid "Audio output device"
+#~ msgstr "Dispositivo de salida de audio"
+
+#~ msgid "Video input device"
+#~ msgstr "Dispositivo de entrada de vídeo"
+
+#~ msgid "Video output driver"
+#~ msgstr "Dispositivo de salida de vídeo"
+
+#~ msgid "Autodetect"
+#~ msgstr "Autodetectar"
+
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#~ msgid "OSS"
+#~ msgstr "OSS"
+
+#~ msgid "JACK"
+#~ msgstr "JACK"
+
+#~ msgid "PULSE"
+#~ msgstr "PULSE"
+
+#~ msgid "Video4Linux"
+#~ msgstr "Video4Linux"
+
+#~ msgid "Device name"
+#~ msgstr "Nombre del dispositivo"
+
+#~ msgid "Sound system"
+#~ msgstr "Sistema de sonido"
+
+#~ msgid "Video system"
+#~ msgstr "Sistema de vídeo"
+
+#~ msgid "Gstreamer element"
+#~ msgstr "Elemento gstreamer"
+
+#~ msgid "Add custom device..."
+#~ msgstr "Añadir dispositivo personalizado..."
+
+#~ msgid ""
+#~ "The gstreamer element for the selected device could not be created. "
+#~ "Please check your gstreamer installation."
+#~ msgstr ""
+#~ "No se pudo crear el elemento gstreamer para el dispositivo seleccionado. "
+#~ "Por favor, compruebe su instalación de gstreamer."
+
+#~ msgid ""
+#~ "The selected device could not be initialized. Please select another "
+#~ "device."
+#~ msgstr ""
+#~ "No se pudo inicializar el dispositivo seleccionado. Por favor, seleccione "
+#~ "otro dispositivo."
+
+#~ msgctxt "stop audio/video test"
+#~ msgid "Stop test"
+#~ msgstr "Parar prueba"
+
+#~ msgid "Hide details"
+#~ msgstr "Ocultar detalles"
+
+#~ msgid "Could not initialize the channel"
+#~ msgstr "No se pudo inicializar el canal"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorar"

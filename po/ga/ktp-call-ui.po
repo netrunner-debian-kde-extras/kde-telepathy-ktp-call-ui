@@ -1,16 +1,16 @@
-# Irish translation of ktp-call-ui
-# Copyright (C) 2012 This_file_is_part_of_KDE
-# This file is distributed under the same license as the ktp-call-ui package.
-# Kevin Scannell <kscanne@gmail.com>, 2012.
+# Irish translation of kcall
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcall package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: ktp-call-ui\n"
+"Project-Id-Version: kcall\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2012-07-31 09:09-0500\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2009-12-24 06:59-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
-"Language: \n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -239,21 +239,21 @@ msgstr "Meáin"
 msgid "Main Toolbar"
 msgstr "Príomhbharra Uirlisí"
 
-#: src/dialout/dialout-widget.cpp:159
+#: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
 msgstr ""
 
-#: src/dialout/dialout-widget.cpp:177
+#: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
 msgstr ""
 
-#: src/dialout/dialout-widget.cpp:182
+#: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
 
-#: src/dialout/dialout-widget.cpp:292
+#: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
 msgstr ""
 
@@ -263,17 +263,17 @@ msgid "Account:"
 msgstr "Cuntas:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
-#: src/dialout/dialout-widget.ui:52
+#: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
-#: src/dialout/dialout-widget.ui:84
+#: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
-#: src/dialout/dialout-widget.ui:94
+#: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
 msgstr ""
 
@@ -281,15 +281,15 @@ msgstr ""
 msgid "Make a call"
 msgstr ""
 
-#: src/dialout/main.cpp:28 src/main.cpp:36
+#: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
 msgstr ""
 
-#: src/dialout/main.cpp:29 src/main.cpp:37
+#: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
 msgstr "Cliant VoIP KDE"
 
-#: src/dialout/main.cpp:30 src/main.cpp:38
+#: src/dialout/main.cpp:32 src/main.cpp:40
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
@@ -297,10 +297,14 @@ msgstr ""
 "© 2009-2012, George Kiagiadakis\n"
 "© 2010-2011, Collabora Ltd."
 
-#: src/dialout/main.cpp:33 src/main.cpp:41
+#: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
+
+#: src/dialout/main.cpp:43
+msgid "The number to call"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
@@ -361,3 +365,57 @@ msgstr "0"
 #: src/dtmf-widget.ui:94
 msgid "#"
 msgstr "#"
+
+#~ msgid "Warning: %1"
+#~ msgstr "Rabhadh: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Earráid: %1"
+
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgid "Brightness"
+#~ msgstr "Gile"
+
+#~ msgid "Contrast"
+#~ msgstr "Codarsnacht"
+
+#~ msgid "Hue"
+#~ msgstr "Lí"
+
+#~ msgid "Saturation"
+#~ msgstr "Sáithiú"
+
+#~ msgid "Dialpad"
+#~ msgstr "Eochaircheap"
+
+#~ msgid "Volume"
+#~ msgstr "Airde"
+
+#~ msgid "Microphone"
+#~ msgstr "Micreafón"
+
+#~ msgid "Participants"
+#~ msgstr "Rannpháirtithe"
+
+#~ msgid "Autodetect"
+#~ msgstr "Braith go huathoibríoch"
+
+#~ msgid "ALSA"
+#~ msgstr "ALSA"
+
+#~ msgid "OSS"
+#~ msgstr "OSS"
+
+#~ msgid "Video4Linux"
+#~ msgstr "Video4Linux"
+
+#~ msgid "Device name"
+#~ msgstr "Ainm an ghléis"
+
+#~ msgid "Timeout in seconds:"
+#~ msgstr "Teorainn Ama (soicindí):"
+
+#~ msgid "Ignore"
+#~ msgstr "Déan neamhaird de"
