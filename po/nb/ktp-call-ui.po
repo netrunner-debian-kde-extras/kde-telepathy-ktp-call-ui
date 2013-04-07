@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"POT-Creation-Date: 2013-03-20 03:18+0100\n"
 "PO-Revision-Date: 2012-10-17 21:38+0200\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -241,15 +241,15 @@ msgstr "Media"
 msgid "Main Toolbar"
 msgstr "Hovedverktøylinje"
 
-#: src/dialout/dialout-widget.cpp:159
+#: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
 msgstr "Laster inn kontoer …"
 
-#: src/dialout/dialout-widget.cpp:177
+#: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
 msgstr "Feil: Klarte ikke å laste inn kontoer"
 
-#: src/dialout/dialout-widget.cpp:182
+#: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
@@ -257,7 +257,7 @@ msgstr ""
 "Fant ingen kapable kontoer. Se etter at du er tilkoblet og at kontoene du "
 "har satt opp støtter lyd-og/eller video-anrop"
 
-#: src/dialout/dialout-widget.cpp:292
+#: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
 msgstr "Klarte ikke å starte samtale."
 
@@ -267,17 +267,17 @@ msgid "Account:"
 msgstr "Konto:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
-#: src/dialout/dialout-widget.ui:52
+#: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
 msgstr "Nummer/kontakt-URI:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
-#: src/dialout/dialout-widget.ui:84
+#: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
 msgstr "Lydanrop"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
-#: src/dialout/dialout-widget.ui:94
+#: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
 msgstr "Videoanrop"
 
@@ -285,15 +285,15 @@ msgstr "Videoanrop"
 msgid "Make a call"
 msgstr "Gjør et anrop"
 
-#: src/dialout/main.cpp:28 src/main.cpp:36
+#: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
 msgstr "KDE Telepathy Call Ui"
 
-#: src/dialout/main.cpp:29 src/main.cpp:37
+#: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
 msgstr "VoIP-klient for KDE"
 
-#: src/dialout/main.cpp:30 src/main.cpp:38
+#: src/dialout/main.cpp:32 src/main.cpp:40
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
@@ -301,10 +301,14 @@ msgstr ""
 "© 2009-2012 George Kiagiadakis\n"
 "© 2010-2011 Collabora Ltd."
 
-#: src/dialout/main.cpp:33 src/main.cpp:41
+#: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
+
+#: src/dialout/main.cpp:43
+msgid "The number to call"
+msgstr "Nummeret som skal ringes opp"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17

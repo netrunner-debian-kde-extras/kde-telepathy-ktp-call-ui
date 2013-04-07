@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
-"PO-Revision-Date: 2013-02-11 06:23+0600\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2013-03-28 04:46+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
 "Language: kk\n"
@@ -103,261 +103,270 @@ msgstr "Контакттың нөмірі дұрыс емес."
 #: src/call-window.cpp:164
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
-msgstr ""
+msgstr "Шақыру болмады. Бұған балансыңыз тым аз."
 
 #: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
-msgstr ""
+msgstr "Шақыру болмады. Бұған рұқсатыңыз жоқ."
 
 #: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
-msgstr ""
+msgstr "Қашық контакт бос емес."
 
 #: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "Internal component error."
-msgstr ""
+msgstr "Ішкі бөлшек қатесі."
 
 #: src/call-window.cpp:178
 msgctxt "@info:status"
 msgid "Remote service error."
-msgstr ""
+msgstr "Қашық қызмет қатесі."
 
 #: src/call-window.cpp:181
 msgctxt "@info:status"
 msgid "Network error."
-msgstr ""
+msgstr "Желі қатесі."
 
 #: src/call-window.cpp:185
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
-msgstr ""
+msgstr "Келісу кодек жаңылысы."
 
 #: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
-msgstr ""
+msgstr "Қолдауы жоқ дискі түрі."
 
 #: src/call-window.cpp:191
 msgctxt "@info:status"
 msgid "Connectivity error."
-msgstr ""
+msgstr "Байланыс қатесі."
 
 #: src/call-window.cpp:195
 msgctxt "@info:status"
 msgid "Unknown error."
-msgstr ""
+msgstr "Беймәлім қате."
 
 #: src/call-window.cpp:200
 msgctxt "@info:status"
 msgid "Disconnected."
-msgstr ""
+msgstr "Ажыратылған."
 
 #: src/call-window.cpp:204
 #, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
-msgstr ""
+msgstr "Ажыратылған: %1"
 
 #: src/call-window.cpp:385
 msgctxt "@action"
 msgid "Show my video"
-msgstr ""
+msgstr "Өзімнің видеомды көрсету"
 
 #: src/call-window.cpp:390
 msgctxt "@action"
 msgid "Show dialpad"
-msgstr ""
+msgstr "Теру панелін көрсету"
 
 #: src/call-window.cpp:397
 msgctxt "@action"
 msgid "Send video"
-msgstr ""
+msgstr "Видео жіберу"
 
 #: src/call-window.cpp:402 src/call-window.cpp:403
 msgctxt "@action"
 msgid "Mute"
-msgstr ""
+msgstr "Үнін өшіру"
 
 #: src/call-window.cpp:408
 msgctxt "@action"
 msgid "Hold"
-msgstr ""
+msgstr "Желіде қалу"
 
 #: src/call-window.cpp:414
 msgctxt "@action"
 msgid "Hangup"
-msgstr ""
+msgstr "Доғару"
 
 #: src/call-window.cpp:490
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
-msgstr ""
+msgstr "Шақыру жасау кезінде қате пайда болды"
 
 #: src/call-window.cpp:503
 msgctxt "@info:status"
 msgid "Call held"
-msgstr ""
+msgstr "Желіде қалды"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
-msgstr ""
+msgstr "Шақырлымды желіде ұстай алмады. Кейбір құрылғылар қол жеткізбейді"
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr ""
+msgstr "Беймәлім қате"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr ""
+msgstr "Шақырылымды желіде ұстап жатыр..."
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr ""
+msgstr "Шақыруды жалғастыру..."
 
 #: src/call-window.cpp:537
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr ""
+msgstr "Ішкі қате"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
 msgid "Call"
-msgstr ""
+msgstr "Шақыру"
 
 #. i18n: ectx: Menu (media)
 #: src/callwindowui.rc:20
 msgid "Media"
-msgstr ""
+msgstr "Мультимедиа"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/callwindowui.rc:27
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Негізгі құралдар"
 
-#: src/dialout/dialout-widget.cpp:159
+#: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
-msgstr ""
+msgstr "Тіркелгілерді жүктеу..."
 
-#: src/dialout/dialout-widget.cpp:177
+#: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
-msgstr ""
+msgstr "Қате: Тіркелгілерді жүктеу жаңылысы"
 
-#: src/dialout/dialout-widget.cpp:182
+#: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
+"Мүнкіндіктері лайықты тіркелгі табылмады. Желіден тыс еместігіне, және "
+"бапталған тіркелгілер аудио және/не видео шақыруға қабілетті екеніне көз "
+"жеткізіңіз"
 
-#: src/dialout/dialout-widget.cpp:292
+#: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
-msgstr ""
+msgstr "Шақыруды бастау қатесі."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
 msgid "Account:"
-msgstr ""
+msgstr "Тіркелгі:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
-#: src/dialout/dialout-widget.ui:52
+#: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
-msgstr ""
+msgstr "Нөмірі не контакттың URL-і:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
-#: src/dialout/dialout-widget.ui:84
+#: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
-msgstr ""
+msgstr "Аудиошақыру"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
-#: src/dialout/dialout-widget.ui:94
+#: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
-msgstr ""
+msgstr "Видеошақыру"
 
 #: src/dialout/main-window.cpp:28
 msgid "Make a call"
-msgstr ""
-
-#: src/dialout/main.cpp:28 src/main.cpp:36
-msgid "KDE Telepathy Call Ui"
-msgstr ""
+msgstr "Қоңырау соғу"
 
 #: src/dialout/main.cpp:29 src/main.cpp:37
-msgid "VoIP client for KDE"
-msgstr ""
+msgid "KDE Telepathy Call Ui"
+msgstr "KDE Telepathy шақыру интерфейсі"
 
-#: src/dialout/main.cpp:30 src/main.cpp:38
+#: src/dialout/main.cpp:31 src/main.cpp:39
+msgid "VoIP client for KDE"
+msgstr "KDE-нің VoIP клиенті"
+
+#: src/dialout/main.cpp:32 src/main.cpp:40
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
 msgstr ""
+"(C) 2009-2012, George Kiagiadakis\n"
+"(C) 2010-2011, Collabora Ltd."
 
-#: src/dialout/main.cpp:33 src/main.cpp:41
+#: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
-msgstr ""
+msgstr "George Kiagiadakis"
+
+#: src/dialout/main.cpp:43
+msgid "The number to call"
+msgstr "Шақырылмақ нөмір"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. i18n: ectx: property (text), widget (QPushButton, button2)
 #: src/dtmf-widget.ui:24
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #. i18n: ectx: property (text), widget (QPushButton, button3)
 #: src/dtmf-widget.ui:31
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #. i18n: ectx: property (text), widget (QPushButton, button4)
 #: src/dtmf-widget.ui:38
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #. i18n: ectx: property (text), widget (QPushButton, button5)
 #: src/dtmf-widget.ui:45
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #. i18n: ectx: property (text), widget (QPushButton, button6)
 #: src/dtmf-widget.ui:52
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #. i18n: ectx: property (text), widget (QPushButton, button7)
 #: src/dtmf-widget.ui:59
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #. i18n: ectx: property (text), widget (QPushButton, button8)
 #: src/dtmf-widget.ui:66
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #. i18n: ectx: property (text), widget (QPushButton, button9)
 #: src/dtmf-widget.ui:73
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
 #: src/dtmf-widget.ui:80
 msgid "*"
-msgstr ""
+msgstr "*"
 
 #. i18n: ectx: property (text), widget (QPushButton, button0)
 #: src/dtmf-widget.ui:87
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonHash)
 #: src/dtmf-widget.ui:94
 msgid "#"
-msgstr ""
+msgstr "#"

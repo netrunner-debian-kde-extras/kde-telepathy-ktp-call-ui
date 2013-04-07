@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
 "PO-Revision-Date: 2012-10-16 23:43+0300\n"
 "Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -240,15 +240,15 @@ msgstr "Multimedia"
 msgid "Main Toolbar"
 msgstr "Bara de unelte principală"
 
-#: src/dialout/dialout-widget.cpp:159
+#: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
 msgstr "Se încarcă conturile..."
 
-#: src/dialout/dialout-widget.cpp:177
+#: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
 msgstr "Eroare: Încărcarea conturilor a eșuat"
 
-#: src/dialout/dialout-widget.cpp:182
+#: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
@@ -257,7 +257,7 @@ msgstr ""
 "conturile pe care le aveți configurate vă permit să efectuați apeluri audio "
 "și/sau video"
 
-#: src/dialout/dialout-widget.cpp:292
+#: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
 msgstr "Pornirea apelului a eșuat."
 
@@ -267,17 +267,17 @@ msgid "Account:"
 msgstr "Cont:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
-#: src/dialout/dialout-widget.ui:52
+#: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
 msgstr "URI număr / contact:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
-#: src/dialout/dialout-widget.ui:84
+#: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
 msgstr "Apel audio"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
-#: src/dialout/dialout-widget.ui:94
+#: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
 msgstr "Apel video"
 
@@ -285,15 +285,15 @@ msgstr "Apel video"
 msgid "Make a call"
 msgstr "Apelează"
 
-#: src/dialout/main.cpp:28 src/main.cpp:36
+#: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
 msgstr "Interfață KDE pentru apeluri Telepathy"
 
-#: src/dialout/main.cpp:29 src/main.cpp:37
+#: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
 msgstr "Client VoIP pentru KDE"
 
-#: src/dialout/main.cpp:30 src/main.cpp:38
+#: src/dialout/main.cpp:32 src/main.cpp:40
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
@@ -301,10 +301,14 @@ msgstr ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
 
-#: src/dialout/main.cpp:33 src/main.cpp:41
+#: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
+
+#: src/dialout/main.cpp:43
+msgid "The number to call"
+msgstr "Numărul de apelat"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
@@ -365,6 +369,3 @@ msgstr "0"
 #: src/dtmf-widget.ui:94
 msgid "#"
 msgstr "#"
-
-#~ msgid "The number to call"
-#~ msgstr "Numărul de apelat"

@@ -17,6 +17,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "call-handler.h"
+#include "version.h"
 
 #include <KAboutData>
 #include <KCmdLineArgs>
@@ -33,13 +34,15 @@
 
 int main(int argc, char **argv)
 {
-    KAboutData aboutData("ktp-call-ui", 0, ki18n("KDE Telepathy Call Ui"), "0.5.3",
+    KAboutData aboutData("ktp-call-ui", 0, ki18n("KDE Telepathy Call Ui"),
+                          KTP_CALL_UI_VERSION,
                           ki18n("VoIP client for KDE"), KAboutData::License_GPL,
                           ki18n("(C) 2009-2012, George Kiagiadakis\n"
                                 "(C) 2010-2011, Collabora Ltd."));
     aboutData.setProgramIconName("internet-telephony");
     aboutData.addAuthor(ki18nc("@info:credit", "George Kiagiadakis"), KLocalizedString(),
                          "kiagiadakis.george@gmail.com");
+    aboutData.setProductName("telepathy/call-ui"); //set the correct name for bug reporting
 
     KCmdLineArgs::init(argc, argv, &aboutData);
 

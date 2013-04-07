@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-kde-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 20:46+0200\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
 "PO-Revision-Date: 2012-08-05 19:08+0300\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -245,15 +245,15 @@ msgstr "Media"
 msgid "Main Toolbar"
 msgstr "Pagrindinė įrankinė"
 
-#: src/dialout/dialout-widget.cpp:159
+#: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
 msgstr "Įkeliamos paskyros..."
 
-#: src/dialout/dialout-widget.cpp:177
+#: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
 msgstr "Klaida: Nepavyko įkelti paskyrų "
 
-#: src/dialout/dialout-widget.cpp:182
+#: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
@@ -261,7 +261,7 @@ msgstr ""
 "Nerasta tinkamų paskyrų. Prašome įsitikinti, kad esate prisijungę ir Jūsų "
 "turimos paskyros yra nustatytos palaikyti balso ir/arba vaizdo skambučius"
 
-#: src/dialout/dialout-widget.cpp:292
+#: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
 msgstr "Nepavyko pradėti skambučio."
 
@@ -271,17 +271,17 @@ msgid "Account:"
 msgstr "Paskyra:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
-#: src/dialout/dialout-widget.ui:52
+#: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
 msgstr "Numeris / Kontakto URI"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
-#: src/dialout/dialout-widget.ui:84
+#: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
 msgstr "Balso skambutis"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
-#: src/dialout/dialout-widget.ui:94
+#: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
 msgstr "Vaizdo skambutis"
 
@@ -289,15 +289,15 @@ msgstr "Vaizdo skambutis"
 msgid "Make a call"
 msgstr "Skambinti"
 
-#: src/dialout/main.cpp:28 src/main.cpp:36
+#: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
 msgstr "KDE Telepathy skambučių vartotojo sąsaja"
 
-#: src/dialout/main.cpp:29 src/main.cpp:37
+#: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
 msgstr "KDE VoIP programa"
 
-#: src/dialout/main.cpp:30 src/main.cpp:38
+#: src/dialout/main.cpp:32 src/main.cpp:40
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
@@ -305,10 +305,14 @@ msgstr ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
 
-#: src/dialout/main.cpp:33 src/main.cpp:41
+#: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
 msgstr "George Kiagiadakis"
+
+#: src/dialout/main.cpp:43
+msgid "The number to call"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
@@ -369,3 +373,108 @@ msgstr "0"
 #: src/dtmf-widget.ui:94
 msgid "#"
 msgstr "#"
+
+#~ msgid "Warning: %1"
+#~ msgstr "Dėmesio: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Klaida: %1"
+
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgid "Brightness"
+#~ msgstr "Šviesumas"
+
+#~ msgid "Contrast"
+#~ msgstr "Kontrastas"
+
+#~ msgid "Hue"
+#~ msgstr "Atspalvis"
+
+#~ msgid "Saturation"
+#~ msgstr "Sodrumas"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show participants"
+#~ msgstr "Rodyti dalyvius"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show log"
+#~ msgstr "Rodyti žurnalą"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Status"
+#~ msgstr "Būsena"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Available"
+#~ msgstr "Prieinamas (-a)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Away"
+#~ msgstr "Pasitraukęs (-usi)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Be right back"
+#~ msgstr "Tuoj grįšiu"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Busy"
+#~ msgstr "Užimtas (-a)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Do not disturb"
+#~ msgstr "Netrukdyti"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Extended Away"
+#~ msgstr "Ilgam pasitraukęs (-usi)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Invisible"
+#~ msgstr "Nematomas (-a)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Offline"
+#~ msgstr "Neprisijungęs (-usi)"
+
+#~ msgctxt "protocol - display name (Connecting)"
+#~ msgid "%1 - %2 (Connecting)"
+#~ msgstr "%1 – %2 (Jungiamasi)"
+
+#~ msgctxt "protocol - display name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 – %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgctxt "@info:status"
+#~ msgid "Connected"
+#~ msgstr "Prisijungta"
+
+#~ msgctxt "@action"
+#~ msgid "Disconnect"
+#~ msgstr "Atsijungti"
+
+#~ msgctxt "@action"
+#~ msgid "Connect"
+#~ msgstr "Prisijungta"
+
+#~ msgid "Volume"
+#~ msgstr "Garsumas"
+
+#~ msgid "Speakers"
+#~ msgstr "Garsiakalbiai"
+
+#~ msgid "Microphone"
+#~ msgstr "Mikrofonas"
+
+#~ msgid "Participants"
+#~ msgstr "Dalyviai"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Contact list"
+#~ msgstr "&Kontaktų sąrašas"
