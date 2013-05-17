@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the kcall package.
 #
 # Donatas G. <dgvirtual@akl.lt>, 2012.
-# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012.
+# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-kde-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2012-08-05 19:08+0300\n"
+"PO-Revision-Date: 2013-04-11 20:29+0300\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Andrius Štikonas"
+msgstr "Andrius Štikonas, Liudas Ališauskas"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stikonas@gmail.com"
+msgstr "stikonas@gmail.com, liudas@akmc.lt"
 
 #: src/approver.cpp:38
 msgid "Incoming video call"
@@ -195,40 +195,39 @@ msgstr "Padėti ragelį"
 #: src/call-window.cpp:490
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
-msgstr ""
+msgstr "Kilo klaida pristabdant skambutį"
 
 #: src/call-window.cpp:503
-#, fuzzy
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "Skambinti"
+msgstr "Skambutis sulaikytas"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
 msgstr ""
+"Nepavyko grąžinti skambučio iš sulaikymo: kai kurie įrenginiai yra "
+"nepasiekiami"
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
-#, fuzzy
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr "Nežinoma klaida."
+msgstr "Nežinoma klaida"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr ""
+msgstr "Skambutis sulaikomas..."
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr ""
+msgstr "Pratęsiamas skambutis..."
 
 #: src/call-window.cpp:537
-#, fuzzy
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr "Vidinė komponento klaida."
+msgstr "Vidinė klaida"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
@@ -312,7 +311,7 @@ msgstr "George Kiagiadakis"
 
 #: src/dialout/main.cpp:43
 msgid "The number to call"
-msgstr ""
+msgstr "Numeris skambinimui"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
