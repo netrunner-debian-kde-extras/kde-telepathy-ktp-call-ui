@@ -1,4 +1,11 @@
 #!/usr/bin/make -f
 
+CMAKE_FLAGS := \
+    -DTP_FARSTREAM_INCLUDE_DIRS=/usr/include/telepathy-1.0 \
+    -DDBUS_INCLUDE_DIR=/usr/include/dbus-1.0
+
 %:
 	dh $@ --parallel --with kde --dbg-package=kde-telepathy-call-ui-dbg --list-missing
+
+override_dh_auto_configure:
+	dh_auto_configure -- $(CMAKE_FLAGS)

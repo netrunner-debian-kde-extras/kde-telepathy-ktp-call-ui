@@ -1,0 +1,10 @@
+--- a/libqtf/CMakeLists.txt
++++ b/libqtf/CMakeLists.txt
+@@ -10,6 +10,7 @@
+     ${TP_FARSTREAM_INCLUDE_DIRS}
+     ${FARSTREAM_INCLUDE_DIRS}
+     ${TELEPATHY_QT4_FARSTREAM_INCLUDE_DIR}
++    ${DBUS_INCLUDE_DIR}
+ )
+ 
+ add_definitions(
