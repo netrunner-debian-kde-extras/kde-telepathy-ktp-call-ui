@@ -1,11 +1,11 @@
 # Translation of ktp-call-ui.po into Serbian.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2012-09-01 19:12+0200\n"
+"PO-Revision-Date: 2013-04-26 10:06+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr@ijekavianlatin\n"
@@ -69,7 +69,7 @@ msgstr "Povezujem se..."
 #: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr "Zvonim..."
+msgstr "Zvoni..."
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
@@ -205,7 +205,7 @@ msgstr "Poziv na čekanju"
 #: src/call-window.cpp:505
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
-msgstr "Neuspelo vraćanje poziva sa čekanja: neki uređaji nisu dostupni"
+msgstr "Neuspjelo vraćanje poziva sa čekanja: neki uređaji nisu dostupni"
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
 msgctxt "@info:error"
@@ -248,15 +248,15 @@ msgstr "Učitavam naloge..."
 
 #: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
-msgstr "Greška: neuspelo učitavanje naloga."
+msgstr "Greška: neuspjelo učitavanje naloga."
 
 #: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
-"Nije nađen nijedan pogodan nalog. Proverite da li ste na vezi i da li nalozi "
-"koje ste podesili podržavaju audio i video pozive."
+"Nije nađen nijedan pogodan nalog. Provjerite da li ste na vezi i da li "
+"nalozi koje ste podesili podržavaju audio i video pozive."
 
 #: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."

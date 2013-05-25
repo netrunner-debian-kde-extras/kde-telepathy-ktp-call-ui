@@ -1,11 +1,11 @@
 # Translation of ktp-call-ui.po into Serbian.
-# Chusslove Illich <caslav.ilic@gmx.net>, 2012.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2012-09-01 19:12+0200\n"
+"PO-Revision-Date: 2013-04-26 10:06+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
 "Language: sr\n"
@@ -69,7 +69,7 @@ msgstr "Повезујем се..."
 #: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr "Звоним..."
+msgstr "Звони..."
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
