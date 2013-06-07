@@ -10,6 +10,7 @@ ktp-call-ui (0.6.2-1) UNRELEASED; urgency=low
   [ Diane Trout ]
   * Imported Upstream version 0.6.2
   * Bump ktp-common-internals version
+  * Set Uploaders to Diane Trout and Michał Zając
 
  -- Diane Trout <diane@ghic.org>  Sat, 25 May 2013 09:36:52 -0700
 
