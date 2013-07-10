@@ -11,6 +11,7 @@ ktp-call-ui (0.6.2-1) UNRELEASED; urgency=low
   * Imported Upstream version 0.6.2
   * Bump ktp-common-internals version
   * Set Uploaders to Diane Trout and Michał Zając
+  * Install ktp-dialout-ui
 
  -- Diane Trout <diane@ghic.org>  Sat, 25 May 2013 09:36:52 -0700
 
