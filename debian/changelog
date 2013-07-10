@@ -1,12 +1,5 @@
 ktp-call-ui (0.6.2-1) UNRELEASED; urgency=low
 
-  [ Ritesh Raj Sarraf ]
-  * [23fc699] Imported Upstream version 0.5.1
-  * [9d0f8cb] Imported Upstream version 0.5.3
-  * [701b0d1] Imported Upstream version 0.6.1
-  * [f167640] bump version dependencies
-  * [5df044e] bump version on build-dependencies
-
   [ Diane Trout ]
   * Imported Upstream version 0.6.2
   * Bump ktp-common-internals version
