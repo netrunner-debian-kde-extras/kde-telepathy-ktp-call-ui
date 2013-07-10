@@ -1,3 +1,5 @@
+Author: Diane Trout <diane@ghic.org>
+Description: link qtf against d-bus to avoid a missing symbols error.
 --- a/libqtf/CMakeLists.txt
 +++ b/libqtf/CMakeLists.txt
 @@ -10,6 +10,7 @@

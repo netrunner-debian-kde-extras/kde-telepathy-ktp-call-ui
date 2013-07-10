@@ -10,6 +10,7 @@ ktp-call-ui (0.6.2-1) UNRELEASED; urgency=low
   [ Diane Trout ]
   * Imported Upstream version 0.6.2
   * Bump ktp-common-internals version
+  * Add patch to link libqtf against d-bus.
   * Set Uploaders to Diane Trout and Michał Zając
   * Install ktp-dialout-ui
   * Bump Standards-Version to 3.9.4. No changes needed.
