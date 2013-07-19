@@ -2,11 +2,15 @@ ktp-call-ui (0.6.2-1) UNRELEASED; urgency=low
 
   [ Diane Trout ]
   * Imported Upstream version 0.6.2
-  * Bump ktp-common-internals version
+  * Bump ktp-common-internals dependency to 0.6.2
+  * Bump libtelepathy-qt4-dev dependency to 0.9.3
+  * Bump libfarstream-0.1-dev dependency to 0.1.2
   * Add patch to link libqtf against d-bus.
+  * Update CMAKE_FLAGS to for header files in subdirectories.
   * Set Uploaders to Diane Trout and Michał Zając
   * Install ktp-dialout-ui
   * Bump Standards-Version to 3.9.4. No changes needed.
+  * Update watch file as KDE-Telepathy is now in KDE stable.
 
  -- Diane Trout <diane@ghic.org>  Sat, 25 May 2013 09:36:52 -0700
 
