@@ -1,15 +1,15 @@
 # Translation of KDE - kdereview-ktp-call-ui to Finnish (Suomi)
 # Exported from Kotoistus
 #
-# Lasse Liehu <lasse.liehu@gmail.com>, 2012.
 # KDE Finnish translation sprint participants:
 # Author: Artnay
+# Lasse Liehu <lasse.liehu@gmail.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2012-08-13 23:48+0300\n"
+"PO-Revision-Date: 2013-05-18 20:19+0300\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
@@ -17,16 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-POT-Import-Date: 2012-12-01 22:21:13+0000\n"
-"X-Generator: MediaWiki 1.21alpha (963ddae); Translate 2012-11-08\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Jiri Grönroos"
+msgstr "Jiri Grönroos,Lasse Liehu"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "jiri.gronroos+kde@iki.fi"
+msgstr "jiri.gronroos+kde@iki.fi,lasse.liehu@gmail.com"
 
 #: src/approver.cpp:38
 msgid "Incoming video call"
@@ -35,7 +35,7 @@ msgstr "Saapuva videopuhelu"
 #: src/approver.cpp:39
 #, kde-format
 msgid "<p>%1 is asking you for a video call</p>"
-msgstr ""
+msgstr "<p>%1 pyytää sinua videopuheluun</p>"
 
 #: src/approver.cpp:41
 msgid "Incoming call"
@@ -59,7 +59,7 @@ msgstr "Hylkää"
 #: src/call-window.cpp:98
 #, kde-format
 msgid "Call with %1"
-msgstr ""
+msgstr "Puhelu henkilön %1 kanssa"
 
 #: src/call-window.cpp:112
 msgctxt "@info:status"
@@ -69,7 +69,7 @@ msgstr "Yhdistetään..."
 #: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr ""
+msgstr "Soi..."
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
@@ -79,7 +79,7 @@ msgstr "Vastapuoli hyväksyi puhelun, odotetaan yhteyttä..."
 #: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
-msgstr ""
+msgstr "Puhuu..."
 
 #: src/call-window.cpp:144
 msgctxt "@info:status"
@@ -104,12 +104,12 @@ msgstr "Virheellinen numero tai yhteystieto."
 #: src/call-window.cpp:164
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
-msgstr ""
+msgstr "Sinulla ei ole tarpeeksi saldoa soittamaan tätä puhelua."
 
 #: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
-msgstr ""
+msgstr "Sinulla ei ole oikeutta soittaa tätä puhelua."
 
 #: src/call-window.cpp:171
 msgctxt "@info:status"
@@ -119,12 +119,12 @@ msgstr "Vastapuoli on varattu."
 #: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "Internal component error."
-msgstr ""
+msgstr "Sisäisen komponentin virhe."
 
 #: src/call-window.cpp:178
 msgctxt "@info:status"
 msgid "Remote service error."
-msgstr ""
+msgstr "Etäpalvelun virhe."
 
 #: src/call-window.cpp:181
 msgctxt "@info:status"
@@ -134,12 +134,12 @@ msgstr "Verkkovirhe."
 #: src/call-window.cpp:185
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
-msgstr ""
+msgstr "Koodekkien neuvotteleminen epäonnistui."
 
 #: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
-msgstr ""
+msgstr "Mediatyyppiä ei tueta."
 
 #: src/call-window.cpp:191
 msgctxt "@info:status"
@@ -165,7 +165,7 @@ msgstr "Yhteys katkaistiin: %1"
 #: src/call-window.cpp:385
 msgctxt "@action"
 msgid "Show my video"
-msgstr ""
+msgstr "Näytä oma videoni"
 
 #: src/call-window.cpp:390
 msgctxt "@action"
@@ -175,7 +175,7 @@ msgstr "Näytä numeronäppäimistö"
 #: src/call-window.cpp:397
 msgctxt "@action"
 msgid "Send video"
-msgstr ""
+msgstr "Lähetä videota"
 
 #: src/call-window.cpp:402 src/call-window.cpp:403
 msgctxt "@action"
@@ -195,18 +195,19 @@ msgstr "Katkaise"
 #: src/call-window.cpp:490
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
-msgstr ""
+msgstr "Sattui virhe keskeytettäessä puhelua"
 
 #: src/call-window.cpp:503
-#, fuzzy
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "Soita"
+msgstr "Puhelu pidossa"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
 msgstr ""
+"Puhelun pitoon asettaminen epäonnistui: joitain laitteita ei ole "
+"käytettävissä"
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
 msgctxt "@info:error"
@@ -216,12 +217,12 @@ msgstr "Tuntematon virhe"
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr ""
+msgstr "Asetetaan puhelu pitoon..."
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr ""
+msgstr "Jatketaan puhelua..."
 
 #: src/call-window.cpp:537
 msgctxt "@info:error"
@@ -259,7 +260,7 @@ msgstr ""
 
 #: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
-msgstr ""
+msgstr "Puhelun aloittaminen epäonnistui."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
@@ -269,25 +270,25 @@ msgstr "Tili:"
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
 #: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
-msgstr ""
+msgstr "Numeron tai yhteystiedon URI:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
 #: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
-msgstr ""
+msgstr "Äänipuhelu"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
 #: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
-msgstr ""
+msgstr "Videopuhelu"
 
 #: src/dialout/main-window.cpp:28
 msgid "Make a call"
-msgstr ""
+msgstr "Soita puhelu"
 
 #: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
-msgstr ""
+msgstr "KDE Telepathyn puhelukäyttöliittymä"
 
 #: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
@@ -308,7 +309,7 @@ msgstr "George Kiagiadakis"
 
 #: src/dialout/main.cpp:43
 msgid "The number to call"
-msgstr ""
+msgstr "Soitettava numero"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
