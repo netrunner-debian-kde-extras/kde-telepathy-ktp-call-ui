@@ -1,7 +1,6 @@
 ktp-call-ui (0.6.80-1) UNRELEASED; urgency=low
 
   * Imported upstream version 0.6.80
-  * Remove unneeded TP_FARSTRAM_INCLUDE_DIRS define (Closes: #720578)
   * Bump Build-Depends libktpcommoninternalsprivate-dev to 0.6.80
 
  -- Diane Trout <diane@ghic.org>  Sun, 29 Sep 2013 08:30:33 -0700
