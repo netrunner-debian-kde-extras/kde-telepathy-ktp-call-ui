@@ -1,8 +1,9 @@
-ktp-call-ui (0.6.3-2) UNRELEASED; urgency=low
+ktp-call-ui (0.6.80-1) UNRELEASED; urgency=low
 
+  * Imported upstream version 0.6.80
   * Remove unneeded TP_FARSTRAM_INCLUDE_DIRS define (Closes: #720578)
 
- -- Diane Trout <diane@ghic.org>  Sun, 01 Sep 2013 13:11:34 -0700
+ -- Diane Trout <diane@ghic.org>  Sun, 29 Sep 2013 08:30:33 -0700
 
 ktp-call-ui (0.6.3-1) unstable; urgency=low
 
