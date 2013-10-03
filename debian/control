@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9),
  libtelepathy-qt4-dev (>= 0.9.3),
  libqtgstreamer-dev (>= 0.10.2),
  pkg-config,
- libktpcommoninternalsprivate-dev (>= 0.6.3),
+ libktpcommoninternalsprivate-dev (>= 0.6.80),
  libtelepathy-farstream-dev (>= 0.4.0),
  libfarstream-0.1-dev (>= 0.1.2)
 Standards-Version: 3.9.4
