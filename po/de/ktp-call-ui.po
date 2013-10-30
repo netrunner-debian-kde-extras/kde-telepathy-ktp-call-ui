@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ktp-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-02-17 00:15+0100\n"
+"PO-Revision-Date: 2013-10-22 12:23+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -204,6 +204,8 @@ msgstr "Anruf gehalten"
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
 msgstr ""
+"Das Wiederaufnehmen des Anrufs ist fehlgeschlagen. Einige Geräte sind nicht "
+"verfügbar"
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
 msgctxt "@info:error"
@@ -242,7 +244,7 @@ msgstr "Haupt-Werkzeugleiste"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
-msgstr "Konten werden geladen ..."
+msgstr "Zugänge werden geladen ..."
 
 #: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
@@ -253,6 +255,9 @@ msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
+"Es wurden keine geeigneten Zugänge gefunden. Überprüfen Sie, ob Sie online "
+"sind und das die von Ihnen eingerichteten Zugänge Audio- und/oder "
+"Videoanrufe unterstützen."
 
 #: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
