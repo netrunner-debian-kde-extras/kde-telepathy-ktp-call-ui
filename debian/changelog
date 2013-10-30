@@ -1,9 +1,9 @@
-ktp-call-ui (0.6.80-1) UNRELEASED; urgency=low
+ktp-call-ui (0.7.0-1) UNRELEASED; urgency=low
 
-  * Imported upstream version 0.6.80
+  * Imported upstream version 0.7.0
   * Bump Build-Depends libktpcommoninternalsprivate-dev to 0.6.80
 
- -- Diane Trout <diane@ghic.org>  Sun, 29 Sep 2013 08:30:33 -0700
+ -- Diane Trout <diane@ghic.org>  Tue, 29 Oct 2013 22:15:04 -0700
 
 ktp-call-ui (0.6.3-1) unstable; urgency=low
 
