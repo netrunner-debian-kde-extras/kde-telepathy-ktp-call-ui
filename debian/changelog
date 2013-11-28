@@ -2,6 +2,7 @@ ktp-call-ui (0.7.0-1) UNRELEASED; urgency=low
 
   * Imported upstream version 0.7.0
   * Bump Build-Depends libktpcommoninternalsprivate-dev to 0.7.0
+  * Bump depends kde-telepathy-data >= 0.7
 
  -- Diane Trout <diane@ghic.org>  Tue, 29 Oct 2013 22:15:04 -0700
 
