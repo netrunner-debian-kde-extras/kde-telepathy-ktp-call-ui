@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktp-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-05-18 20:19+0300\n"
+"POT-Creation-Date: 2013-03-20 03:18+0100\n"
+"PO-Revision-Date: 2013-12-22 13:54+0200\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
 "Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
 "Language: fi\n"
@@ -64,22 +64,22 @@ msgstr "Puhelu henkilön %1 kanssa"
 #: src/call-window.cpp:112
 msgctxt "@info:status"
 msgid "Connecting..."
-msgstr "Yhdistetään..."
+msgstr "Yhdistetään…"
 
 #: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr "Soi..."
+msgstr "Soi…"
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
-msgstr "Vastapuoli hyväksyi puhelun, odotetaan yhteyttä..."
+msgstr "Vastapuoli hyväksyi puhelun, odotetaan yhteyttä…"
 
 #: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
-msgstr "Puhuu..."
+msgstr "Puhuu…"
 
 #: src/call-window.cpp:144
 msgctxt "@info:status"
@@ -217,12 +217,12 @@ msgstr "Tuntematon virhe"
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr "Asetetaan puhelu pitoon..."
+msgstr "Asetetaan puhelu pitoon…"
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr "Jatketaan puhelua..."
+msgstr "Jatketaan puhelua…"
 
 #: src/call-window.cpp:537
 msgctxt "@info:error"
@@ -246,7 +246,7 @@ msgstr "Päätyökalurivi"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
-msgstr "Ladataan tilejä..."
+msgstr "Ladataan tilejä…"
 
 #: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
@@ -257,6 +257,8 @@ msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
+"Kykeneviä tilejä ei löytynyt. Tarkista, että olet verkossa paikalla ja että "
+"olet laittanut tilisi kuntoon ääni- ja videopuheluiden osalta"
 
 #: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."

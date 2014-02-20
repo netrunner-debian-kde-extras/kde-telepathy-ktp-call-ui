@@ -4,13 +4,14 @@
 # Xosé <xosecalvo@gmail.com>, 2009, 2012.
 # Adrian Chaves Fernandez <adriyetichaves@gmail.com>, 2012.
 # Miguel Branco <mgl.branco@gmail.com>, 2013.
+# Marce Villarino <mvillarino@kde-espana.org>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-01-12 22:43+0100\n"
-"Last-Translator: Miguel Branco <mgl.branco@gmail.com>\n"
+"POT-Creation-Date: 2013-03-20 03:18+0100\n"
+"PO-Revision-Date: 2014-01-04 23:04+0100\n"
+"Last-Translator: Marce Villarino <mvillarino@kde-espana.org>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +82,7 @@ msgstr "O usuario remoto aceptou a chamada; a agardar pola conexión..."
 #: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
-msgstr "A falar..."
+msgstr "Estase a falar..."
 
 #: src/call-window.cpp:144
 msgctxt "@info:status"
