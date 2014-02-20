@@ -1,197 +1,193 @@
-# translation of telepathy-kde-call-ui.po to Khmer
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Khoem Sokhem <khoemsokhem@khmeros.info>, 2011.
-# Sophea <sophea@khmeros.info>, 2012.
+#
+# A S Alam <aalam@users.sf.net>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: telepathy-kde-call-ui\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-20 03:18+0100\n"
-"PO-Revision-Date: 2012-06-20 11:39+0700\n"
-"Last-Translator: Sophea <sophea@khmeros.info>\n"
-"Language-Team: Khmer <>\n"
-"Language: \n"
+"PO-Revision-Date: 2013-05-04 22:23+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: WordForge 0.8 RC1\n"
-"X-Language: km-KH\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "ខឹម សុខែម, ម៉ន ម៉េត, សេង សុត្ថា, ចាន់ សម្បត្តិរតនៈ, សុខ សុភា"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
-"khoemsokhem@khmeros.info,​​mornmet@khmeros.info,sutha@khmeros.info,"
-"ratanak@khmeros.info,sophea@khmeros.info"
+msgstr "aalam@users.sf.net"
 
 #: src/approver.cpp:38
 msgid "Incoming video call"
-msgstr "មាន​ការ​ហៅ​ជា​វីដេអូ"
+msgstr "ਆ ਰਹੀ ਵਿਡੀਓ ਕਾਲ"
 
 #: src/approver.cpp:39
 #, kde-format
 msgid "<p>%1 is asking you for a video call</p>"
-msgstr "<p>%1 កំពុង​ស្នើសុំ​អ្នក​សម្រាប់​ការ​ហៅ​ជា​វីដេអូ</p>"
+msgstr "<p>%1 ਤੁਹਾਡੇ ਨਾਲ ਵਿਡੀਓ ਕਾਲ ਕਰਨ ਲਈ ਪੁੱਛ ਰਿਹਾ/ਰਹੀ ਹੈ</p>"
 
 #: src/approver.cpp:41
 msgid "Incoming call"
-msgstr "កំពុង​ហៅ​ចូល"
+msgstr "ਆ ਰਹੀ ਕਾਲ"
 
 #: src/approver.cpp:42
 #, kde-format
 msgid "<p>%1 is calling you</p>"
-msgstr "<p>%1 កំពុង​ហៅ​អ្នក</p>"
+msgstr "<p>%1 ਤੁਹਾਨੂੰ ਕਾਲ ਕਰ ਰਿਹਾ ਹੈ</p>"
 
 #: src/approver.cpp:58 src/approver.cpp:80
 msgctxt "action, answers the incoming call"
 msgid "Answer"
-msgstr "ឆ្លើយ"
+msgstr "ਜਵਾਬ"
 
 #: src/approver.cpp:59 src/approver.cpp:82
 msgctxt "action, rejects the incoming call"
 msgid "Reject"
-msgstr "បដិសេធ"
+msgstr "ਰੱਦ ਕਰੋ"
 
 #: src/call-window.cpp:98
 #, kde-format
 msgid "Call with %1"
-msgstr "ហៅ​ជាមួយ %1"
+msgstr "%1 ਨਾਲ ਕਾਲ"
 
 #: src/call-window.cpp:112
 msgctxt "@info:status"
 msgid "Connecting..."
-msgstr "កំពុង​តភ្ជាប់..."
+msgstr "...ਕੁਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr "កំពុង​រោទ៍..."
+msgstr "...ਘੰਟੀ ਜਾ ਰਹੀ ਹੈ"
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
-msgstr "អ្នកប្រើ​ពី​ចម្ងាយ​ព្រម​ទទួល​ការ​ហៅ និង​កំពុង​រង់ចាំ​ការ​តភ្ជាប់..."
+msgstr ""
 
 #: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
-msgstr "កំពុង​ជជែក..."
+msgstr "...ਗੱਲ ਜਾਰੀ ਹੈ"
 
 #: src/call-window.cpp:144
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
-msgstr "ទំនាក់ទំនង​ពី​ចម្ងាយ​បាន​បញ្ចប់​ការ​ហៅ ។"
+msgstr "ਰਿਮੋਟ ਸੰਪਰਕ ਨੇ ਕਾਲ ਬੰਦ ਕੀਤੀ।"
 
 #: src/call-window.cpp:151
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
-msgstr "ទំនាក់ទំនង​ពី​ចម្ងាយ​បាន​បដិសេធ​ការ​ហៅ ។"
+msgstr "ਰਿਮੋਟ ਸੰਪਰਕ ਨੇ ਕਾਲ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ।"
 
 #: src/call-window.cpp:156
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
-msgstr "ទំនាក់ទំនង​ពី​ចម្ងាយ​មិន​បាន​ឆ្លើយ​ទេ ។"
+msgstr "ਰਿਮੋਟ ਸੰਪਰਕ ਨੇ ਜਵਾਬ ਨਹੀਂ ਦਿੱਤਾ।"
 
 #: src/call-window.cpp:160
 msgctxt "@info:status"
 msgid "Invalid number or contact."
-msgstr "លេខ ឬ​ទំនាក់ទំនង​មិន​ត្រឹមត្រូវ ។"
+msgstr "ਗਲਤ ਨੰਬਰ ਜਾਂ ਸੰਪਰਕ"
 
 #: src/call-window.cpp:164
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
-msgstr "អ្នក​មិន​មាន​សមតុល្យ​គ្រប់គ្រាន់​សម្រាប់​ការ​ហៅ​នេះ​ទេ ។"
+msgstr ""
 
 #: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
-msgstr "អ្នក​គ្មាន​សិទ្ធិ​ក្នុង​ការ​ហៅ​ទេ ។"
+msgstr ""
 
 #: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
-msgstr "ទំនាក់ទំនង​ពី​ចម្ងាយ​កំពុង​ជាប់​រវល់ ។"
+msgstr "ਰਿਮੋਟ ਸੰਪਰਕ ਹਾਲੇ ਰੁਝੇ ਹੋਏ ਹਨ।"
 
 #: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "Internal component error."
-msgstr "កំហុស​សមាសភាគ​ខាងក្នុង ។"
+msgstr ""
 
 #: src/call-window.cpp:178
 msgctxt "@info:status"
 msgid "Remote service error."
-msgstr "កំហុស​សេវាកម្ម​ពី​ចម្ងាយ ។"
+msgstr ""
 
 #: src/call-window.cpp:181
 msgctxt "@info:status"
 msgid "Network error."
-msgstr "កំហុស​បណ្ដាញ ។"
+msgstr "ਨੈੱਟਵਰਕ ਗਲਤੀ ਹੈ।"
 
 #: src/call-window.cpp:185
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
-msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ចរចា​កូដិក ។"
+msgstr ""
 
 #: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
-msgstr "មិន​គាំទ្រ​ប្រភេទ​មេឌៀ ។"
+msgstr ""
 
 #: src/call-window.cpp:191
 msgctxt "@info:status"
 msgid "Connectivity error."
-msgstr "កំហុស​ការ​តភ្ជាប់ ។"
+msgstr ""
 
 #: src/call-window.cpp:195
 msgctxt "@info:status"
 msgid "Unknown error."
-msgstr "មិន​ស្គាល់​កំហុស ។"
+msgstr "ਅਣਜਾਣ ਗਲਤੀ"
 
 #: src/call-window.cpp:200
 msgctxt "@info:status"
 msgid "Disconnected."
-msgstr "បាន​ផ្ដាច់ ។"
+msgstr "ਕੁਨੈਕਸ਼ਨ ਬੰਦ ਹੈ।"
 
 #: src/call-window.cpp:204
 #, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
-msgstr "បាន​ផ្ដាច់ ៖ %1"
+msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਹੈ: %1"
 
 #: src/call-window.cpp:385
 msgctxt "@action"
 msgid "Show my video"
-msgstr "បង្ហាញ​វីដេអូ​របស់​ខ្ញុំ"
+msgstr "ਮੇਰੀ ਵਿਡਓ ਵੇਖਾਓ"
 
 #: src/call-window.cpp:390
 msgctxt "@action"
 msgid "Show dialpad"
-msgstr "បង្ហាញ​បន្ទះ​លេខ"
+msgstr "ਡਾਈਲ-ਪੈਡ ਵੇਖਾਓ"
 
 #: src/call-window.cpp:397
 msgctxt "@action"
 msgid "Send video"
-msgstr "ផ្ញើ​វីដេអូ"
+msgstr "ਵਿਡੀਓ ਭੇਜੋ"
 
 #: src/call-window.cpp:402 src/call-window.cpp:403
 msgctxt "@action"
 msgid "Mute"
-msgstr "បិទ​សំឡេង"
+msgstr "ਚੁੱਪ"
 
 #: src/call-window.cpp:408
 msgctxt "@action"
 msgid "Hold"
-msgstr "រង់ចាំ"
+msgstr "ਹੋਲਡ"
 
 #: src/call-window.cpp:414
 msgctxt "@action"
 msgid "Hangup"
-msgstr "ដាក់ចុះ"
+msgstr "ਬੰਦ ਕਰੋ"
 
 #: src/call-window.cpp:490
 msgctxt "@info:error"
@@ -199,11 +195,9 @@ msgid "There was an error while pausing the call"
 msgstr ""
 
 #: src/call-window.cpp:503
-#, fuzzy
-#| msgid "Call"
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "ហៅ"
+msgstr "ਕਾਲ ਰੋਕੀ"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
@@ -211,53 +205,47 @@ msgid "Failed to put the call off hold: Some devices are not available"
 msgstr ""
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown error."
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr "មិន​ស្គាល់​កំហុស ។"
+msgstr "ਅਣਜਾਣ ਗਲਤੀ"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr ""
+msgstr "...ਕਾਲ ਹੋਲਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr ""
+msgstr "...ਕਾਲ ਮੁੜ-ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #: src/call-window.cpp:537
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Internal component error."
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr "កំហុស​សមាសភាគ​ខាងក្នុង ។"
+msgstr "ਅੰਦਰੂਨੀ ਗਲਤੀ"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
 msgid "Call"
-msgstr "ហៅ"
+msgstr "ਕਾਲ"
 
 #. i18n: ectx: Menu (media)
 #: src/callwindowui.rc:20
 msgid "Media"
-msgstr "មេឌៀ"
+msgstr "ਮੀਡਿਆ"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/callwindowui.rc:27
 msgid "Main Toolbar"
-msgstr "របារ​ឧបករណ៍​មេ"
+msgstr "ਮੁੱਖ ਟੂਲਬਾਰ"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
-msgstr ""
+msgstr "...ਅਕਾਊਂਟ ਲੋਡ ਕੀਤਾ ਜੇ ਰਹੇ ਹਨ"
 
 #: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
-msgstr ""
+msgstr "ਗਲਤੀ: ਖਾਤੇ ਲੋਡ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੈ"
 
 #: src/dialout/dialout-widget.cpp:125
 msgid ""
@@ -266,16 +254,13 @@ msgid ""
 msgstr ""
 
 #: src/dialout/dialout-widget.cpp:204
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Failed to negotiate codecs."
 msgid "Failed to start call."
-msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ចរចា​កូដិក ។"
+msgstr "ਕਾਲ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੈ।"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
 msgid "Account:"
-msgstr ""
+msgstr "ਅਕਾਊਂਟ:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
 #: src/dialout/dialout-widget.ui:42
@@ -285,86 +270,86 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
 #: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
-msgstr ""
+msgstr "ਆਡੀਓ ਕਾਲ"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
 #: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
-msgstr ""
+msgstr "ਵਿਡੀਓ ਕਾਲ"
 
 #: src/dialout/main-window.cpp:28
 msgid "Make a call"
-msgstr ""
+msgstr "ਕਾਲ ਕਰੋ"
 
 #: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
-msgstr "KDE Telepathy Call Ui"
+msgstr "KDE ਟੈਲੀਪੈਥੀ ਕਾਲ ਯੂਆਈ"
 
 #: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
-msgstr "ម៉ាស៊ីន​ភ្ញៀវ VoIP សម្រាប់ KDE"
+msgstr ""
 
 #: src/dialout/main.cpp:32 src/main.cpp:40
-#, fuzzy
-#| msgid "(C) 2009, George Kiagiadakis"
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
-msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០៩ ដោយ George Kiagiadakis"
+msgstr ""
+"(C) 2009-2012, George Kiagiadakis\n"
+"(C) 2010-2011, Collabora Ltd."
 
 #: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
-msgstr "George Kiagiadakis"
+msgstr ""
 
 #: src/dialout/main.cpp:43
 msgid "The number to call"
-msgstr ""
+msgstr "ਕਾਲ ਕਰਨ ਲਈ ਨੰਬਰ"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
 msgid "1"
-msgstr "១"
+msgstr "1"
 
 #. i18n: ectx: property (text), widget (QPushButton, button2)
 #: src/dtmf-widget.ui:24
 msgid "2"
-msgstr "២"
+msgstr "2"
 
 #. i18n: ectx: property (text), widget (QPushButton, button3)
 #: src/dtmf-widget.ui:31
 msgid "3"
-msgstr "៣"
+msgstr "3"
 
 #. i18n: ectx: property (text), widget (QPushButton, button4)
 #: src/dtmf-widget.ui:38
 msgid "4"
-msgstr "៤"
+msgstr "4"
 
 #. i18n: ectx: property (text), widget (QPushButton, button5)
 #: src/dtmf-widget.ui:45
 msgid "5"
-msgstr "៥"
+msgstr "5"
 
 #. i18n: ectx: property (text), widget (QPushButton, button6)
 #: src/dtmf-widget.ui:52
 msgid "6"
-msgstr "៦"
+msgstr "6"
 
 #. i18n: ectx: property (text), widget (QPushButton, button7)
 #: src/dtmf-widget.ui:59
 msgid "7"
-msgstr "៧"
+msgstr "7"
 
 #. i18n: ectx: property (text), widget (QPushButton, button8)
 #: src/dtmf-widget.ui:66
 msgid "8"
-msgstr "៨"
+msgstr "8"
 
 #. i18n: ectx: property (text), widget (QPushButton, button9)
 #: src/dtmf-widget.ui:73
 msgid "9"
-msgstr "៩"
+msgstr "9"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
 #: src/dtmf-widget.ui:80
@@ -374,12 +359,9 @@ msgstr "*"
 #. i18n: ectx: property (text), widget (QPushButton, button0)
 #: src/dtmf-widget.ui:87
 msgid "0"
-msgstr "០"
+msgstr "0"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonHash)
 #: src/dtmf-widget.ui:94
 msgid "#"
 msgstr "#"
-
-#~ msgid "The audio input device could not be initialized"
-#~ msgstr " "

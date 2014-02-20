@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-02-10 19:45+0100\n"
+"POT-Creation-Date: 2013-03-20 03:18+0100\n"
+"PO-Revision-Date: 2013-06-28 18:27+0200\n"
 "Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -138,7 +138,7 @@ msgstr "Ni se bilo mogoče pogoditi o kodekih."
 #: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
-msgstr "Nepodprta vrsta večpredstavnosti."
+msgstr "Nepodprta vrsta predstavnosti."
 
 #: src/call-window.cpp:191
 msgctxt "@info:status"
@@ -234,7 +234,7 @@ msgstr "Kliči"
 #. i18n: ectx: Menu (media)
 #: src/callwindowui.rc:20
 msgid "Media"
-msgstr "Večpredstavnost"
+msgstr "Predstavnost"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/callwindowui.rc:27

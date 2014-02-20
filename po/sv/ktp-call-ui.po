@@ -2,15 +2,15 @@
 # Copyright (C) 2012 This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Stefan Asserhäll <stefan.asserhall@comhem.se>, 2009.
-# Stefan Asserhall <stefan.asserhall@comhem.se>, 2010, 2011, 2012.
+# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2009.
+# Stefan Asserhall <stefan.asserhall@bredband.net>, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2013-03-20 03:18+0100\n"
 "PO-Revision-Date: 2012-08-27 18:32+0200\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@comhem.se>\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Stefan Asserhäll"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stefan.asserhall@comhem.se"
+msgstr "stefan.asserhall@bredband.net"
 
 #: src/approver.cpp:38
 msgid "Incoming video call"

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcall\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2011-05-09 19:00+0900\n"
-"Last-Translator: Sahran <sahran@live.com>\n"
+"POT-Creation-Date: 2013-03-20 03:18+0100\n"
+"PO-Revision-Date: 2013-09-08 07:04+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
 
 #: src/approver.cpp:38
 msgid "Incoming video call"
-msgstr ""
+msgstr "كەلگەن سىنلىق چاقىرىش"
 
 #: src/approver.cpp:39
 #, kde-format
@@ -36,7 +36,7 @@ msgstr ""
 
 #: src/approver.cpp:41
 msgid "Incoming call"
-msgstr ""
+msgstr "بىرى چاقىرىۋاتىدۇ"
 
 #: src/approver.cpp:42
 #, kde-format
@@ -46,12 +46,12 @@ msgstr ""
 #: src/approver.cpp:58 src/approver.cpp:80
 msgctxt "action, answers the incoming call"
 msgid "Answer"
-msgstr ""
+msgstr "جاۋاب"
 
 #: src/approver.cpp:59 src/approver.cpp:82
 msgctxt "action, rejects the incoming call"
 msgid "Reject"
-msgstr ""
+msgstr "رەت قىل"
 
 #: src/call-window.cpp:98
 #, kde-format
@@ -64,12 +64,9 @@ msgid "Connecting..."
 msgstr "باغلىنىۋاتىدۇ…"
 
 #: src/call-window.cpp:116
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Connecting..."
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr "باغلىنىۋاتىدۇ…"
+msgstr ""
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
@@ -149,7 +146,7 @@ msgstr ""
 #: src/call-window.cpp:195
 msgctxt "@info:status"
 msgid "Unknown error."
-msgstr ""
+msgstr "نامەلۇم خاتالىق."
 
 #: src/call-window.cpp:200
 msgctxt "@info:status"
@@ -157,12 +154,10 @@ msgid "Disconnected."
 msgstr "ئۈزۈلدى."
 
 #: src/call-window.cpp:204
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "Disconnected"
+#, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
-msgstr "ئۈزۈلدى"
+msgstr ""
 
 #: src/call-window.cpp:385
 msgctxt "@action"
@@ -200,11 +195,9 @@ msgid "There was an error while pausing the call"
 msgstr ""
 
 #: src/call-window.cpp:503
-#, fuzzy
-#| msgid "Call"
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "چاقىر"
+msgstr ""
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
@@ -214,7 +207,7 @@ msgstr ""
 #: src/call-window.cpp:507 src/call-window.cpp:519
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr ""
+msgstr "نامەلۇم خاتالىق"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
@@ -229,7 +222,7 @@ msgstr ""
 #: src/call-window.cpp:537
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr ""
+msgstr "ئىچكى خاتالىق"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
@@ -248,7 +241,7 @@ msgstr "ئاساسىي قورال بالداق"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
-msgstr ""
+msgstr "ھېساباتلارنى يۈكلەۋاتىدۇ…"
 
 #: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
@@ -266,10 +259,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
-#, fuzzy
-#| msgid "Account"
 msgid "Account:"
-msgstr "ھېسابات"
+msgstr "ھېسابات:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
 #: src/dialout/dialout-widget.ui:42
