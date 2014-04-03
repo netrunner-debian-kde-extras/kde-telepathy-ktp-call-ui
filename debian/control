@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9),
  libtelepathy-qt4-dev (>= 0.9.3),
  libqtgstreamer-dev (>= 0.10.2),
  pkg-config,
- libktpcommoninternalsprivate-dev (>= 0.7.80),
+ libktpcommoninternalsprivate-dev (>= 0.8.0),
  libtelepathy-farstream-dev (>= 0.4.0),
  libfarstream-0.1-dev (>= 0.1.2)
 Standards-Version: 3.9.5
@@ -21,7 +21,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepath
 Package: kde-telepathy-call-ui
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
- kde-telepathy-data (>= 0.7.80),
+ kde-telepathy-data (>= 0.8.0),
  gstreamer0.10-plugins-base,
  gstreamer0.10-plugins-good,
  gstreamer0.10-x,

@@ -2,7 +2,7 @@ ktp-call-ui (0.7.80-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Bump Standards-Version to 3.9.5. No changes needed.
-  * Update ktp-common-internals and kde-telepathy-data to 0.7.80
+  * Update ktp-common-internals and kde-telepathy-data to 0.8.0
 
  -- Diane Trout <diane@ghic.org>  Wed, 19 Feb 2014 20:41:33 -0800
 
