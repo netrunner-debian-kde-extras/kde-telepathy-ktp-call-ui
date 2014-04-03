@@ -1,293 +1,295 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# A S Alam <aalam@users.sf.net>, 2013.
+# Park Shinjo <peremen@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-20 03:18+0100\n"
-"PO-Revision-Date: 2013-05-04 22:23+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
-"Language: pa\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"PO-Revision-Date: 2014-03-09 16:22+0900\n"
+"Last-Translator: Park Shinjo <peremen@gmail.com>\n"
+"Language-Team: Korean <kde@peremen.name>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 1.5\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+msgstr "Park Shinjo"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "aalam@users.sf.net"
+msgstr "kde@peremen.name"
 
 #: src/approver.cpp:38
 msgid "Incoming video call"
-msgstr "ਆ ਰਹੀ ਵਿਡੀਓ ਕਾਲ"
+msgstr "영상 통화 걸려옴"
 
 #: src/approver.cpp:39
 #, kde-format
 msgid "<p>%1 is asking you for a video call</p>"
-msgstr "<p>%1 ਤੁਹਾਡੇ ਨਾਲ ਵਿਡੀਓ ਕਾਲ ਕਰਨ ਲਈ ਪੁੱਛ ਰਿਹਾ/ਰਹੀ ਹੈ</p>"
+msgstr "<p>%1 님이 영상 통화를 걸었습니다</p>"
 
 #: src/approver.cpp:41
 msgid "Incoming call"
-msgstr "ਆ ਰਹੀ ਕਾਲ"
+msgstr "전화 걸려옴"
 
 #: src/approver.cpp:42
 #, kde-format
 msgid "<p>%1 is calling you</p>"
-msgstr "<p>%1 ਤੁਹਾਨੂੰ ਕਾਲ ਕਰ ਰਿਹਾ ਹੈ</p>"
+msgstr "<p>%1 님이 전화를 걸었습니다</p>"
 
 #: src/approver.cpp:58 src/approver.cpp:80
 msgctxt "action, answers the incoming call"
 msgid "Answer"
-msgstr "ਜਵਾਬ"
+msgstr "응답"
 
 #: src/approver.cpp:59 src/approver.cpp:82
 msgctxt "action, rejects the incoming call"
 msgid "Reject"
-msgstr "ਰੱਦ ਕਰੋ"
+msgstr "거부"
 
 #: src/call-window.cpp:98
 #, kde-format
 msgid "Call with %1"
-msgstr "%1 ਨਾਲ ਕਾਲ"
+msgstr "%1 님과 통화"
 
 #: src/call-window.cpp:112
 msgctxt "@info:status"
 msgid "Connecting..."
-msgstr "...ਕੁਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr "연결 중..."
 
 #: src/call-window.cpp:116
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr "...ਘੰਟੀ ਜਾ ਰਹੀ ਹੈ"
+msgstr "전화 거는 중..."
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
-msgstr ""
+msgstr "원격 사용자가 통화에 응답함, 연결 대기 중..."
 
 #: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
-msgstr "...ਗੱਲ ਜਾਰੀ ਹੈ"
+msgstr "통화 중..."
 
 #: src/call-window.cpp:144
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
-msgstr "ਰਿਮੋਟ ਸੰਪਰਕ ਨੇ ਕਾਲ ਬੰਦ ਕੀਤੀ।"
+msgstr "원격 대화 상대가 통화를 끊었습니다."
 
 #: src/call-window.cpp:151
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
-msgstr "ਰਿਮੋਟ ਸੰਪਰਕ ਨੇ ਕਾਲ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ।"
+msgstr "원격 대화 상대가 통화를 거부했습니다."
 
 #: src/call-window.cpp:156
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
-msgstr "ਰਿਮੋਟ ਸੰਪਰਕ ਨੇ ਜਵਾਬ ਨਹੀਂ ਦਿੱਤਾ।"
+msgstr "원격 대화 상대가 응답하지 않았습니다."
 
 #: src/call-window.cpp:160
 msgctxt "@info:status"
 msgid "Invalid number or contact."
-msgstr "ਗਲਤ ਨੰਬਰ ਜਾਂ ਸੰਪਰਕ"
+msgstr "전화 번호나 대화 상대가 잘못되었습니다."
 
 #: src/call-window.cpp:164
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
-msgstr ""
+msgstr "통화를 할 수 있는 잔액이 충분하지 않습니다."
 
 #: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
-msgstr ""
+msgstr "통화를 할 수 있는 권한이 없습니다."
 
 #: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
-msgstr "ਰਿਮੋਟ ਸੰਪਰਕ ਹਾਲੇ ਰੁਝੇ ਹੋਏ ਹਨ।"
+msgstr "원격 대화 상대가 통화 중입니다."
 
 #: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "Internal component error."
-msgstr ""
+msgstr "내부 구성 요소 오류."
 
 #: src/call-window.cpp:178
 msgctxt "@info:status"
 msgid "Remote service error."
-msgstr ""
+msgstr "원격 서비스 오류."
 
 #: src/call-window.cpp:181
 msgctxt "@info:status"
 msgid "Network error."
-msgstr "ਨੈੱਟਵਰਕ ਗਲਤੀ ਹੈ।"
+msgstr "네트워크 오류."
 
 #: src/call-window.cpp:185
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
-msgstr ""
+msgstr "코덱을 협상할 수 없습니다."
 
 #: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
-msgstr ""
+msgstr "지원하지 않는 미디어 형식입니다."
 
 #: src/call-window.cpp:191
 msgctxt "@info:status"
 msgid "Connectivity error."
-msgstr ""
+msgstr "연결 오류입니다."
 
 #: src/call-window.cpp:195
 msgctxt "@info:status"
 msgid "Unknown error."
-msgstr "ਅਣਜਾਣ ਗਲਤੀ"
+msgstr "알 수 없는 오류입니다."
 
 #: src/call-window.cpp:200
 msgctxt "@info:status"
 msgid "Disconnected."
-msgstr "ਕੁਨੈਕਸ਼ਨ ਬੰਦ ਹੈ।"
+msgstr "연결 끊김."
 
 #: src/call-window.cpp:204
 #, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
-msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਹੈ: %1"
+msgstr "연결 끊김: %1"
 
 #: src/call-window.cpp:385
 msgctxt "@action"
 msgid "Show my video"
-msgstr "ਮੇਰੀ ਵਿਡਓ ਵੇਖਾਓ"
+msgstr "내 동영상 보기"
 
 #: src/call-window.cpp:390
 msgctxt "@action"
 msgid "Show dialpad"
-msgstr "ਡਾਈਲ-ਪੈਡ ਵੇਖਾਓ"
+msgstr "숫자 패드 보기"
 
 #: src/call-window.cpp:397
 msgctxt "@action"
 msgid "Send video"
-msgstr "ਵਿਡੀਓ ਭੇਜੋ"
+msgstr "동영상 보내기"
 
 #: src/call-window.cpp:402 src/call-window.cpp:403
 msgctxt "@action"
 msgid "Mute"
-msgstr "ਚੁੱਪ"
+msgstr "음소거"
 
 #: src/call-window.cpp:408
 msgctxt "@action"
 msgid "Hold"
-msgstr "ਹੋਲਡ"
+msgstr "대기"
 
 #: src/call-window.cpp:414
 msgctxt "@action"
 msgid "Hangup"
-msgstr "ਬੰਦ ਕਰੋ"
+msgstr "끊기"
 
 #: src/call-window.cpp:490
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
-msgstr ""
+msgstr "통화를 일시 정지하는 중 오류 발생"
 
 #: src/call-window.cpp:503
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "ਕਾਲ ਰੋਕੀ"
+msgstr "통화 일시 정지됨"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
-msgstr ""
+msgstr "통화를 일시 정지할 수 없음: 일부 서비스를 사용할 수 없음"
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr "ਅਣਜਾਣ ਗਲਤੀ"
+msgstr "알 수 없는 오류"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr "...ਕਾਲ ਹੋਲਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
+msgstr "통화를 대기 상태로 전환 중..."
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr "...ਕਾਲ ਮੁੜ-ਪ੍ਰਾਪਤ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
+msgstr "통화 다시 시작하는 중..."
 
 #: src/call-window.cpp:537
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr "ਅੰਦਰੂਨੀ ਗਲਤੀ"
+msgstr "내부 오류"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
 msgid "Call"
-msgstr "ਕਾਲ"
+msgstr "통화"
 
 #. i18n: ectx: Menu (media)
 #: src/callwindowui.rc:20
 msgid "Media"
-msgstr "ਮੀਡਿਆ"
+msgstr "미디어"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/callwindowui.rc:27
 msgid "Main Toolbar"
-msgstr "ਮੁੱਖ ਟੂਲਬਾਰ"
+msgstr "주 도구 모음"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
-msgstr "...ਅਕਾਊਂਟ ਲੋਡ ਕੀਤਾ ਜੇ ਰਹੇ ਹਨ"
+msgstr "계정 불러오는 중..."
 
 #: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
-msgstr "ਗਲਤੀ: ਖਾਤੇ ਲੋਡ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੈ"
+msgstr "오류: 계정을 불러올 수 없음"
 
 #: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
+"사용 가능한 계정이 없습니다. 온라인 상태를 확인하고 설정한 계정에서 음성/영"
+"상 통화를 지원하는지 확인하십시오"
 
 #: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
-msgstr "ਕਾਲ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਫੇਲ੍ਹ ਹੈ।"
+msgstr "통화를 시작할 수 없습니다."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
 msgid "Account:"
-msgstr "ਅਕਾਊਂਟ:"
+msgstr "계정:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
 #: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
-msgstr ""
+msgstr "전화 번호/대화 상대 URI:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
 #: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
-msgstr "ਆਡੀਓ ਕਾਲ"
+msgstr "음성 통화"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
 #: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
-msgstr "ਵਿਡੀਓ ਕਾਲ"
+msgstr "영상 통화"
 
 #: src/dialout/main-window.cpp:28
 msgid "Make a call"
-msgstr "ਕਾਲ ਕਰੋ"
+msgstr "전화 걸기"
 
 #: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
-msgstr "KDE ਟੈਲੀਪੈਥੀ ਕਾਲ ਯੂਆਈ"
+msgstr "KDE Telepathy 통화 UI"
 
 #: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
-msgstr ""
+msgstr "KDE를 위한 VoIP 클라이언트"
 
 #: src/dialout/main.cpp:32 src/main.cpp:40
 msgid ""
@@ -300,11 +302,11 @@ msgstr ""
 #: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
 msgid "George Kiagiadakis"
-msgstr ""
+msgstr "George Kiagiadakis"
 
 #: src/dialout/main.cpp:43
 msgid "The number to call"
-msgstr "ਕਾਲ ਕਰਨ ਲਈ ਨੰਬਰ"
+msgstr "전화를 걸 번호"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17
