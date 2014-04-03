@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: telepathy-kde-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-20 03:18+0100\n"
+"POT-Creation-Date: 2013-03-27 10:06+0100\n"
 "PO-Revision-Date: 2013-04-11 20:29+0300\n"
 "Last-Translator: Liudas Ališauskas <liudas.alisauskas@gmail.com>\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -372,3 +372,108 @@ msgstr "0"
 #: src/dtmf-widget.ui:94
 msgid "#"
 msgstr "#"
+
+#~ msgid "Warning: %1"
+#~ msgstr "Dėmesio: %1"
+
+#~ msgid "Error: %1"
+#~ msgstr "Klaida: %1"
+
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgid "Brightness"
+#~ msgstr "Šviesumas"
+
+#~ msgid "Contrast"
+#~ msgstr "Kontrastas"
+
+#~ msgid "Hue"
+#~ msgstr "Atspalvis"
+
+#~ msgid "Saturation"
+#~ msgstr "Sodrumas"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show participants"
+#~ msgstr "Rodyti dalyvius"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show log"
+#~ msgstr "Rodyti žurnalą"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Status"
+#~ msgstr "Būsena"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Available"
+#~ msgstr "Prieinamas (-a)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Away"
+#~ msgstr "Pasitraukęs (-usi)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Be right back"
+#~ msgstr "Tuoj grįšiu"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Busy"
+#~ msgstr "Užimtas (-a)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Do not disturb"
+#~ msgstr "Netrukdyti"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Extended Away"
+#~ msgstr "Ilgam pasitraukęs (-usi)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Invisible"
+#~ msgstr "Nematomas (-a)"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Offline"
+#~ msgstr "Neprisijungęs (-usi)"
+
+#~ msgctxt "protocol - display name (Connecting)"
+#~ msgid "%1 - %2 (Connecting)"
+#~ msgstr "%1 – %2 (Jungiamasi)"
+
+#~ msgctxt "protocol - display name"
+#~ msgid "%1 - %2"
+#~ msgstr "%1 – %2"
+
+#~ msgctxt "@title:window"
+#~ msgid "KCall"
+#~ msgstr "KCall"
+
+#~ msgctxt "@info:status"
+#~ msgid "Connected"
+#~ msgstr "Prisijungta"
+
+#~ msgctxt "@action"
+#~ msgid "Disconnect"
+#~ msgstr "Atsijungti"
+
+#~ msgctxt "@action"
+#~ msgid "Connect"
+#~ msgstr "Prisijungta"
+
+#~ msgid "Volume"
+#~ msgstr "Garsumas"
+
+#~ msgid "Speakers"
+#~ msgstr "Garsiakalbiai"
+
+#~ msgid "Microphone"
+#~ msgstr "Mikrofonas"
+
+#~ msgid "Participants"
+#~ msgstr "Dalyviai"
+
+#~ msgctxt "@title:tab"
+#~ msgid "&Contact list"
+#~ msgstr "&Kontaktų sąrašas"
