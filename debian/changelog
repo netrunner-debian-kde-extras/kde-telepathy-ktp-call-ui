@@ -1,4 +1,4 @@
-ktp-call-ui (0.7.80-1) UNRELEASED; urgency=medium
+ktp-call-ui (0.8.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.9.5. No changes needed.
