@@ -11,6 +11,7 @@ License: GPL-2+
 
 Files: src/approver.*
        src/call-manager.*
+       src/dialout/*
        src/dtmf-widget.*
        src/status-area.*
        libqtf/*
@@ -21,7 +22,7 @@ Copyright: 2009-2012 George Kiagiadakis <kiagiadakis.george@gmail.com>
 License: LGPL-2.1+
 
 Files: po/*
-Copyright: 2009-2012 Stefan Asserhäll <stefan.asserhall@comhem.se>
+Copyright: 2009-2012 Stefan Asserhäll <stefan.asserhall@bredband.net>
            2009-2011 Joëlle Cornavin <jcornavin@laposte.net> <jcorn@free.fr>
            2011 Sahran <sahran.ug@gmail.com>
            2009 Andrew Coles <andrew_coles@yahoo.co.uk>
@@ -41,7 +42,7 @@ Copyright: 2009-2012 Stefan Asserhäll <stefan.asserhall@comhem.se>
            2009 Axel Rousseau <axel@esperanto-jeunes.org>
            2012 Freek de Kruijf <freekdekruijf@kde.nl>
            2009, 2011-2012 Marek Laane <bald@smail.ee>
-           2011-2012 Vít Pelčák <vit@pelcak.org>
+           2011-2014 Vít Pelčák <vit@pelcak.org>
            2011 Khoem Sokhem <khoemsokhem@khmeros.info>
            2009, 2011-2012 Eloy Cuadra <ecuadra@eloihr.net>
            2009 Serdar Soytetir <tulliana@gmail.com>
@@ -50,6 +51,7 @@ Copyright: 2009-2012 Stefan Asserhäll <stefan.asserhall@comhem.se>
            2011-2012 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
            2009-2012 Martin Schlander <mschlander@opensuse.org>
            2009 Xosé <xosecalvo@gmail.com>
+           2014 Park Shinjo <peremen@gmail.com>
 License: GPL-2+
 
 Files: cmake/*
