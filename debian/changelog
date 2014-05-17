@@ -4,6 +4,7 @@ ktp-call-ui (0.8.1-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.5. No changes needed.
   * Update ktp-common-internals and kde-telepathy-data to 0.8.1
   * Update debian/copyright
+  * Add call_contains.patch which should allow creating calls.
 
  -- Diane Trout <diane@ghic.org>  Sun, 27 Apr 2014 12:32:38 -0700
 
