@@ -1,4 +1,4 @@
-ktp-call-ui (0.8.1-1) UNRELEASED; urgency=low
+ktp-call-ui (0.8.1-1) unstable; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.9.5. No changes needed.
@@ -6,7 +6,7 @@ ktp-call-ui (0.8.1-1) UNRELEASED; urgency=low
   * Update debian/copyright
   * Add call_contains.patch which should allow creating calls.
 
- -- Diane Trout <diane@ghic.org>  Sun, 27 Apr 2014 12:32:38 -0700
+ -- Diane Trout <diane@ghic.org>  Fri, 16 May 2014 20:54:04 -0700
 
 ktp-call-ui (0.7.0-1) unstable; urgency=low
 
