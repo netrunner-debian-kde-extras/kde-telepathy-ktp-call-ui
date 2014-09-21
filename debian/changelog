@@ -17,6 +17,7 @@ ktp-call-ui (0.8.80-1) UNRELEASED; urgency=medium
   * Update ktp-telepathy-data to 0.8.80
   * Add kde-telepathy-declarative and qtgstreamer-declarative dependencies
     (For the new QML UI)
+  * Remove call_contains.patch applied upstream.
 
  -- Diane Trout <diane@ghic.org>  Sat, 20 Sep 2014 20:46:31 -0700
 
