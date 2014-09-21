@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2012-12-24 12:17+0100\n"
+"PO-Revision-Date: 2014-08-30 07:45+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -253,8 +253,8 @@ msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
-"Nie znaleziono możliwych kont. Proszę upewnić się, że jesteś online i że "
-"konta, które skonfigurowałeś obsługują rozmowy głosowe i/lub wideo"
+"Nie znaleziono możliwych kont. Upewnij się, że istnieje podłączenie z siecią "
+"i że konta, które ustawiono obsługują rozmowy głosowe i/lub wideo"
 
 #: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."

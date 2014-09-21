@@ -1,5 +1,5 @@
 /*
-    Copyright (C) 2009  George Kiagiadakis <kiagiadakis.george@gmail.com>
+    Copyright 2014  Ekaitz Zárraga <ekaitzzarraga@gmail.com>
 
     This library is free software; you can redistribute it and/or modify
     it under the terms of the GNU Lesser General Public License as published
@@ -14,29 +14,26 @@
     You should have received a copy of the GNU Lesser General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#ifndef DTMF_WIDGET_H
-#define DTMF_WIDGET_H
 
-#include <QtGui/QWidget>
-#include <TelepathyQt/Constants>
+#ifndef SYSTEMTRAYICON
+#define SYSTEMTRAYICON
 
-class DtmfWidget : public QWidget
+#include <KStatusNotifierItem>
+#include <KMenu>
+#include <KLocalizedString>
+
+class SystemTrayIcon : public KStatusNotifierItem
 {
+
     Q_OBJECT
+
 public:
-    explicit DtmfWidget(QWidget *parent = 0);
-    virtual ~DtmfWidget();
-
-Q_SIGNALS:
-    void startSendDtmfEvent(Tp::DTMFEvent event);
-    void stopSendDtmfEvent();
-
-private Q_SLOTS:
-    void onButtonPressed(int code);
+    SystemTrayIcon(QObject *parent = 0);
+    void show();
+    void setActivateNext(bool activateNext);
 
 private:
-    struct Private;
-    Private *const d;
+    bool activateNextTime;
 };
 
-#endif
+#endif //SYSTEMTRAYICON

@@ -2,57 +2,49 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Andrew Coles <andrew_coles@yahoo.co.uk>, 2009.
+# Steve Allewell <steve.allewell@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2009-11-14 12:16+0000\n"
-"Last-Translator: Andrew Coles <andrew_coles@yahoo.co.uk>\n"
-"Language-Team: British English <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2014-06-23 19:20+0100\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Andrew Coles"
+msgstr "Andrew Coles, Steve Allewell"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "andrew_coles@yahoo.co.uk"
+msgstr "andrew_coles@yahoo.co.uk, steve.allewell@gmail.com"
 
 #: src/approver.cpp:38
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Video call"
 msgid "Incoming video call"
-msgstr "Video call"
+msgstr "Incoming video call"
 
 #: src/approver.cpp:39
 #, kde-format
 msgid "<p>%1 is asking you for a video call</p>"
-msgstr ""
+msgstr "<p>%1 is asking you for a video call</p>"
 
 #: src/approver.cpp:41
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Voice call"
 msgid "Incoming call"
-msgstr "Voice call"
+msgstr "Incoming call"
 
 #: src/approver.cpp:42
-#, fuzzy, kde-format
-#| msgid "%1 is calling you"
+#, kde-format
 msgid "<p>%1 is calling you</p>"
-msgstr "%1 is calling you"
+msgstr "<p>%1 is calling you</p>"
 
 #: src/approver.cpp:58 src/approver.cpp:80
-#, fuzzy
-#| msgid "Answer"
 msgctxt "action, answers the incoming call"
 msgid "Answer"
 msgstr "Answer"
@@ -60,12 +52,12 @@ msgstr "Answer"
 #: src/approver.cpp:59 src/approver.cpp:82
 msgctxt "action, rejects the incoming call"
 msgid "Reject"
-msgstr ""
+msgstr "Reject"
 
 #: src/call-window.cpp:98
 #, kde-format
 msgid "Call with %1"
-msgstr ""
+msgstr "Call with %1"
 
 #: src/call-window.cpp:112
 msgctxt "@info:status"
@@ -73,9 +65,6 @@ msgid "Connecting..."
 msgstr "Connecting..."
 
 #: src/call-window.cpp:116
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Ringing..."
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
 msgstr "Ringing..."
@@ -83,7 +72,7 @@ msgstr "Ringing..."
 #: src/call-window.cpp:120
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
-msgstr ""
+msgstr "Remote user accepted the call, waiting for connection..."
 
 #: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
@@ -93,78 +82,72 @@ msgstr "Talking..."
 #: src/call-window.cpp:144
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
-msgstr ""
+msgstr "Remote contact ended the call."
 
 #: src/call-window.cpp:151
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
-msgstr ""
+msgstr "Remote contact rejected the call."
 
 #: src/call-window.cpp:156
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
-msgstr ""
+msgstr "Remote contact didn't answer."
 
 #: src/call-window.cpp:160
 msgctxt "@info:status"
 msgid "Invalid number or contact."
-msgstr ""
+msgstr "Invalid number or contact."
 
 #: src/call-window.cpp:164
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
-msgstr ""
+msgstr "You don't have enough balance to make this call."
 
 #: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
-msgstr ""
+msgstr "You don't have permission to make this call."
 
 #: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
-msgstr ""
+msgstr "Remote contact is currently busy."
 
 #: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "Internal component error."
-msgstr ""
+msgstr "Internal component error."
 
 #: src/call-window.cpp:178
 msgctxt "@info:status"
 msgid "Remote service error."
-msgstr ""
+msgstr "Remote service error."
 
 #: src/call-window.cpp:181
 msgctxt "@info:status"
 msgid "Network error."
-msgstr ""
+msgstr "Network error."
 
 #: src/call-window.cpp:185
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
-msgstr ""
+msgstr "Failed to negotiate codecs."
 
 #: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
-msgstr ""
+msgstr "Unsupported media type."
 
 #: src/call-window.cpp:191
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Disconnected with error."
 msgctxt "@info:status"
 msgid "Connectivity error."
-msgstr "Disconnected with error."
+msgstr "Connectivity error."
 
 #: src/call-window.cpp:195
-#, fuzzy
-#| msgctxt "Unknown audio or video system"
-#| msgid "Unknown"
 msgctxt "@info:status"
 msgid "Unknown error."
-msgstr "Unknown"
+msgstr "Unknown error."
 
 #: src/call-window.cpp:200
 msgctxt "@info:status"
@@ -172,27 +155,20 @@ msgid "Disconnected."
 msgstr "Disconnected."
 
 #: src/call-window.cpp:204
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "Disconnected"
+#, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
-msgstr "Disconnected"
+msgstr "Disconnected: %1"
 
 #: src/call-window.cpp:385
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Send video"
 msgctxt "@action"
 msgid "Show my video"
-msgstr "Send video"
+msgstr "Show my video"
 
 #: src/call-window.cpp:390
-#, fuzzy
-#| msgid "Show details"
 msgctxt "@action"
 msgid "Show dialpad"
-msgstr "Show details"
+msgstr "Show dialpad"
 
 #: src/call-window.cpp:397
 msgctxt "@action"
@@ -202,12 +178,12 @@ msgstr "Send video"
 #: src/call-window.cpp:402 src/call-window.cpp:403
 msgctxt "@action"
 msgid "Mute"
-msgstr ""
+msgstr "Mute"
 
 #: src/call-window.cpp:408
 msgctxt "@action"
 msgid "Hold"
-msgstr ""
+msgstr "Hold"
 
 #: src/call-window.cpp:414
 msgctxt "@action"
@@ -217,42 +193,37 @@ msgstr "Hangup"
 #: src/call-window.cpp:490
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
-msgstr ""
+msgstr "There was an error while pausing the call"
 
 #: src/call-window.cpp:503
-#, fuzzy
-#| msgid "Call log"
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "Call log"
+msgstr "Call held"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
-msgstr ""
+msgstr "Failed to put the call off hold: Some devices are not available"
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
-#, fuzzy
-#| msgctxt "Unknown audio or video system"
-#| msgid "Unknown"
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr "Unknown"
+msgstr "Unknown error"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr ""
+msgstr "Putting the call on hold..."
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr ""
+msgstr "Resuming the call..."
 
 #: src/call-window.cpp:537
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr ""
+msgstr "Internal Error"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
@@ -262,7 +233,7 @@ msgstr "Call"
 #. i18n: ectx: Menu (media)
 #: src/callwindowui.rc:20
 msgid "Media"
-msgstr ""
+msgstr "Media"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/callwindowui.rc:27
@@ -271,63 +242,63 @@ msgstr "Main Toolbar"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
-msgstr ""
+msgstr "Loading accounts..."
 
 #: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
-msgstr ""
+msgstr "Error: Failed to load accounts"
 
 #: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
+"No capable accounts found. Please make sure that you are online and that the "
+"accounts that you have configured support audio and/or video calls"
 
 #: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
-msgstr ""
+msgstr "Failed to start call."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
-#, fuzzy
-#| msgid "Account"
 msgid "Account:"
-msgstr "Account"
+msgstr "Account:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
 #: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
-msgstr ""
+msgstr "Number / Contact URI:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
 #: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
-msgstr ""
+msgstr "Audio Call"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
 #: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
-msgstr ""
+msgstr "Video Call"
 
 #: src/dialout/main-window.cpp:28
 msgid "Make a call"
-msgstr ""
+msgstr "Make a call"
 
 #: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
-msgstr ""
+msgstr "KDE Telepathy Call Ui"
 
 #: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
 msgstr "VoIP client for KDE"
 
 #: src/dialout/main.cpp:32 src/main.cpp:40
-#, fuzzy
-#| msgid "(C) 2009, George Kiagiadakis"
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
-msgstr "(C) 2009, George Kiagiadakis"
+msgstr ""
+"(C) 2009-2012, George Kiagiadakis\n"
+"(C) 2010-2011, Collabora Ltd."
 
 #: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
@@ -336,7 +307,7 @@ msgstr "George Kiagiadakis"
 
 #: src/dialout/main.cpp:43
 msgid "The number to call"
-msgstr ""
+msgstr "The number to call"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17

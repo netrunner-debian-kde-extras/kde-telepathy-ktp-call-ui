@@ -3,7 +3,7 @@
 #
 # KDE Finnish translation sprint participants:
 # Author: Artnay
-# Lasse Liehu <lasse.liehu@gmail.com>, 2012, 2013.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-call-ui\n"
@@ -11,7 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
 "PO-Revision-Date: 2013-12-22 13:54+0200\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
-"Language-Team: Finnish <lokalisointi@lists.coss.fi>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

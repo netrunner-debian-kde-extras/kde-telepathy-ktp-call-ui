@@ -2,71 +2,63 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Manfred Wiese <m.j.wiese@web.de>, 2009, 2010, 2011.
+# Sönke Dibbern <s_dibbern@web.de>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kcall\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2010-11-15 07:51+0100\n"
-"Last-Translator: Manfred Wiese <m.j.wiese@web.de>\n"
+"PO-Revision-Date: 2014-07-01 22:19+0200\n"
+"Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
 "Language: nds\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Manfred Wiese"
+msgstr "Manfred Wiese, Sönke Dibbern"
 
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "m.j.wiese@web.de"
+msgstr "m.j.wiese@web.de, s_dibbern@web.de"
 
 #: src/approver.cpp:38
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Video call"
 msgid "Incoming video call"
-msgstr "Videoanroop"
+msgstr "Ankamen Videoanroop"
 
 #: src/approver.cpp:39
 #, kde-format
 msgid "<p>%1 is asking you for a video call</p>"
-msgstr ""
+msgstr "<p>%1 fraagt en Videoverbinnen an</p>"
 
 #: src/approver.cpp:41
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Voice call"
 msgid "Incoming call"
-msgstr "Stimmanroop"
+msgstr "Ankamen Anroop"
 
 #: src/approver.cpp:42
-#, fuzzy, kde-format
-#| msgid "%1 is calling you"
+#, kde-format
 msgid "<p>%1 is calling you</p>"
-msgstr "%1 röppt Di an"
+msgstr "<p>%1 röppt Di an</p>"
 
 #: src/approver.cpp:58 src/approver.cpp:80
-#, fuzzy
-#| msgid "Answer"
 msgctxt "action, answers the incoming call"
 msgid "Answer"
-msgstr "Antern"
+msgstr "Annehmen"
 
 #: src/approver.cpp:59 src/approver.cpp:82
 msgctxt "action, rejects the incoming call"
 msgid "Reject"
-msgstr ""
+msgstr "Afwiesen"
 
 #: src/call-window.cpp:98
 #, kde-format
 msgid "Call with %1"
-msgstr ""
+msgstr "Anroop bi %1"
 
 #: src/call-window.cpp:112
 msgctxt "@info:status"
@@ -74,98 +66,90 @@ msgid "Connecting..."
 msgstr "An't Tokoppeln..."
 
 #: src/call-window.cpp:116
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Ringing..."
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
-msgstr "An't Pingeln"
+msgstr "Bi to pingeln..."
 
 #: src/call-window.cpp:120
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
 msgstr ""
+"De anner Bruker hett den Anroop annahmen, an't Töven op de Verbinnen..."
 
 #: src/call-window.cpp:123 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
-msgstr "An't Snacken"
+msgstr "Bi to snacken..."
 
 #: src/call-window.cpp:144
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
-msgstr ""
+msgstr "De anner Bruker hett opleggt."
 
 #: src/call-window.cpp:151
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
-msgstr ""
+msgstr "De anner Bruker hett den Anroop afwiest."
 
 #: src/call-window.cpp:156
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
-msgstr ""
+msgstr "De anner Bruker antert nich."
 
 #: src/call-window.cpp:160
 msgctxt "@info:status"
 msgid "Invalid number or contact."
-msgstr ""
+msgstr "Leeg Nummer oder Kontakt."
 
 #: src/call-window.cpp:164
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
-msgstr ""
+msgstr "Du hest för dissen Anroop nich noog op de Naht."
 
 #: src/call-window.cpp:166
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
-msgstr ""
+msgstr "Du hest keen Verlööf för dissen Anroop."
 
 #: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
-msgstr ""
+msgstr "De anner Bruker hett opstunns to doon."
 
 #: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "Internal component error."
-msgstr ""
+msgstr "Fehler binnen intern Komponent."
 
 #: src/call-window.cpp:178
 msgctxt "@info:status"
 msgid "Remote service error."
-msgstr ""
+msgstr "Fehler binnen feern Deenst."
 
 #: src/call-window.cpp:181
 msgctxt "@info:status"
 msgid "Network error."
-msgstr ""
+msgstr "Nettwarkfehler"
 
 #: src/call-window.cpp:185
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
-msgstr ""
+msgstr "Dor lett sik keen Kodek uthanneln."
 
 #: src/call-window.cpp:187
 msgctxt "@info:status"
 msgid "Unsupported media type."
-msgstr ""
+msgstr "Nich ünnerstütt Medientyp."
 
 #: src/call-window.cpp:191
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Disconnected with error."
 msgctxt "@info:status"
 msgid "Connectivity error."
-msgstr "Mit Fehler afkoppelt"
+msgstr "Tokoppelfehler"
 
 #: src/call-window.cpp:195
-#, fuzzy
-#| msgctxt "Unknown audio or video system"
-#| msgid "Unknown"
 msgctxt "@info:status"
 msgid "Unknown error."
-msgstr "Nich begäng"
+msgstr "Nich begäng Fehler."
 
 #: src/call-window.cpp:200
 msgctxt "@info:status"
@@ -173,27 +157,20 @@ msgid "Disconnected."
 msgstr "Afkoppelt."
 
 #: src/call-window.cpp:204
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "Disconnected"
+#, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
-msgstr "Afkoppelt"
+msgstr "Afkoppelt: %1"
 
 #: src/call-window.cpp:385
-#, fuzzy
-#| msgctxt "@action"
-#| msgid "Send video"
 msgctxt "@action"
 msgid "Show my video"
-msgstr "Video loosstüern"
+msgstr "Mien Video wiesen"
 
 #: src/call-window.cpp:390
-#, fuzzy
-#| msgid "Show details"
 msgctxt "@action"
 msgid "Show dialpad"
-msgstr "Enkelheiten wiesen"
+msgstr "Wähltasten wiesen"
 
 #: src/call-window.cpp:397
 msgctxt "@action"
@@ -203,57 +180,53 @@ msgstr "Video loosstüern"
 #: src/call-window.cpp:402 src/call-window.cpp:403
 msgctxt "@action"
 msgid "Mute"
-msgstr ""
+msgstr "Stumm"
 
 #: src/call-window.cpp:408
 msgctxt "@action"
 msgid "Hold"
-msgstr ""
+msgstr "Hollen"
 
 #: src/call-window.cpp:414
 msgctxt "@action"
 msgid "Hangup"
-msgstr "Ophangen"
+msgstr "Opleggen"
 
 #: src/call-window.cpp:490
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
-msgstr ""
+msgstr "Dat geev en Fehler bides de Anroop utsett weer"
 
 #: src/call-window.cpp:503
-#, fuzzy
-#| msgid "Call log"
 msgctxt "@info:status"
 msgid "Call held"
-msgstr "Anrooplogbook"
+msgstr "Anroop warrt hollen"
 
 #: src/call-window.cpp:505
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
 msgstr ""
+"Anroop lett sik nich wedderopnehmen: Dor sünd Reedschappen nich verföögbor."
 
 #: src/call-window.cpp:507 src/call-window.cpp:519
-#, fuzzy
-#| msgctxt "Unknown audio or video system"
-#| msgid "Unknown"
 msgctxt "@info:error"
 msgid "Unknown error"
-msgstr "Nich begäng"
+msgstr "Nich begäng Fehler"
 
 #: src/call-window.cpp:527
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
-msgstr ""
+msgstr "Anroop warrt hollen..."
 
 #: src/call-window.cpp:532
 msgctxt "@info:status"
 msgid "Resuming the call..."
-msgstr ""
+msgstr "Anroop warrt wedderopnahmen..."
 
 #: src/call-window.cpp:537
 msgctxt "@info:error"
 msgid "Internal Error"
-msgstr ""
+msgstr "Intern Fehler"
 
 #. i18n: ectx: Menu (call)
 #: src/callwindowui.rc:11
@@ -263,7 +236,7 @@ msgstr "Anroop"
 #. i18n: ectx: Menu (media)
 #: src/callwindowui.rc:20
 msgid "Media"
-msgstr ""
+msgstr "Medien"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/callwindowui.rc:27
@@ -272,63 +245,63 @@ msgstr "Hööftbalken"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
-msgstr ""
+msgstr "Kontos warrt laadt..."
 
 #: src/dialout/dialout-widget.cpp:98
 msgid "Error: Failed to load accounts"
-msgstr ""
+msgstr "Fehler: Kontos laat sik nich laden"
 
 #: src/dialout/dialout-widget.cpp:125
 msgid ""
 "No capable accounts found. Please make sure that you are online and that the "
 "accounts that you have configured support audio and/or video calls"
 msgstr ""
+"Keen passen Kontos funnen. Beseker bitte, Du büst dat Nett tokoppelt un Dien "
+"inricht Kontos doot Klang- un/oder Videoanrööp ünnerstütten."
 
 #: src/dialout/dialout-widget.cpp:204
 msgid "Failed to start call."
-msgstr ""
+msgstr "Anroop lett sik nich maken."
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
 #: src/dialout/dialout-widget.ui:35
-#, fuzzy
-#| msgid "Account"
 msgid "Account:"
-msgstr "Konto"
+msgstr "Konto:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberContactURILabel)
 #: src/dialout/dialout-widget.ui:42
 msgid "Number / Contact URI:"
-msgstr ""
+msgstr "Nummer / Kontakt-URI:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audioCallButton)
 #: src/dialout/dialout-widget.ui:77
 msgid "Audio Call"
-msgstr ""
+msgstr "Klanganroop"
 
 #. i18n: ectx: property (text), widget (QPushButton, videoCallButton)
 #: src/dialout/dialout-widget.ui:87
 msgid "Video Call"
-msgstr ""
+msgstr "Videoanroop"
 
 #: src/dialout/main-window.cpp:28
 msgid "Make a call"
-msgstr ""
+msgstr "En Anroop maken"
 
 #: src/dialout/main.cpp:29 src/main.cpp:37
 msgid "KDE Telepathy Call Ui"
-msgstr ""
+msgstr "KDE-Telepathy-Anroop-Böversiet"
 
 #: src/dialout/main.cpp:31 src/main.cpp:39
 msgid "VoIP client for KDE"
 msgstr "En VoIP-Programm för KDE"
 
 #: src/dialout/main.cpp:32 src/main.cpp:40
-#, fuzzy
-#| msgid "(C) 2009, George Kiagiadakis"
 msgid ""
 "(C) 2009-2012, George Kiagiadakis\n"
 "(C) 2010-2011, Collabora Ltd."
-msgstr "© 2009: George Kiagiadakis"
+msgstr ""
+"(C) 2009-2012 George Kiagiadakis\n"
+"(C) 2010-2011 Collabora Ltd."
 
 #: src/dialout/main.cpp:35 src/main.cpp:43
 msgctxt "@info:credit"
@@ -337,7 +310,7 @@ msgstr "George Kiagiadakis"
 
 #: src/dialout/main.cpp:43
 msgid "The number to call"
-msgstr ""
+msgstr "De Nummer, de Du anropen wullt"
 
 #. i18n: ectx: property (text), widget (QPushButton, button1)
 #: src/dtmf-widget.ui:17

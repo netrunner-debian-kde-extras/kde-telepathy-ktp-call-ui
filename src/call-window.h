@@ -23,6 +23,9 @@
 #include <KXmlGuiWindow>
 #include <QGst/Global>
 
+#include "systemtray-icon.h"
+#include "qml-interface.h"
+
 class CallContentHandler;
 
 class CallWindow : public KXmlGuiWindow
@@ -58,6 +61,7 @@ private:
     void changeVideoDisplayState(VideoDisplayFlags newState);
 
     void setupActions();
+    void setupQmlUi();
     void checkEnableDtmf();
     QGst::ElementPtr tryVideoSink(const char *sink);
     QGst::ElementPtr constructVideoSink();
@@ -70,12 +74,24 @@ private Q_SLOTS:
     void holdOperationFinished(Tp::PendingOperation *operation);
     void onHoldStatusChanged(Tp::LocalHoldState state, Tp::LocalHoldStateReason reason);
 
+    void toggleFullScreen();
+    void exitFullScreen();
+
+
 protected:
     virtual void closeEvent(QCloseEvent *event);
+    virtual void hideEvent(QHideEvent *event);
+    virtual void showEvent(QShowEvent *event);
 
 private:
     struct Private;
     Private *const d;
+
+
+private:
+    SystemTrayIcon* systemtrayicon;
+    void setupSystemTray();
+
 };
 
 #endif
