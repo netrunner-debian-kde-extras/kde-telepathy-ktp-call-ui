@@ -1,6 +1,22 @@
 ktp-call-ui (0.8.80-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update build-depends for libktpcommoninternalsprivate-dev to 0.8.80
+  * Update build-depends for telepathy-qt4-dev to 0.9.5
+  * Update build-depends from libqtgstreamer0.10-dev to libqtgstreamer-dev 1.2
+  * Update build-depends for libtelepathy-farstream-dev to 0.6.0
+  * Update build-depends for libfarstream to 0.2.3
+  * Update gstreamer components to gstreamer 1.0 versions.
+    - gstreamer1.0-plugins-base,
+    - gstreamer1.0-plugins-good,
+    - gstreamer1.0-x,
+    - gstreamer1.0-pulseaudio | gstreamer1.0-alsa
+    - pulseaudio | gstreamer1.0-alsa
+    - gstreamer1.0-plugins-ugly
+    - gstreamer1.0-libav (this is really helpful for video support)
+  * Update ktp-telepathy-data to 0.8.80
+  * Add kde-telepathy-declarative and qtgstreamer-declarative dependencies
+    (For the new QML UI)
 
  -- Diane Trout <diane@ghic.org>  Sat, 20 Sep 2014 20:46:31 -0700
 
