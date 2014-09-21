@@ -1,3 +1,9 @@
+ktp-call-ui (0.8.80-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Diane Trout <diane@ghic.org>  Sat, 20 Sep 2014 20:46:31 -0700
+
 ktp-call-ui (0.8.1-1) unstable; urgency=low
 
   * New upstream release.
