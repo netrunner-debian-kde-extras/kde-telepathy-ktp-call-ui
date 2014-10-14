@@ -23,7 +23,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
  kde-telepathy-data (>= ${source:Upstream-Version}),
  qtgstreamer-declarative (>= 1.2),
- kde-telepathy-declarative (>= 0.8.80),
+ kde-telepathy-declarative (>= ${source:Upstream-Version}),
  gstreamer1.0-plugins-base,
  gstreamer1.0-plugins-good,
  gstreamer1.0-x,
