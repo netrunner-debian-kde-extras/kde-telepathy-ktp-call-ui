@@ -6,7 +6,7 @@ ktp-call-ui (0.8.80-1) UNRELEASED; urgency=medium
   * Update build-depends from libqtgstreamer0.10-dev to libqtgstreamer-dev 1.2
   * Update build-depends for libtelepathy-farstream-dev to 0.6.0
   * Update build-depends for libfarstream to 0.2.3
-  * Update gstreamer components to gstreamer 1.0 versions.
+  * Update gstreamer components to gstreamer 1.0 API versions. Build-Dep (>= 1.2)
     - gstreamer1.0-plugins-base,
     - gstreamer1.0-plugins-good,
     - gstreamer1.0-x,
