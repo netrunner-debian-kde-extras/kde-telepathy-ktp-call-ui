@@ -1,3 +1,9 @@
+ktp-call-ui (0.9.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 28 Oct 2014 13:14:01 +0100
+
 ktp-call-ui (0.8.80-1) UNRELEASED; urgency=medium
 
   * New upstream release.
@@ -59,6 +65,153 @@ ktp-call-ui (0.6.3-1) unstable; urgency=low
   * Update Build-Depends: libktpcommoninternalsprivate-dev (>= 0.6.3)
 
  -- Mark Purcell <msp@debian.org>  Sun, 11 Aug 2013 10:25:30 +1000
+
+ktp-call-ui (0.8.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 28 Apr 2014 17:08:35 +0200
+
+ktp-call-ui (0.8.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release (LP: #1297351)
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 01 Apr 2014 14:58:04 +0200
+
+ktp-call-ui (0.7.80-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 18 Feb 2014 00:13:42 +0100
+
+ktp-call-ui (0.7.1-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 29 Jan 2014 19:45:29 +0100
+
+ktp-call-ui (0.7.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 29 Oct 2013 12:46:15 +0100
+
+ktp-call-ui (0.6.3-1ubuntu2) saucy; urgency=low
+
+  * Drop TP_FARSTREAM_INCLUDE_DIRS, build works perfectly
+    fine without it
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 23 Aug 2013 17:56:58 +0530
+
+ktp-call-ui (0.6.3-1ubuntu1) saucy; urgency=low
+
+  * Merge from debian unstable. Remaining changes:
+    - add debian/patches/telepathy-farstream-0.4.patch
+    - build depend on libtelepathy-farstream-0.4-dev rather than
+      libtelepathy-farstream-dev
+
+ -- Jackson Doak <noskcaj@ubuntu.com>  Fri, 16 Aug 2013 06:29:41 +1000
+
+ktp-call-ui (0.6.3-1) unstable; urgency=low
+
+  [ Diane Trout ]
+  * Imported Upstream version 0.6.2
+  * Bump ktp-common-internals dependency to 0.6.2
+  * Bump libtelepathy-qt4-dev dependency to 0.9.3
+  * Bump libfarstream-0.1-dev dependency to 0.1.2
+  * Add patch to link libqtf against d-bus.
+  * Update CMAKE_FLAGS to for header files in subdirectories.
+  * Set Uploaders to Diane Trout and Michał Zając
+  * Install ktp-dialout-ui
+  * Bump Standards-Version to 3.9.4. No changes needed.
+  * Update watch file as KDE-Telepathy is now in KDE stable.
+
+  [ Mark Purcell ] 
+  * Imported Upstream version 0.6.3
+  * Add myself to Uploaders
+  * Update Build-Depends: libktpcommoninternalsprivate-dev (>= 0.6.3)
+
+ -- Mark Purcell <msp@debian.org>  Sun, 11 Aug 2013 10:25:30 +1000
+
+ktp-call-ui (0.6.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release (LP: #1208837)
+  * Bump on libktpcommoninternalsprivate-dev
+  * Add back translation files
+    to kde-telepathy-call-ui.install
+    per request
+
+ -- Howard Chan <smartboyhw@gmail.com>  Tue, 06 Aug 2013 21:34:24 +0800
+
+ktp-call-ui (0.6.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Bump on libktpcommoninternalsprivate-dev
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 21 Jun 2013 14:50:44 +0200
+
+ktp-call-ui (0.6.1-0ubuntu1) raring; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 17 Apr 2013 10:31:49 +0100
+
+ktp-call-ui (0.6.0-0ubuntu1) raring; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 03 Apr 2013 11:14:56 +0100
+
+ktp-call-ui (0.5.80-0ubuntu1) raring; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 09 Mar 2013 02:13:43 +0530
+
+ktp-call-ui (0.5.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 18 Feb 2013 16:22:08 +0530
+
+ktp-call-ui (0.5.2-0ubuntu2) raring; urgency=low
+
+  * Use the newly split telepathy-farstream-0.4 to stay on gstreamer-0.10
+    (patching the build system to do so)
+
+ -- Iain Lane <iain.lane@canonical.com>  Wed, 09 Jan 2013 12:39:07 +0000
+
+ktp-call-ui (0.5.2-0ubuntu1) raring; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 19 Dec 2012 00:19:13 +0530
+
+ktp-call-ui (0.5.1-0ubuntu1) quantal-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 05 Oct 2012 03:36:33 +0530
+
+ktp-call-ui (0.5.0-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+  * Update install files
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 26 Aug 2012 12:42:37 +0530
+
+ktp-call-ui (0.4.1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+  * Refreshed install files
+
+ -- Michal Zajac <quintasan@kubuntu.org>  Tue, 31 Jul 2012 18:45:09 +0200
+
+ktp-call-ui (0.4.0-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 18 Jun 2012 22:15:39 +0300
 
 ktp-call-ui (0.4.0-1) unstable; urgency=low
 
