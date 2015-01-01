@@ -1,7 +1,7 @@
 Source: ktp-call-ui
 Section: kde
 Priority: optional
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Diane Trout <diane@ghic.org>, Michał Zając <quintasan@kubuntu.org>, Mark Purcell <msp@debian.org>
 Build-Depends: debhelper (>= 9),
  pkg-kde-tools,
