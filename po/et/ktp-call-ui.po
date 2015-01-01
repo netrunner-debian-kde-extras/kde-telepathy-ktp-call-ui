@@ -2,13 +2,13 @@
 # Copyright (C) 2009 This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Marek Laane <bald@smail.ee>, 2009, 2011, 2012.
+# Marek Laane <bald@smail.ee>, 2009, 2011, 2012, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcall\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2012-10-09 21:13+0300\n"
+"POT-Creation-Date: 2014-09-17 05:13+0000\n"
+"PO-Revision-Date: 2014-09-22 17:51+0300\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <kde-et@linux.ee>\n"
 "Language: et\n"
@@ -54,173 +54,188 @@ msgctxt "action, rejects the incoming call"
 msgid "Reject"
 msgstr "Keeldu"
 
-#: src/call-window.cpp:98
+#: src/call-window.cpp:106 src/call-window.cpp:107
 #, kde-format
 msgid "Call with %1"
 msgstr "Kõne kasutajaga %1"
 
-#: src/call-window.cpp:112
+#: src/call-window.cpp:122
 msgctxt "@info:status"
 msgid "Connecting..."
 msgstr "Ühendumine..."
 
-#: src/call-window.cpp:116
+#: src/call-window.cpp:126
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
 msgstr "Helistamine..."
 
-#: src/call-window.cpp:120
+#: src/call-window.cpp:130
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
 msgstr "Teine kasutaja võttis kõne vastu, oodatakse ühendust..."
 
-#: src/call-window.cpp:123 src/call-window.cpp:516
+#: src/call-window.cpp:133 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
 msgstr "Kõnelemine..."
 
-#: src/call-window.cpp:144
+#: src/call-window.cpp:155
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
 msgstr "Teine kasutaja lõpetas kõne."
 
-#: src/call-window.cpp:151
+#: src/call-window.cpp:162
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
 msgstr "Teine kasutaja ei võtnud kõnet vastu."
 
-#: src/call-window.cpp:156
+#: src/call-window.cpp:167
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
 msgstr "Teine kasutaja ei vastanud."
 
-#: src/call-window.cpp:160
+#: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Invalid number or contact."
 msgstr "Vigane number või kontakt."
 
-#: src/call-window.cpp:164
+#: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
 msgstr "Su arvel pole piisavalt vahendeid selle kõne tegemiseks."
 
-#: src/call-window.cpp:166
+#: src/call-window.cpp:177
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
 msgstr "Sul ei ole õigust seda kõnet teha."
 
-#: src/call-window.cpp:171
+#: src/call-window.cpp:182
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
 msgstr "Teine kasutaja on praegu hõivatud."
 
-#: src/call-window.cpp:175
+#: src/call-window.cpp:186
 msgctxt "@info:status"
 msgid "Internal component error."
 msgstr "Sisemise komponendi tõrge."
 
-#: src/call-window.cpp:178
+#: src/call-window.cpp:189
 msgctxt "@info:status"
 msgid "Remote service error."
 msgstr "Kaugteenuse tõrge."
 
-#: src/call-window.cpp:181
+#: src/call-window.cpp:192
 msgctxt "@info:status"
 msgid "Network error."
 msgstr "Võrgutõrge."
 
-#: src/call-window.cpp:185
+#: src/call-window.cpp:196
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
 msgstr "Läbirääkimised koodeki osas nurjusid."
 
-#: src/call-window.cpp:187
+#: src/call-window.cpp:198
 msgctxt "@info:status"
 msgid "Unsupported media type."
 msgstr "Toetamata meediatüüp."
 
-#: src/call-window.cpp:191
+#: src/call-window.cpp:202
 msgctxt "@info:status"
 msgid "Connectivity error."
 msgstr "Ühenduse tõrge."
 
-#: src/call-window.cpp:195
+#: src/call-window.cpp:206
 msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "Tundmatu tõrge."
 
-#: src/call-window.cpp:200
+#: src/call-window.cpp:211
 msgctxt "@info:status"
 msgid "Disconnected."
 msgstr "Ühendus lõpetatud."
 
-#: src/call-window.cpp:204
+#: src/call-window.cpp:215
 #, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
 msgstr "Ühendus katkestatud: %1"
 
-#: src/call-window.cpp:385
+#: src/call-window.cpp:363
 msgctxt "@action"
 msgid "Show my video"
 msgstr "Enda video näitamine"
 
-#: src/call-window.cpp:390
+#: src/call-window.cpp:369
 msgctxt "@action"
 msgid "Show dialpad"
 msgstr "Telefoniklahvide näitamine"
 
-#: src/call-window.cpp:397
+#: src/call-window.cpp:374
+msgctxt "@action"
+msgid "Hide window"
+msgstr "Peida aken"
+
+#: src/call-window.cpp:379
+msgctxt "@action"
+msgid "Restore window"
+msgstr "Taasta aken"
+
+#: src/call-window.cpp:384
 msgctxt "@action"
 msgid "Send video"
 msgstr "Saada video"
 
-#: src/call-window.cpp:402 src/call-window.cpp:403
+#: src/call-window.cpp:389 src/call-window.cpp:390
 msgctxt "@action"
 msgid "Mute"
 msgstr "Tummaks"
 
-#: src/call-window.cpp:408
+#: src/call-window.cpp:395
 msgctxt "@action"
 msgid "Hold"
 msgstr "Ootele"
 
-#: src/call-window.cpp:414
+#: src/call-window.cpp:401
 msgctxt "@action"
 msgid "Hangup"
 msgstr "Lõpeta kõne"
 
-#: src/call-window.cpp:490
+#: src/call-window.cpp:405
+msgctxt "@action"
+msgid "Full Screen"
+msgstr "Täisekraan"
+
+#: src/call-window.cpp:488
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
 msgstr "Kõnes pausi tegemisel tekkis tõrge"
 
-#: src/call-window.cpp:503
+#: src/call-window.cpp:501
 msgctxt "@info:status"
 msgid "Call held"
 msgstr "Kõne ootel"
 
-#: src/call-window.cpp:505
+#: src/call-window.cpp:503
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
 msgstr "Kõne jätkamine nurjus: mõned seadmed pole saadaval"
 
-#: src/call-window.cpp:507 src/call-window.cpp:519
+#: src/call-window.cpp:505 src/call-window.cpp:519
 msgctxt "@info:error"
 msgid "Unknown error"
 msgstr "Tundmatu tõrge"
 
-#: src/call-window.cpp:527
+#: src/call-window.cpp:529
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
 msgstr "Kõne pannakse ootele..."
 
-#: src/call-window.cpp:532
+#: src/call-window.cpp:535
 msgctxt "@info:status"
 msgid "Resuming the call..."
 msgstr "Kõne jätkamine..."
 
-#: src/call-window.cpp:537
+#: src/call-window.cpp:541
 msgctxt "@info:error"
 msgid "Internal Error"
 msgstr "Sisemine tõrge"
@@ -230,15 +245,10 @@ msgstr "Sisemine tõrge"
 msgid "Call"
 msgstr "Kõne"
 
-#. i18n: ectx: Menu (media)
-#: src/callwindowui.rc:20
-msgid "Media"
-msgstr "Meedia"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: src/callwindowui.rc:27
-msgid "Main Toolbar"
-msgstr "Peamine tööriistariba"
+#. i18n: ectx: Menu (window)
+#: src/callwindowui.rc:22
+msgid "Window"
+msgstr "Aken"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
@@ -309,65 +319,81 @@ msgstr "George Kiagiadakis"
 msgid "The number to call"
 msgstr "Helistatav number"
 
-#. i18n: ectx: property (text), widget (QPushButton, button1)
-#: src/dtmf-widget.ui:17
-msgid "1"
-msgstr "1"
+#: src/dtmf-qml.cpp:44
+msgid "Dialpad"
+msgstr "Klahvistik"
 
-#. i18n: ectx: property (text), widget (QPushButton, button2)
-#: src/dtmf-widget.ui:24
-msgid "2"
-msgstr "2"
+#: src/qml/core/Toolbar.qml:97
+msgid "Hangup"
+msgstr "Lõpeta kõne"
 
-#. i18n: ectx: property (text), widget (QPushButton, button3)
-#: src/dtmf-widget.ui:31
-msgid "3"
-msgstr "3"
+#: src/qml/core/Toolbar.qml:111
+msgid "Hold"
+msgstr "Ootele"
 
-#. i18n: ectx: property (text), widget (QPushButton, button4)
-#: src/dtmf-widget.ui:38
-msgid "4"
-msgstr "4"
+#: src/qml/core/Toolbar.qml:128
+msgid "Mute"
+msgstr "Tummaks"
 
-#. i18n: ectx: property (text), widget (QPushButton, button5)
-#: src/dtmf-widget.ui:45
-msgid "5"
-msgstr "5"
+#: src/qml/core/Toolbar.qml:143
+msgid "Show My Video"
+msgstr "Enda video näitamine"
 
-#. i18n: ectx: property (text), widget (QPushButton, button6)
-#: src/dtmf-widget.ui:52
-msgid "6"
-msgstr "6"
+#: src/qml/core/Toolbar.qml:160
+msgid "Show Dialpad"
+msgstr "Telefoniklahvide näitamine"
 
-#. i18n: ectx: property (text), widget (QPushButton, button7)
-#: src/dtmf-widget.ui:59
-msgid "7"
-msgstr "7"
+#: src/qml/Main.qml:80
+msgid "Calling"
+msgstr "Kõne"
 
-#. i18n: ectx: property (text), widget (QPushButton, button8)
-#: src/dtmf-widget.ui:66
-msgid "8"
-msgstr "8"
+#: src/systemtray-icon.cpp:36
+msgid ""
+"The video call window has been hidden, but the call will remain active. "
+"Click to restore."
+msgstr "Videokõne aken on varjatud, aga kõne jäi kestma. Klõpsa taastamiseks."
 
-#. i18n: ectx: property (text), widget (QPushButton, button9)
-#: src/dtmf-widget.ui:73
-msgid "9"
-msgstr "9"
+#~ msgid "Media"
+#~ msgstr "Meedia"
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
-#: src/dtmf-widget.ui:80
-msgid "*"
-msgstr "*"
+#~ msgid "Main Toolbar"
+#~ msgstr "Peamine tööriistariba"
 
-#. i18n: ectx: property (text), widget (QPushButton, button0)
-#: src/dtmf-widget.ui:87
-msgid "0"
-msgstr "0"
+#~ msgid "1"
+#~ msgstr "1"
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonHash)
-#: src/dtmf-widget.ui:94
-msgid "#"
-msgstr "#"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "#"
+#~ msgstr "#"
 
 #~ msgid "Warning: %1"
 #~ msgstr "Hoiatus: %1"
@@ -389,9 +415,6 @@ msgstr "#"
 
 #~ msgid "Saturation"
 #~ msgstr "Küllastus"
-
-#~ msgid "Dialpad"
-#~ msgstr "Klahvistik"
 
 #~ msgid ""
 #~ "Defines whether the window should close automatically after a timeout "
