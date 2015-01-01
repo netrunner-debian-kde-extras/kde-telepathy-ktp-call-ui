@@ -14,7 +14,6 @@ ktp-call-ui (0.9.0-1) UNRELEASED; urgency=medium
     - pulseaudio | gstreamer1.0-alsa
     - gstreamer1.0-plugins-ugly
     - gstreamer1.0-libav (this is really helpful for video support)
-  * Update ktp-telepathy-data to (>= ${source:Upstream-Version})
   * Add kde-telepathy-declarative and qtgstreamer-declarative dependencies
     (For the new QML UI)
   * Remove call_contains.patch applied upstream.
