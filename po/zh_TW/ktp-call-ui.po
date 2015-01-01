@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcall\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
+"POT-Creation-Date: 2014-09-17 05:13+0000\n"
 "PO-Revision-Date: 2013-01-22 17:33+0800\n"
 "Last-Translator: Franklin Weng <franklin at goodhorse dot idv dot tw>\n"
 "Language-Team: Chinese Traditional <kde-tw@googlegroups.com>\n"
@@ -51,173 +51,188 @@ msgctxt "action, rejects the incoming call"
 msgid "Reject"
 msgstr "拒絕"
 
-#: src/call-window.cpp:98
+#: src/call-window.cpp:106 src/call-window.cpp:107
 #, kde-format
 msgid "Call with %1"
 msgstr "呼叫 %1"
 
-#: src/call-window.cpp:112
+#: src/call-window.cpp:122
 msgctxt "@info:status"
 msgid "Connecting..."
 msgstr "連接中..."
 
-#: src/call-window.cpp:116
+#: src/call-window.cpp:126
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
 msgstr "響鈴中..."
 
-#: src/call-window.cpp:120
+#: src/call-window.cpp:130
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
 msgstr "遠端使用者接受了呼叫。等待連線中..."
 
-#: src/call-window.cpp:123 src/call-window.cpp:516
+#: src/call-window.cpp:133 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
 msgstr "談話中..."
 
-#: src/call-window.cpp:144
+#: src/call-window.cpp:155
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
 msgstr "遠端聯絡人結束了通話。"
 
-#: src/call-window.cpp:151
+#: src/call-window.cpp:162
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
 msgstr "遠端聯絡人拒絕了通話。"
 
-#: src/call-window.cpp:156
+#: src/call-window.cpp:167
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
 msgstr "遠端聯絡人未回覆。"
 
-#: src/call-window.cpp:160
+#: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Invalid number or contact."
 msgstr "不合法的編號或聯絡人。"
 
-#: src/call-window.cpp:164
+#: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
 msgstr "您沒有足夠的餘額進行呼叫。"
 
-#: src/call-window.cpp:166
+#: src/call-window.cpp:177
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
 msgstr "您沒有足夠的權限進行呼叫。"
 
-#: src/call-window.cpp:171
+#: src/call-window.cpp:182
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
 msgstr "遠端聯絡人忙線中。"
 
-#: src/call-window.cpp:175
+#: src/call-window.cpp:186
 msgctxt "@info:status"
 msgid "Internal component error."
 msgstr "內部組件錯誤。"
 
-#: src/call-window.cpp:178
+#: src/call-window.cpp:189
 msgctxt "@info:status"
 msgid "Remote service error."
 msgstr "遠端服務錯誤。"
 
-#: src/call-window.cpp:181
+#: src/call-window.cpp:192
 msgctxt "@info:status"
 msgid "Network error."
 msgstr "網路錯誤。"
 
-#: src/call-window.cpp:185
+#: src/call-window.cpp:196
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
 msgstr "與編解碼器協商失敗。"
 
-#: src/call-window.cpp:187
+#: src/call-window.cpp:198
 msgctxt "@info:status"
 msgid "Unsupported media type."
 msgstr "不支援的媒體類型。"
 
-#: src/call-window.cpp:191
+#: src/call-window.cpp:202
 msgctxt "@info:status"
 msgid "Connectivity error."
 msgstr "連線錯誤。"
 
-#: src/call-window.cpp:195
+#: src/call-window.cpp:206
 msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "未知的錯誤。"
 
-#: src/call-window.cpp:200
+#: src/call-window.cpp:211
 msgctxt "@info:status"
 msgid "Disconnected."
 msgstr "已斷線。"
 
-#: src/call-window.cpp:204
+#: src/call-window.cpp:215
 #, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
 msgstr "已斷線：%1"
 
-#: src/call-window.cpp:385
+#: src/call-window.cpp:363
 msgctxt "@action"
 msgid "Show my video"
 msgstr "顯示我自己的影像"
 
-#: src/call-window.cpp:390
+#: src/call-window.cpp:369
 msgctxt "@action"
 msgid "Show dialpad"
 msgstr "顯示撥號盤"
 
-#: src/call-window.cpp:397
+#: src/call-window.cpp:374
+msgctxt "@action"
+msgid "Hide window"
+msgstr ""
+
+#: src/call-window.cpp:379
+msgctxt "@action"
+msgid "Restore window"
+msgstr ""
+
+#: src/call-window.cpp:384
 msgctxt "@action"
 msgid "Send video"
 msgstr "傳送影像"
 
-#: src/call-window.cpp:402 src/call-window.cpp:403
+#: src/call-window.cpp:389 src/call-window.cpp:390
 msgctxt "@action"
 msgid "Mute"
 msgstr "靜音"
 
-#: src/call-window.cpp:408
+#: src/call-window.cpp:395
 msgctxt "@action"
 msgid "Hold"
 msgstr "保留"
 
-#: src/call-window.cpp:414
+#: src/call-window.cpp:401
 msgctxt "@action"
 msgid "Hangup"
 msgstr "掛斷"
 
-#: src/call-window.cpp:490
+#: src/call-window.cpp:405
+msgctxt "@action"
+msgid "Full Screen"
+msgstr ""
+
+#: src/call-window.cpp:488
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
 msgstr "暫停通話時發生錯誤"
 
-#: src/call-window.cpp:503
+#: src/call-window.cpp:501
 msgctxt "@info:status"
 msgid "Call held"
 msgstr "通話已暫停"
 
-#: src/call-window.cpp:505
+#: src/call-window.cpp:503
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
 msgstr "暫停通話時失敗：某些裝置無法使用"
 
-#: src/call-window.cpp:507 src/call-window.cpp:519
+#: src/call-window.cpp:505 src/call-window.cpp:519
 msgctxt "@info:error"
 msgid "Unknown error"
 msgstr "未知的錯誤"
 
-#: src/call-window.cpp:527
+#: src/call-window.cpp:529
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
 msgstr "暫停通話"
 
-#: src/call-window.cpp:532
+#: src/call-window.cpp:535
 msgctxt "@info:status"
 msgid "Resuming the call..."
 msgstr "回復通話中..."
 
-#: src/call-window.cpp:537
+#: src/call-window.cpp:541
 msgctxt "@info:error"
 msgid "Internal Error"
 msgstr "內部錯誤"
@@ -227,15 +242,10 @@ msgstr "內部錯誤"
 msgid "Call"
 msgstr "呼叫"
 
-#. i18n: ectx: Menu (media)
-#: src/callwindowui.rc:20
-msgid "Media"
-msgstr "媒體"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: src/callwindowui.rc:27
-msgid "Main Toolbar"
-msgstr "主工具列"
+#. i18n: ectx: Menu (window)
+#: src/callwindowui.rc:22
+msgid "Window"
+msgstr ""
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
@@ -304,65 +314,98 @@ msgstr "George Kiagiadakis"
 msgid "The number to call"
 msgstr "通話號碼"
 
-#. i18n: ectx: property (text), widget (QPushButton, button1)
-#: src/dtmf-widget.ui:17
-msgid "1"
-msgstr "1"
+#: src/dtmf-qml.cpp:44
+msgid "Dialpad"
+msgstr "撥號盤"
 
-#. i18n: ectx: property (text), widget (QPushButton, button2)
-#: src/dtmf-widget.ui:24
-msgid "2"
-msgstr "2"
+#: src/qml/core/Toolbar.qml:97
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Hangup"
+msgid "Hangup"
+msgstr "掛斷"
 
-#. i18n: ectx: property (text), widget (QPushButton, button3)
-#: src/dtmf-widget.ui:31
-msgid "3"
-msgstr "3"
+#: src/qml/core/Toolbar.qml:111
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Hold"
+msgid "Hold"
+msgstr "保留"
 
-#. i18n: ectx: property (text), widget (QPushButton, button4)
-#: src/dtmf-widget.ui:38
-msgid "4"
-msgstr "4"
+#: src/qml/core/Toolbar.qml:128
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Mute"
+msgid "Mute"
+msgstr "靜音"
 
-#. i18n: ectx: property (text), widget (QPushButton, button5)
-#: src/dtmf-widget.ui:45
-msgid "5"
-msgstr "5"
+#: src/qml/core/Toolbar.qml:143
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Show my video"
+msgid "Show My Video"
+msgstr "顯示我自己的影像"
 
-#. i18n: ectx: property (text), widget (QPushButton, button6)
-#: src/dtmf-widget.ui:52
-msgid "6"
-msgstr "6"
+#: src/qml/core/Toolbar.qml:160
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Show dialpad"
+msgid "Show Dialpad"
+msgstr "顯示撥號盤"
 
-#. i18n: ectx: property (text), widget (QPushButton, button7)
-#: src/dtmf-widget.ui:59
-msgid "7"
-msgstr "7"
+#: src/qml/Main.qml:80
+#, fuzzy
+#| msgid "Call"
+msgid "Calling"
+msgstr "呼叫"
 
-#. i18n: ectx: property (text), widget (QPushButton, button8)
-#: src/dtmf-widget.ui:66
-msgid "8"
-msgstr "8"
+#: src/systemtray-icon.cpp:36
+msgid ""
+"The video call window has been hidden, but the call will remain active. "
+"Click to restore."
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, button9)
-#: src/dtmf-widget.ui:73
-msgid "9"
-msgstr "9"
+#~ msgid "Media"
+#~ msgstr "媒體"
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
-#: src/dtmf-widget.ui:80
-msgid "*"
-msgstr "*"
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具列"
 
-#. i18n: ectx: property (text), widget (QPushButton, button0)
-#: src/dtmf-widget.ui:87
-msgid "0"
-msgstr "0"
+#~ msgid "1"
+#~ msgstr "1"
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonHash)
-#: src/dtmf-widget.ui:94
-msgid "#"
-msgstr "#"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "#"
+#~ msgstr "#"
 
 #~ msgid "KCall"
 #~ msgstr "KCall"
@@ -372,9 +415,6 @@ msgstr "#"
 #~| msgid "&Contact list"
 #~ msgid "Contrast"
 #~ msgstr "聯絡人清單(&C)"
-
-#~ msgid "Dialpad"
-#~ msgstr "撥號盤"
 
 #, fuzzy
 #~| msgid "Participants"

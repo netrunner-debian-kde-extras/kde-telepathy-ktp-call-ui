@@ -1,14 +1,14 @@
 # pano, 2010.
-# Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2012.
-# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013.
+# Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2012, 2014.
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013, 2014.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-27 10:06+0100\n"
-"PO-Revision-Date: 2013-10-28 13:38+0100\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2014-09-17 05:13+0000\n"
+"PO-Revision-Date: 2014-09-18 11:27+0200\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -53,176 +53,191 @@ msgctxt "action, rejects the incoming call"
 msgid "Reject"
 msgstr "Ablehnen"
 
-#: src/call-window.cpp:98
+#: src/call-window.cpp:106 src/call-window.cpp:107
 #, kde-format
 msgid "Call with %1"
 msgstr "Mit %1 anrufen"
 
-#: src/call-window.cpp:112
+#: src/call-window.cpp:122
 msgctxt "@info:status"
 msgid "Connecting..."
 msgstr "Verbindung wird aufgebaut ..."
 
-#: src/call-window.cpp:116
+#: src/call-window.cpp:126
 msgctxt "@info:status the remote user's phone is ringing"
 msgid "Ringing..."
 msgstr "Es klingelt ..."
 
-#: src/call-window.cpp:120
+#: src/call-window.cpp:130
 msgctxt "@info:status"
 msgid "Remote user accepted the call, waiting for connection..."
 msgstr ""
 "Die Gegenstelle hat den Anruf angenommen. Die Verbindung wird aufgebaut ..."
 
-#: src/call-window.cpp:123 src/call-window.cpp:516
+#: src/call-window.cpp:133 src/call-window.cpp:516
 msgctxt "@info:status"
 msgid "Talking..."
 msgstr "Es wird gesprochen ..."
 
-#: src/call-window.cpp:144
+#: src/call-window.cpp:155
 msgctxt "@info:status"
 msgid "Remote contact ended the call."
 msgstr "Die Gegenstelle hat den Anruf beendet."
 
-#: src/call-window.cpp:151
+#: src/call-window.cpp:162
 msgctxt "@info:status"
 msgid "Remote contact rejected the call."
 msgstr "Die Gegenstelle hat den Anruf angelehnt."
 
-#: src/call-window.cpp:156
+#: src/call-window.cpp:167
 msgctxt "@info:status"
 msgid "Remote contact didn't answer."
 msgstr "Die Gegenstelle hat nicht geantwortet."
 
-#: src/call-window.cpp:160
+#: src/call-window.cpp:171
 msgctxt "@info:status"
 msgid "Invalid number or contact."
 msgstr "Ungültige Nummer oder Kontakt."
 
-#: src/call-window.cpp:164
+#: src/call-window.cpp:175
 msgctxt "@info:status"
 msgid "You don't have enough balance to make this call."
 msgstr "Sie haben nicht genügend Guthaben, um diesen Anruf auszuführen."
 
-#: src/call-window.cpp:166
+#: src/call-window.cpp:177
 msgctxt "@info:status"
 msgid "You don't have permission to make this call."
 msgstr "Ihnen fehlen die Rechte für diesen Anruf."
 
-#: src/call-window.cpp:171
+#: src/call-window.cpp:182
 msgctxt "@info:status"
 msgid "Remote contact is currently busy."
 msgstr "Die Gegenstelle ist zurzeit beschäftigt."
 
-#: src/call-window.cpp:175
+#: src/call-window.cpp:186
 msgctxt "@info:status"
 msgid "Internal component error."
 msgstr "Fehler in interner Komponente."
 
-#: src/call-window.cpp:178
+#: src/call-window.cpp:189
 msgctxt "@info:status"
 msgid "Remote service error."
 msgstr "Entfernter Dienstfehler."
 
-#: src/call-window.cpp:181
+#: src/call-window.cpp:192
 msgctxt "@info:status"
 msgid "Network error."
 msgstr "Netzwerkfehler."
 
-#: src/call-window.cpp:185
+#: src/call-window.cpp:196
 msgctxt "@info:status"
 msgid "Failed to negotiate codecs."
 msgstr "Das Aushandeln eines Codecs ist fehlgeschlagen."
 
-#: src/call-window.cpp:187
+#: src/call-window.cpp:198
 msgctxt "@info:status"
 msgid "Unsupported media type."
 msgstr "Nicht unterstützter Medien-Typ."
 
-#: src/call-window.cpp:191
+#: src/call-window.cpp:202
 msgctxt "@info:status"
 msgid "Connectivity error."
 msgstr "Verbindungsfehler."
 
-#: src/call-window.cpp:195
+#: src/call-window.cpp:206
 msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "Unbekannter Fehler."
 
-#: src/call-window.cpp:200
+#: src/call-window.cpp:211
 msgctxt "@info:status"
 msgid "Disconnected."
 msgstr "Verbindung getrennt"
 
-#: src/call-window.cpp:204
+#: src/call-window.cpp:215
 #, kde-format
 msgctxt "@info:status the call was disconnected because..."
 msgid "Disconnected: %1"
 msgstr "Verbindung getrennt: %1"
 
-#: src/call-window.cpp:385
+#: src/call-window.cpp:363
 msgctxt "@action"
 msgid "Show my video"
 msgstr "Mein Video anzeigen"
 
-#: src/call-window.cpp:390
+#: src/call-window.cpp:369
 msgctxt "@action"
 msgid "Show dialpad"
-msgstr "Tastenblock anzeigen"
+msgstr "Wähltastatur anzeigen"
 
-#: src/call-window.cpp:397
+#: src/call-window.cpp:374
+msgctxt "@action"
+msgid "Hide window"
+msgstr "Fenster ausblenden"
+
+#: src/call-window.cpp:379
+msgctxt "@action"
+msgid "Restore window"
+msgstr "Fenster wiederherstellen"
+
+#: src/call-window.cpp:384
 msgctxt "@action"
 msgid "Send video"
 msgstr "Video senden"
 
-#: src/call-window.cpp:402 src/call-window.cpp:403
+#: src/call-window.cpp:389 src/call-window.cpp:390
 msgctxt "@action"
 msgid "Mute"
 msgstr "Stummschalten"
 
-#: src/call-window.cpp:408
+#: src/call-window.cpp:395
 msgctxt "@action"
 msgid "Hold"
 msgstr "Halten"
 
-#: src/call-window.cpp:414
+#: src/call-window.cpp:401
 msgctxt "@action"
 msgid "Hangup"
 msgstr "Auflegen"
 
-#: src/call-window.cpp:490
+#: src/call-window.cpp:405
+msgctxt "@action"
+msgid "Full Screen"
+msgstr "Vollbild"
+
+#: src/call-window.cpp:488
 msgctxt "@info:error"
 msgid "There was an error while pausing the call"
 msgstr "Es gab einen Fehler beim Halten des Anrufs"
 
-#: src/call-window.cpp:503
+#: src/call-window.cpp:501
 msgctxt "@info:status"
 msgid "Call held"
 msgstr "Anruf gehalten"
 
-#: src/call-window.cpp:505
+#: src/call-window.cpp:503
 msgctxt "@info:error"
 msgid "Failed to put the call off hold: Some devices are not available"
 msgstr ""
 "Das Wiederaufnehmen des Anrufs ist fehlgeschlagen. Einige Geräte sind nicht "
 "verfügbar"
 
-#: src/call-window.cpp:507 src/call-window.cpp:519
+#: src/call-window.cpp:505 src/call-window.cpp:519
 msgctxt "@info:error"
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
 
-#: src/call-window.cpp:527
+#: src/call-window.cpp:529
 msgctxt "@info:status"
 msgid "Putting the call on hold..."
 msgstr "Der Anruf wird auf Halten gesetzt ..."
 
-#: src/call-window.cpp:532
+#: src/call-window.cpp:535
 msgctxt "@info:status"
 msgid "Resuming the call..."
 msgstr "Der Anruf wird wieder aufgenommen ..."
 
-#: src/call-window.cpp:537
+#: src/call-window.cpp:541
 msgctxt "@info:error"
 msgid "Internal Error"
 msgstr "Interner Fehler"
@@ -232,15 +247,10 @@ msgstr "Interner Fehler"
 msgid "Call"
 msgstr "Anruf"
 
-#. i18n: ectx: Menu (media)
-#: src/callwindowui.rc:20
-msgid "Media"
-msgstr "Medien"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: src/callwindowui.rc:27
-msgid "Main Toolbar"
-msgstr "Haupt-Werkzeugleiste"
+#. i18n: ectx: Menu (window)
+#: src/callwindowui.rc:22
+msgid "Window"
+msgstr "Fenster"
 
 #: src/dialout/dialout-widget.cpp:78
 msgid "Loading accounts..."
@@ -312,65 +322,83 @@ msgstr "George Kiagiadakis"
 msgid "The number to call"
 msgstr "Die anzurufende Nummer"
 
-#. i18n: ectx: property (text), widget (QPushButton, button1)
-#: src/dtmf-widget.ui:17
-msgid "1"
-msgstr "1"
+#: src/dtmf-qml.cpp:44
+msgid "Dialpad"
+msgstr "Wähltasten"
 
-#. i18n: ectx: property (text), widget (QPushButton, button2)
-#: src/dtmf-widget.ui:24
-msgid "2"
-msgstr "2"
+#: src/qml/core/Toolbar.qml:97
+msgid "Hangup"
+msgstr "Auflegen"
 
-#. i18n: ectx: property (text), widget (QPushButton, button3)
-#: src/dtmf-widget.ui:31
-msgid "3"
-msgstr "3"
+#: src/qml/core/Toolbar.qml:111
+msgid "Hold"
+msgstr "Halten"
 
-#. i18n: ectx: property (text), widget (QPushButton, button4)
-#: src/dtmf-widget.ui:38
-msgid "4"
-msgstr "4"
+#: src/qml/core/Toolbar.qml:128
+msgid "Mute"
+msgstr "Stummschalten"
 
-#. i18n: ectx: property (text), widget (QPushButton, button5)
-#: src/dtmf-widget.ui:45
-msgid "5"
-msgstr "5"
+#: src/qml/core/Toolbar.qml:143
+msgid "Show My Video"
+msgstr "Mein Video anzeigen"
 
-#. i18n: ectx: property (text), widget (QPushButton, button6)
-#: src/dtmf-widget.ui:52
-msgid "6"
-msgstr "6"
+#: src/qml/core/Toolbar.qml:160
+msgid "Show Dialpad"
+msgstr "Wähltastatur anzeigen"
 
-#. i18n: ectx: property (text), widget (QPushButton, button7)
-#: src/dtmf-widget.ui:59
-msgid "7"
-msgstr "7"
+#: src/qml/Main.qml:80
+msgid "Calling"
+msgstr "Anrufen"
 
-#. i18n: ectx: property (text), widget (QPushButton, button8)
-#: src/dtmf-widget.ui:66
-msgid "8"
-msgstr "8"
+#: src/systemtray-icon.cpp:36
+msgid ""
+"The video call window has been hidden, but the call will remain active. "
+"Click to restore."
+msgstr ""
+"Das Videoanruffester wurde ausgeblendet, der Anruf bleibt aktiv. Klicken Sie "
+"hier, um das Fenster wieder anzuzeigen."
 
-#. i18n: ectx: property (text), widget (QPushButton, button9)
-#: src/dtmf-widget.ui:73
-msgid "9"
-msgstr "9"
+#~ msgid "Media"
+#~ msgstr "Medien"
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonAsterisk)
-#: src/dtmf-widget.ui:80
-msgid "*"
-msgstr "*"
+#~ msgid "Main Toolbar"
+#~ msgstr "Haupt-Werkzeugleiste"
 
-#. i18n: ectx: property (text), widget (QPushButton, button0)
-#: src/dtmf-widget.ui:87
-msgid "0"
-msgstr "0"
+#~ msgid "1"
+#~ msgstr "1"
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonHash)
-#: src/dtmf-widget.ui:94
-msgid "#"
-msgstr "#"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "#"
+#~ msgstr "#"
 
 #~ msgid "Warning: %1"
 #~ msgstr "Achtung: %1"
@@ -392,9 +420,6 @@ msgstr "#"
 
 #~ msgid "Saturation"
 #~ msgstr "Sättigung"
-
-#~ msgid "Dialpad"
-#~ msgstr "Wähltasten"
 
 #~ msgid ""
 #~ "Defines whether the window should close automatically after a timeout "
