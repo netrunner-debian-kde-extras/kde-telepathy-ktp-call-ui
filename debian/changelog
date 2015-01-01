@@ -1,4 +1,4 @@
-ktp-call-ui (0.8.80-1) UNRELEASED; urgency=medium
+ktp-call-ui (0.9.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update build-depends for libktpcommoninternalsprivate-dev to 0.8.80
