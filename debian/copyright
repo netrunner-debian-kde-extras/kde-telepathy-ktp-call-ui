@@ -7,6 +7,7 @@ License: GPL-2+
 Files: *
 Copyright: 2009-2012 George Kiagiadakis <kiagiadakis.george@gmail.com>
            2010-2011 Collabora Ltd.
+           2014 Ekaitz Zárraga <ekaitz.zarraga@gmail.com>
 License: GPL-2+
 
 Files: src/approver.*
@@ -34,24 +35,32 @@ Copyright: 2009-2012 Stefan Asserhäll <stefan.asserhall@bredband.net>
            2011-2012 Pino Toscano <toscano.pino@tiscali.it>
            2012 Yuri Chornoivan <yurchor@ukr.net>
            2010 Rajesh Ranjan <rajesh672@gmail.com>
-           2010-2012 Frederik Schwarzer <schwarzer@kde.org>
+           2010-2014 Frederik Schwarzer <schwarzer@kde.org>
            2009-2011 Manfred Wiese <m.j.wiese@web.de>
            2012 Franklin Weng <franklin@goodhorse.idv.tw>
            2011 Panagiotis Papadopoulos <pano_90@gmx.net>
            2009-2011 Yasen Pramatarov <yasen@lindeas.com>
            2009 Axel Rousseau <axel@esperanto-jeunes.org>
-           2012 Freek de Kruijf <freekdekruijf@kde.nl>
-           2009, 2011-2012 Marek Laane <bald@smail.ee>
+           2012, 2014 Freek de Kruijf <freekdekruijf@kde.nl>
+           2009, 2011-2012, 2014 Marek Laane <bald@smail.ee>
            2011-2014 Vít Pelčák <vit@pelcak.org>
            2011 Khoem Sokhem <khoemsokhem@khmeros.info>
            2009, 2011-2012 Eloy Cuadra <ecuadra@eloihr.net>
            2009 Serdar Soytetir <tulliana@gmail.com>
            2012 Donatas G. <dgvirtual@akl.lt>
-           2011-2012 Burkhard Lück <lueck@hube-lueck.de>
-           2011-2012 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+           2011-2014 Burkhard Lück <lueck@hube-lueck.de>
+           2011-2012, 2014 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
            2009-2012 Martin Schlander <mschlander@opensuse.org>
            2009 Xosé <xosecalvo@gmail.com>
            2014 Park Shinjo <peremen@gmail.com>
+           2014 Steve Allewell <steve.allewell@gmail.com>
+           2012-2014 Lasse Liehu <lasse.liehu@gmail.com>
+           2013-2014 xavier <xavier.besnard@neuf.fr>
+           2014 Maxime Corteel <mcorteel@gmail.com>
+           2012, 2014 Bjørn Steensrud <bjornst@skogkatt.homelinux.org>
+           2014 Sönke Dibbern <s_dibbern@web.de>
+           2012, 2014 André Marcelo Alvarenga <alvarenga@kde.org>
+           2012-2014 Chusslove Illich <caslav.ilic@gmx.net>
 License: GPL-2+
 
 Files: cmake/*
