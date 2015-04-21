@@ -19,6 +19,7 @@ ktp-call-ui (0.9.0-1) UNRELEASED; urgency=medium
   * Remove call_contains.patch applied upstream.
   * Update copyright
   * Update maintainer to Debian/Kubuntu KDE Extras Team
+  * Update Standards-Version to 3.9.6. No changes needed.
 
  -- Diane Trout <diane@ghic.org>  Sat, 20 Sep 2014 20:46:31 -0700
 
