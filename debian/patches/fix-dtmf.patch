@@ -1,0 +1,48 @@
+Author: Diane Trout <diane@ghic.org>
+Description: The TelepathyQt interface reporting if the DTMF works
+ is buggy, this works around that.
+Applied-Upstream: commit fc0392318f89b22d89e20cd66abd09b265768be9
+--- a/src/call-window.cpp
++++ b/src/call-window.cpp
+@@ -415,8 +415,11 @@ void CallWindow::setupActions()
+ void CallWindow::checkEnableDtmf()
+ {
+     bool dtmfSupported = false;
++    Tp::Client::CallContentInterfaceDTMFInterface *dtmfInterface = 0;
+     Q_FOREACH(const Tp::CallContentPtr & content, d->callChannel->contentsForType(Tp::MediaStreamTypeAudio)) {
+-        if (content->supportsDTMF()) {
++        dtmfInterface = content->interface<Tp::Client::CallContentInterfaceDTMFInterface>();
++        if (dtmfInterface) {
++            kDebug() << "Does supportDTMF work? " << content->supportsDTMF() << dtmfInterface;
+             dtmfSupported = true;
+             break;
+         }
+diff --git a/src/dtmf-handler.cpp b/src/dtmf-handler.cpp
+index 0c56b73..359eae3 100644
+--- a/src/dtmf-handler.cpp
++++ b/src/dtmf-handler.cpp
+@@ -42,14 +42,22 @@ void DtmfHandler::connectDtmfQml(DtmfQml *dtmfQml)
+ 
+ void DtmfHandler::onStartSendDtmfEvent(Tp::DTMFEvent event)
+ {
++    Tp::Client::CallContentInterfaceDTMFInterface *dtmfInterface = 0;
+     Q_FOREACH(const Tp::CallContentPtr & content, d->channel->contentsForType(Tp::MediaStreamTypeAudio)) {
+-        content->startDTMFTone(event);
++        dtmfInterface = content->interface<Tp::Client::CallContentInterfaceDTMFInterface>();
++        if (dtmfInterface) {
++            dtmfInterface->StartTone(event);
++        }
+     }
+ }
+ 
+ void DtmfHandler::onStopSendDtmfEvent()
+ {
++    Tp::Client::CallContentInterfaceDTMFInterface *dtmfInterface = 0;
+     Q_FOREACH(const Tp::CallContentPtr & content, d->channel->contentsForType(Tp::MediaStreamTypeAudio)) {
+-        content->stopDTMFTone();
++        dtmfInterface = content->interface<Tp::Client::CallContentInterfaceDTMFInterface>();
++        if (dtmfInterface) {
++            dtmfInterface->StopTone();
++        }
+     }
+ }
