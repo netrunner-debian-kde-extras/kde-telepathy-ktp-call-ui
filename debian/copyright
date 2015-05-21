@@ -13,7 +13,6 @@ License: GPL-2+
 Files: src/approver.*
        src/call-manager.*
        src/dialout/*
-       src/dtmf-widget.*
        src/status-area.*
        libqtf/*
        libktpcall/*
