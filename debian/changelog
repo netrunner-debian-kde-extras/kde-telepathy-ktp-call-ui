@@ -1,4 +1,4 @@
-ktp-call-ui (0.9.0-1) UNRELEASED; urgency=medium
+ktp-call-ui (0.9.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Update build-depends for libktpcommoninternalsprivate-dev to 0.9.0
@@ -25,7 +25,7 @@ ktp-call-ui (0.9.0-1) UNRELEASED; urgency=medium
     - add fix-dtmp.patch
     - add qml-fixes.patch
 
- -- Diane Trout <diane@ghic.org>  Sat, 20 Sep 2014 20:46:31 -0700
+ -- Diane Trout <diane@ghic.org>  Wed, 20 May 2015 22:25:40 -0700
 
 ktp-call-ui (0.8.1-1) unstable; urgency=low
 
