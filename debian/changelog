@@ -1,10 +1,10 @@
-ktp-call-ui (0.9.0-2) UNRELEASED; urgency=medium
+ktp-call-ui (0.9.0-2) unstable; urgency=medium
 
   * Fix typo in depends. gstreamer1.10-alsa doesn't exist.
     use the real package name gstreamer1.0-alsa.
     (Thank you Lisandro)
 
- -- Diane Trout <diane@ghic.org>  Wed, 27 May 2015 14:39:25 -0700
+ -- Diane Trout <diane@ghic.org>  Wed, 27 May 2015 14:51:01 -0700
 
 ktp-call-ui (0.9.0-1) unstable; urgency=medium
 
