@@ -28,7 +28,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
  gstreamer1.0-plugins-good,
  gstreamer1.0-x,
  gstreamer1.0-pulseaudio [linux-any] | gstreamer1.0-alsa [linux-any],
- pulseaudio [linux-any] | gstreamer1.10-alsa [linux-any]
+ pulseaudio [linux-any] | gstreamer1.0-alsa [linux-any]
 Recommends: kde-telepathy,
  gstreamer1.0-plugins-ugly,
  gstreamer1.0-libav
