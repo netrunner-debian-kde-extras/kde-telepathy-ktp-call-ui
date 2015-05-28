@@ -1,3 +1,2 @@
 version=3
-
-ftp://ftp.kde.org/pub/kde/stable/kde-telepathy/([\d.]+)/src/ktp-call-ui-([\d.]+).tar.bz2
+http://download.kde.org/stable/kde-telepathy/([\d.]+)/src/ktp-call-ui-([\d.]+).tar.bz2
