@@ -16,10 +16,10 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "sink-controllers.h"
+#include "libktpcall_debug.h"
 #include <QGst/ElementFactory>
 #include <QGst/Pipeline>
 #include <QGst/GhostPad>
-#include <KDebug>
 
 namespace KTpCallPrivate {
 
@@ -38,7 +38,19 @@ void BaseSinkController::initFromMainThread(const Tp::ContactPtr & contact)
 void BaseSinkController::releaseFromStreamingThread(const QGst::PipelinePtr & pipeline)
 {
     m_bin->setState(QGst::StateNull);
-    pipeline->remove(m_bin);
+
+    // In GStreamer 1.6 it seems like the m_bin was removed from the
+    // pipeline during onPadUnlink, additionally 1.6 gives a warning
+    // when trying to remove an already removed bin.
+    // So, only remove the bin if still has a parent.
+    QGst::ObjectPtr parent = m_bin->parent();
+    if (!parent.isNull()) {
+        pipeline->remove(m_bin);
+    } else {
+      // Since we're no longer attached to the pipeline
+      // we need some place to make sure the pipeline is stopped
+      pipeline->setState(QGst::StateNull);
+    }
     m_bin.clear();
 }
 
@@ -77,6 +89,9 @@ void AudioSinkController::initFromStreamingThread(const QGst::PadPtr & srcPad,
     );
 
     pipeline->add(m_bin);
+    qCDebug(LIBKTPCALL) << "add" << m_bin->name()
+                        << "to" << pipeline->name();
+
     m_bin->syncStateWithParent();
 
     m_bin->getStaticPad("src")->link(m_adderRequestPad);
@@ -114,11 +129,11 @@ VideoSinkController::~VideoSinkController()
 
 QGst::PadPtr VideoSinkController::requestSrcPad()
 {
-    QString newPadName = QString("src%1").arg(m_padNameCounter);
+    QString newPadName = QStringLiteral("src%1").arg(m_padNameCounter);
     m_padNameCounter++;
 
     QGst::PadPtr teeSrcPad = m_tee->getRequestPad("src_%u");
-    QGst::PadPtr ghostSrcPad = QGst::GhostPad::create(teeSrcPad, newPadName.toAscii());
+    QGst::PadPtr ghostSrcPad = QGst::GhostPad::create(teeSrcPad, newPadName.toLatin1());
 
     ghostSrcPad->setActive(true);
     m_bin->addPad(ghostSrcPad);
@@ -142,7 +157,7 @@ void VideoSinkController::linkVideoSink(const QGst::ElementPtr & sink)
     //anything about this content's src pad, so nobody can possibly link
     //a video sink before the bin is created.
     Q_ASSERT(m_bin);
-    kDebug();
+    qCDebug(LIBKTPCALL);
 
     QGst::PadPtr srcPad = m_tee->getRequestPad("src_%u");
     m_videoSinkBin = new VideoSinkBin(sink);
@@ -160,7 +175,7 @@ void VideoSinkController::unlinkVideoSink()
     QMutexLocker l(&m_videoSinkMutex);
 
     if (m_videoSinkBin) {
-        kDebug();
+        qCDebug(LIBKTPCALL);
 
         QGst::PadPtr sinkPad = m_videoSinkBin->bin()->getStaticPad("sink");
         QGst::PadPtr srcPad = sinkPad->peer();

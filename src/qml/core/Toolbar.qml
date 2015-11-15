@@ -15,7 +15,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 1.1
+import QtQuick 2.0
 
 Item {
     id: root
@@ -36,10 +36,9 @@ Item {
         if (icon == "start") {
             hold.iconSource= "image://icon/media-playback-start.png"
         } else {
-            hold.iconSource= "image://icon//media-playback-pause.png"
+            hold.iconSource= "image://icon/media-playback-pause.png"
         }
     }
-
 
     Rectangle {
         id: background
