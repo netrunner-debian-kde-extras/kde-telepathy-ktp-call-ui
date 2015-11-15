@@ -15,11 +15,11 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 1.1
+import QtQuick 2.0
 import QtGStreamer 1.0
 import "core"
 
-Rectangle{
+Rectangle {
     id: root
     height: 450
     width: 750
@@ -37,7 +37,7 @@ Rectangle{
     Keys.enabled: true
     Keys.onEscapePressed: root.exitFullScreen();
 
-    function changeHoldIcon(icon){
+    function changeHoldIcon(icon) {
        toolbar.changeHoldIcon(icon);
     }
 
@@ -82,7 +82,7 @@ Rectangle{
             visible: true
         }
 
-        VideoItem{
+        VideoItem {
             id: videoWidget
             anchors.fill: parent
 
@@ -104,17 +104,19 @@ Rectangle{
         }
 
         border.width: 2
+        color: "black"
         border.color: "dimgray"
         visible: showMyVideoAction.checked
 
         VideoItem {
             id: videoPreviewWidget
             anchors.fill: parent
+            anchors.margins: 2
             surface: videoPreviewSurface
         }
     }
 
-    Toolbar{
+    Toolbar {
         id: toolbar
         width: parent.width
 
