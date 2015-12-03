@@ -1,3 +1,4 @@
+fix-service-macro.patch
 dbus_include.patch
 #fix-dtmf.patch
 #qml-fixes.patch
