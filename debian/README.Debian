@@ -1,0 +1,34 @@
+This is a pre-release version of KDE Telepathy Call UI.
+
+Hopefully it will work with XMPP/Jingle based services,
+it does at least partially work with SIP services -- If
+you can configure telepathy-rakia.
+
+Unfortunately it doesn't seem like kaccounts supports
+creating Rakia accounts yet so it needs to be done
+manually using the command line.
+
+Make sure the telepathy-rakia connection manager is added.
+
+I copied these instructions from
+https://together.jolla.com/question/415/sip-voip-native-integration/
+
+mc-tool add sofiasip/sip account_name string:account=user@host
+mc-tool update sofiasip/sip/account_name string:password=passw0rd
+mc-tool enable sofiasip/sip/account_name
+mc-tool request sofiasip/sip/account_name online
+mc-tool reconnect sofiasip/sip/account_name
+
+Techincially you can combine setting the account name
+and password on the same line.
+
+This method does mean it's trivial to obtain the SIP password
+using mc-tool
+
+Another problem is that rakia has issues finding TLS certificates
+See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=699103
+
+You need to install the certificate for the service you're
+connecting to to ~/.sip/auth/cafile.pem.
+
+ -- Diane Trout <diane@ghic.org>, Sun, 15 Nov 2015 10:00:48 -0800
