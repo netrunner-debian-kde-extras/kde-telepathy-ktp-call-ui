@@ -1,8 +1,8 @@
 usr/bin/ktp-dialout-ui
-usr/lib/kde4/libexec/ktp-call-ui
-usr/share/kde4/apps/ktp-call-ui/callwindowui.rc
-usr/share/kde4/apps/ktp-call-ui/Main.qml
-usr/share/kde4/apps/ktp-call-ui/core/*.qml
+usr/lib/*/libexec/ktp-call-ui
+usr/share/kxmlgui5/ktp-call-ui/callwindowui.rc
+usr/share/ktp-call-ui/Main.qml
+usr/share/ktp-call-ui/core/*.qml
 usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.KTp.CallUi.service
 usr/share/telepathy/clients/KTp.CallUi.client
-usr/share/locale/*
+# usr/share/locale/*
