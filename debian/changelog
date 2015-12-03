@@ -1,4 +1,4 @@
-ktp-call-ui (0.9.0+git20151115-1) UNRELEASED; urgency=medium
+ktp-call-ui (0.9.0+git20151115-1) experimental; urgency=medium
 
   * Update watch file to point at http://download.kde.org
   * Make an experimental release, this version is unreleased
